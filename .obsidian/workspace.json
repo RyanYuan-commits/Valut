@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "bab03dc5a8b06520",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd62ee2e231c732b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27432d2513e9d77c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🧠 我的第二大脑 知识工作台"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d7141cc891d11b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9978811013ac4f46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "891c1c11d158a153",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "1f174d608ccdf40d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "30fabdeb22d629a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "right": {
+    "id": "a06f2d95bf0776cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "37af242227c45684",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74929b33dba2ba09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "🧠 我的第二大脑 知识工作台 的反向链接列表"
+            }
+          },
+          {
+            "id": "8ccfb035adbfbb05",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "🧠 我的第二大脑 知识工作台 的出链列表"
+            }
+          },
+          {
+            "id": "2df04119033545e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "eacb2b7efbea72b0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f55fc59da05be9e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "🧠 我的第二大脑 知识工作台 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "header-enhancer:Header Enhancer": false
+    }
+  },
+  "active": "27432d2513e9d77c",
+  "lastOpenFiles": [
+    "Projects/Dubbo 源码解读与实战.md",
+    "Input/exchange 层剖析, 彻底搞懂 request response 模型.md",
+    "🧠 我的第二大脑 知识工作台.md",
+    "Input/估算 Java 对象的大小.md",
+    "Templates/MoC 笔记模板.md",
+    "Templates/项目笔记模板.md",
+    "Templates/文献笔记模板.md",
+    "Templates/永久笔记模板.md",
+    "Output/1.md",
+    "Input/核心接口介绍, rpc 层骨架梳理.md",
+    "View/项目笔记 View.base",
+    "Output",
+    "Input/test.md",
+    "Permanent",
+    "Projects",
+    "View/MoC.base",
+    "View/未命名",
+    "View/MoC.md",
+    "View/Inbox.base",
+    "View",
+    "Templates",
+    "Assets"
+  ]
+}
