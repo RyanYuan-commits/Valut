@@ -3,4 +3,8 @@ views:
     name: 表格
     filters:
       and:
-        - file.folder == "Inbox"
+        - file.folder == "Input"
+    order:
+      - file.name
+      - created
+    limit: 10

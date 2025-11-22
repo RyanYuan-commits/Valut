@@ -7,5 +7,6 @@ views:
     order:
       - file.name
       - file.ctime
+    limit: 10
     columnSize:
       file.name: 538

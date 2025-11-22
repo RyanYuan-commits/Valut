@@ -1,5 +1,6 @@
 ---
 type: project
+source: https://o.alldu.cn/docs/dubbo%e6%ba%90%e7%a0%81%e8%a7%a3%e8%af%bb%e4%b8%8e%e5%ae%9e%e6%88%98-%e5%ae%8c/
 ---
 ---
 `````col

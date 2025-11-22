@@ -1,3 +1,8 @@
 {
-  "cssTheme": "Things"
+  "cssTheme": "Cupertino",
+  "accentColor": "#5c96f5",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "编辑行高亮"
+  ]
 }

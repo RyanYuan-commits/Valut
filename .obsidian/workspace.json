@@ -77,13 +77,18 @@
             }
           },
           {
-            "id": "30fabdeb22d629a4",
+            "id": "f55fc59da05be9e6",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
+              "type": "outline",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "🧠 我的第二大脑 知识工作台 的大纲"
             }
           }
         ]
@@ -163,26 +168,21 @@
             }
           },
           {
-            "id": "f55fc59da05be9e6",
+            "id": "10f17b980a17eae8",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "🧠 我的第二大脑 知识工作台 的大纲"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,32 +193,41 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "header-enhancer:Header Enhancer": false
+      "header-enhancer:Header Enhancer": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27432d2513e9d77c",
+  "active": "eacb2b7efbea72b0",
   "lastOpenFiles": [
-    "Projects/Dubbo 源码解读与实战.md",
     "Input/exchange 层剖析, 彻底搞懂 request response 模型.md",
     "🧠 我的第二大脑 知识工作台.md",
-    "Input/估算 Java 对象的大小.md",
+    "Input/Dubbo Remoting 层概览.md",
     "Templates/MoC 笔记模板.md",
-    "Templates/项目笔记模板.md",
     "Templates/文献笔记模板.md",
     "Templates/永久笔记模板.md",
-    "Output/1.md",
-    "Input/核心接口介绍, rpc 层骨架梳理.md",
-    "View/项目笔记 View.base",
+    "Templates/项目笔记模板.md",
+    "Assets/Banner/Pasted image 20251122105012.png",
+    "Input/估算 Java 对象的大小.md",
+    "View/永久笔记目录.base",
+    "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, Channel 之间的联系.md",
+    "Output/关于 Netty 中的父子通道.md",
+    "Assets/Dubbo Remoting 层.png",
+    "Assets/Banner",
+    "2025-11-22.md",
+    "Assets",
+    "Projects/Dubbo 源码解读与实战.md",
     "Output",
+    "Input/核心接口介绍, rpc 层骨架梳理.md",
+    "Output/1.md",
+    "View/项目笔记 View.base",
     "Input/test.md",
     "Permanent",
     "Projects",
     "View/MoC.base",
     "View/未命名",
     "View/MoC.md",
-    "View/Inbox.base",
-    "View",
-    "Templates",
-    "Assets"
+    "View/Inbox.base"
   ]
 }

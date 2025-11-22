@@ -1,8 +1,9 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "promptDelete": false,
   "vimMode": true,
   "spellcheck": false,
   "attachmentFolderPath": "Assets",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
 }
