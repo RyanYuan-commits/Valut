@@ -1,5 +1,5 @@
 {
-  "language": "zh",
+  "language": "en",
   "showOnStatusBar": true,
   "showOnSidebar": true,
   "isAutoDetectHeaderLevel": false,
@@ -16,7 +16,7 @@
   "yamlDefaultStartNumber": "1",
   "yamlDefaultSeparator": ".",
   "globalAutoNumberingEnabled": true,
-  "perDocumentStates": "{\"Input/exchange 层剖析, 彻底搞懂 request response 模型.md\":true,\"🧠 我的第二大脑 知识工作台.md\":false}",
+  "perDocumentStates": "{\"Projects/Dubbo 源码解读与实战.md\":false,\"Input/exchange 层剖析, 彻底搞懂 request response 模型.md\":true,\"Input/Dubbo Exchange 层.md\":true}",
   "isSeparateHeaderFont": false,
   "headerFontFamily": "inherit",
   "headerFontSize": "inherit",

@@ -1,7 +1,7 @@
 {
   "cssTheme": "Cupertino",
   "accentColor": "#5c96f5",
-  "baseFontSize": 17,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "编辑行高亮"
   ],

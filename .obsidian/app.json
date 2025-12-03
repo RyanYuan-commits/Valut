@@ -1,9 +1,16 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "promptDelete": false,
   "vimMode": true,
   "spellcheck": false,
   "attachmentFolderPath": "Assets",
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 60
+  },
+  "propertiesInDocument": "visible"
 }
