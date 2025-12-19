@@ -13,19 +13,19 @@ draw: "[[Draw Place of Dubbo 线程模型]]"
 
 ## 1	线程模型概述
 
-Dubbo 使用 Netty 作为默认的网络通信框架, Provider 方使用两级线程池, boss 线程池负责处理连接建立事件, worker 线程池负责处理其他事件, 这两级线程池中的线程一般被称之为 IO 线程. 
+Dubbo 使用 Netty 作为默认的网络通信框架, Provider 方使用两级线程池, boss 线程池负责处理连接建立事件, worker 线程池负责处理其他事件, 这两级线程池中的线程一般被称为 IO 线程. 
 
-IO 线程是极其珍贵的资源, 这种珍贵体现在其重要性和数量上:
+Dubbo 中的 IO 线程是非常珍贵的资源, 这种珍贵体现在其重要性和数量上:
 
-- 从重要性角度来说, 它们直接负责连接建立, 数据读写; 一但 IO 线程被阻塞, Netty 整个事件循环就被卡住了, 具体体现为导致新连接无法建立, 已有连接无法读取或写出等状况;
+- 从重要性角度来说, IO 线程直接负责连接建立, 数据读写; 一但 IO 线程耗尽, Netty 的事件循环就被卡住了, 具体体现为导致新连接无法建立, 已有连接无法读取或写出等状况;
 	
 - 从数量角度来说, IO 线程的数量是有限的, Dubbo 默认的 boss 线程数为 1, worker 线程数最大为 32.
 
-所以, 在 IO 线程上不应该处理过于复杂的任务. 基于这个原则, Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑, 使用 Dispatcher 来处理从 IO 线程到业务线程的分发, 整体的线程模型大致为:
+所以, 在 IO 线程上不应该处理耗时过久的任务, 基于这个原则, Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑, 通过 Dispatcher 来处理从 IO 线程到业务线程的派发, 整体的线程模型大致为:
 
 ![[Dubbo 线程模型.png|700]]
 
-dispatch 方法返回一个 ChannelHandler 对象, 这个 ChannelHandler 最终会作为 Dubbo 请求处理流程中的一个节点, 完成对各个事件的线程池切换工作.
+Diaptcher.dispatch 方法返回一个 ChannelHandler 实例, 这个 ChannelHandler 最终会作为 Dubbo 请求处理流中的一个节点, 完成线程池切换工作.
 
 ## 2	ChannelHandler 与 Message
 
@@ -319,7 +319,7 @@ wrapInternal 方法的入参就是上面在 Dispatcher 部分提到的 DecodeHan
 	
 - 剩余需要执行的 Handler 有: DecodeHandler, HeaderExchangeHandler, DubboProtocol$requestHandler; 执行这个链路的线程会根据派发策略的不同而变化, 比如在 All 派发策略下, 上面的链路是由业务线程执行的.
 
-## 5	Dubbo 中的线程池
+## 5	Dubbo 线程池模型
 
 上面的内容分析了 Dubbo 在何时将消息派发给任务线程池, Dubbo 根据不同的需求场景设计了不同的线程池, 具体来说是定义了 ThreadPool 接口, 来提供获取线程池的方法:
 

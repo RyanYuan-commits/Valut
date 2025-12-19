@@ -1,5 +1,4 @@
 [
-  "editor-width-slider",
   "quickadd",
   "dataview",
   "buttons",
@@ -8,5 +7,8 @@
   "pexels-banner",
   "various-complements",
   "obsidian-excalidraw-plugin",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-annotator",
+  "advanced-canvas",
+  "editor-width-slider"
 ]

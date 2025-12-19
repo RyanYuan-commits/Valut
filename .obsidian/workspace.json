@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "883a6bdfc4413dd2",
+        "id": "3536e2092bc2c719",
         "type": "tabs",
         "children": [
           {
-            "id": "7faf9aaedaff8166",
+            "id": "9a431bf88dff9d81",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 我的第二大脑 知识工作台"
             }
-          },
-          {
-            "id": "c19a9d9bf3bfd91f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo 线程模型.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo 线程模型"
-            }
-          },
-          {
-            "id": "c3d66534a2441215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Dubbo 源码解读与实战.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo 源码解读与实战"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "invokedynamic ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,26 +87,26 @@
             }
           },
           {
-            "id": "f55fc59da05be9e6",
+            "id": "8f07a943ed67100d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo 线程模型.md",
-                "followCursor": true,
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 线程模型 的大纲"
+              "title": "🧠 我的第二大脑 知识工作台 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -171,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
+                "file": "🧠 我的第二大脑 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Dubbo 核心接口介绍, RPC 层骨架梳理 的反向链接列表"
+              "title": "🧠 我的第二大脑 知识工作台 的反向链接列表"
             }
           },
           {
@@ -190,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Input/Dubbo Transport 层核心实现.md",
+                "file": "🧠 我的第二大脑 知识工作台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Dubbo Transport 层核心实现 的出链列表"
+              "title": "🧠 我的第二大脑 知识工作台 的出链列表"
             }
           },
           {
@@ -249,52 +200,53 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c19a9d9bf3bfd91f",
+  "active": "9a431bf88dff9d81",
   "lastOpenFiles": [
-    "Projects/Dubbo 源码解读与实战.md",
-    "🧠 我的第二大脑 知识工作台.md",
-    "Output/Dubbo 线程模型.md",
-    "Output/Dubbo Remoting 层核心类与接口.md",
-    "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
-    "Assets/Dubbo 线程池模型 new.png",
-    "Assets/Dubbo 老线程池模型.png",
-    "Excalidraw/Dubbo Protocol 层画板.md",
-    "Excalidraw/Draw Place of Dubbo 线程模型.md",
-    "Assets/Dubbo NettyServer.png",
-    "Output/Dubbo Transport 层核心实现.md",
-    "Input/Dubbo Exchange 层.md",
-    "Assets/Dubbo 线程模型.png",
-    "Excalidraw/Dubbo NettyServer.md",
-    "Assets/Dubbo Invoker.png",
-    "Input/Dubbo Protocol.md",
-    "Assets/dubbo-rpc 分包结构.png",
-    "Assets/Dubbo Protocol 层.png",
-    "Input/Dubbo SPI 机制.md",
-    "Input/Dubbo Adaptive 机制.md",
-    "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
-    "Assets/Dubbo 架构图.png",
-    "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
-    "Assets/Dubbo Remoting 层.png",
-    "Input/Dubbo Transport 层核心实现.md",
-    "Excalidraw",
-    "Input/Dubbo Remoting 层概览.md",
-    "Assets/Dubbo Client and RemotingServer.png",
-    "Input/未命名.md",
-    "Input/核心接口介绍, rpc 层骨架梳理.md",
-    "Output/JVM 压缩指针.md",
-    "Output/Java BigDecimal 简明介绍.md",
-    "Output/Java BigDecimal 格式化输出.md",
-    "Input/Json 序列化库 Jackson.md",
+    "Output/Java 类加载器.md",
+    "Output/Java 对象初始化过程.canvas",
     "View/永久笔记目录.base",
-    "Output/Gradle Wrapper - 将项目与 Gradle 版本绑定.md",
-    "Output/对于 Java 常见的序列化算法的简单介绍.md",
+    "🧠 我的第二大脑 知识工作台.md",
+    "Output/Java 常用资料收集.md",
+    "Assets/双亲委派机制示意图.png",
+    "Assets/拓展类加载器加载的文件.png",
+    "Assets/拓展类加载器和应用程序类加载器的继承关系.png",
+    "Assets/类加载器加载对象图例.png",
+    "Output/Java 中的 Lambda 表达式.md",
+    "Output/常见的 Java 字节码指令.md",
+    "Assets/Java 字节码栈操作指令案例.png",
+    "Output/JVM 的 invokedynamic 指令.md",
+    "Output/Java 对象初始化过程.md",
+    "Assets/Java 类生命周期.png",
+    "Output/结构类型与命名类型.md",
+    "Output/静态类型语言与动态类型语言.md",
+    "Input/Java 字节码技术.md",
+    "Assets/Java 字节码槽位示意图.png",
+    "Output/Java 运行时数据区域.md",
+    "Assets/Java 虚拟机栈帧存储的信息.png",
+    "Output/JDK bin 目录工具汇总整理.md",
+    "Output/JDK 概念辨析与历史发展.md",
+    "Assets/JVM, JDK, JRE 之间的关系.png",
+    "Assets/JDK 发展历史时间线.png",
+    "Output/MySQL InnoDB 存储引擎记录结构.md",
+    "Input/InnoDB 记录结构.md",
+    "Output/Spring 拓展点梳理.md",
+    "Input/InnoDB 的 B+ 树索引.md",
+    "Input/InnoDB 数据页结构.md",
+    "Input/InnoDB 存储引擎.md",
+    "Input/MySQL 支持的字符集和排序规则.md",
+    "Input/字符集和比较规则.md",
+    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+    "Input/MySQL 客户端请求处理流程.md",
+    "Input/MySQL 体系结构和存储引擎.md",
+    "Books/MySQL是怎样运行的从根儿上理解MySQL.epub",
+    "Books/MySQL是怎样运行的：从根儿上理解MySQL (小孩子4919) (Z-Library).epub",
+    "Books/SQL必知必会.epub",
+    "Input/InnoDB 关键特性.md",
+    "Excalidraw/SQL必知必会.epub",
+    "Books/SQL必知必会(第 5 版).mobi",
+    "Books",
+    "Excalidraw",
     "Assets/Banner/未确认 14312.crdownload",
-    "View/Inbox.base",
-    "Assets/Banner",
-    "View/项目笔记 View.base",
-    "Output",
-    "Permanent",
-    "Projects",
-    "View/MoC.base"
+    "View/Inbox.base"
   ]
 }

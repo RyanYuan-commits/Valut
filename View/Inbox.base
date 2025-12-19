@@ -6,10 +6,10 @@ views:
         - file.folder == "Input"
     order:
       - file.name
-      - created
+      - file.ctime
     sort:
-      - property: created
-        direction: ASC
+      - property: file.mtime
+        direction: DESC
     limit: 10
     columnSize:
       file.name: 545

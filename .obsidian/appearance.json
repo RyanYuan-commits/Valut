@@ -1,11 +1,13 @@
 {
-  "cssTheme": "Cupertino",
-  "accentColor": "#5c96f5",
+  "cssTheme": "",
+  "accentColor": "",
   "baseFontSize": 18,
   "enabledCssSnippets": [
-    "编辑行高亮"
+    "图片居中",
+    "点阵背景"
   ],
   "textFontFamily": "FZPingXianYaSongS-R-GB",
   "monospaceFontFamily": "FZPingXianYaSongS-R-GB",
-  "interfaceFontFamily": "FZPingXianYaSongS-R-GB"
+  "interfaceFontFamily": "FZPingXianYaSongS-R-GB",
+  "theme": "moonstone"
 }

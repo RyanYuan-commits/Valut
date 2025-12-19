@@ -3,5 +3,11 @@ views:
     name: 表格
     filters:
       and:
-        - type == "permanent"
+        - file.path.startsWith("Output/")
         - '!file.basename.endsWith("模板")'
+    order:
+      - file.name
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
