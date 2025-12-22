@@ -93,6 +93,7 @@ LRU len:1539,unzip_LRU len:156
 I/O sum[0]:cur[0],unzip sum[0]:cur[0]
 ……
 ```
+
 比如上面的打印中, LRU 列表有 1539 个页, 而 unzip_LRU 列表中有 156 个页, LRU 列表包含了 unzip_LRU 列表中的页.
 
 当 LRU 列表的页被修改后, 称该页为脏页, MySQL 通过 CHECKPOINT 将脏页刷新会磁盘, 脏页在 Flush 列表中维护.

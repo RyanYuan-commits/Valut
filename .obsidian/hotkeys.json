@@ -52,5 +52,6 @@
       "key": "/"
     }
   ],
-  "editor:toggle-comments": []
+  "editor:toggle-comments": [],
+  "editor:delete-paragraph": []
 }

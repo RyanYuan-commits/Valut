@@ -12,5 +12,6 @@
     "margin": "1",
     "downscalePercent": 60
   },
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "showUnsupportedFiles": true
 }

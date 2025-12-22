@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "🧠 我的第二大脑 知识工作台.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -32,8 +32,96 @@
               "icon": "lucide-file",
               "title": "🧠 我的第二大脑 知识工作台"
             }
+          },
+          {
+            "id": "999c3a032fd5a074",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "View/永久笔记目录.base",
+                "viewName": "表格"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "永久笔记目录"
+            }
+          },
+          {
+            "id": "91886ebf5de9c4d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Java Memory Model 详解.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java Memory Model 详解"
+            }
+          },
+          {
+            "id": "f1bacea2c102d856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JSR133 Java 内存模型与线程规范 阅读笔记"
+            }
+          },
+          {
+            "id": "c90873b2e2c0d1ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Java 中的线程间通信.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java 中的线程间通信"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -65,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "invokedynamic ",
+                "query": "管程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -200,13 +287,28 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9a431bf88dff9d81",
+  "active": "891c1c11d158a153",
   "lastOpenFiles": [
+    "View/永久笔记目录.base",
+    "Output/Java Memory Model 详解.md",
+    "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
+    "Templates/Daily Note 模板.md",
+    "🧠 我的第二大脑 知识工作台.md",
+    "Input/InnoDB 存储引擎.md",
+    "Daily Notes",
+    "Excalidraw/Drawing 2025-12-22 19.50.04.excalidraw.md",
+    "Assets/fonts/ChuLianDeShi-2.ttf",
+    "Assets/fonts",
+    "Output/Java 中的线程间通信.md",
+    "Assets/Java 线程通信的分层设计.png",
+    "Output/Java Synchronized 关键字实现原理.md",
+    "Assets/对象头中锁状态的存储.png",
+    "Assets/Java monitor 锁结构.png",
+    "Assets/JMM 内存模型.png",
+    "Assets/双核 CPU 架构简图.png",
+    "Output/Java 常用资料收集.md",
     "Output/Java 类加载器.md",
     "Output/Java 对象初始化过程.canvas",
-    "View/永久笔记目录.base",
-    "🧠 我的第二大脑 知识工作台.md",
-    "Output/Java 常用资料收集.md",
     "Assets/双亲委派机制示意图.png",
     "Assets/拓展类加载器加载的文件.png",
     "Assets/拓展类加载器和应用程序类加载器的继承关系.png",
@@ -216,37 +318,22 @@
     "Assets/Java 字节码栈操作指令案例.png",
     "Output/JVM 的 invokedynamic 指令.md",
     "Output/Java 对象初始化过程.md",
-    "Assets/Java 类生命周期.png",
     "Output/结构类型与命名类型.md",
     "Output/静态类型语言与动态类型语言.md",
     "Input/Java 字节码技术.md",
-    "Assets/Java 字节码槽位示意图.png",
     "Output/Java 运行时数据区域.md",
-    "Assets/Java 虚拟机栈帧存储的信息.png",
     "Output/JDK bin 目录工具汇总整理.md",
     "Output/JDK 概念辨析与历史发展.md",
-    "Assets/JVM, JDK, JRE 之间的关系.png",
-    "Assets/JDK 发展历史时间线.png",
     "Output/MySQL InnoDB 存储引擎记录结构.md",
     "Input/InnoDB 记录结构.md",
     "Output/Spring 拓展点梳理.md",
     "Input/InnoDB 的 B+ 树索引.md",
     "Input/InnoDB 数据页结构.md",
-    "Input/InnoDB 存储引擎.md",
-    "Input/MySQL 支持的字符集和排序规则.md",
-    "Input/字符集和比较规则.md",
-    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
-    "Input/MySQL 客户端请求处理流程.md",
-    "Input/MySQL 体系结构和存储引擎.md",
     "Books/MySQL是怎样运行的从根儿上理解MySQL.epub",
     "Books/MySQL是怎样运行的：从根儿上理解MySQL (小孩子4919) (Z-Library).epub",
     "Books/SQL必知必会.epub",
-    "Input/InnoDB 关键特性.md",
     "Excalidraw/SQL必知必会.epub",
     "Books/SQL必知必会(第 5 版).mobi",
-    "Books",
-    "Excalidraw",
-    "Assets/Banner/未确认 14312.crdownload",
-    "View/Inbox.base"
+    "Books"
   ]
 }

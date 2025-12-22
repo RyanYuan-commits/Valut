@@ -1,13 +1,13 @@
 {
   "cssTheme": "",
   "accentColor": "",
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "图片居中",
     "点阵背景"
   ],
-  "textFontFamily": "FZPingXianYaSongS-R-GB",
-  "monospaceFontFamily": "FZPingXianYaSongS-R-GB",
-  "interfaceFontFamily": "FZPingXianYaSongS-R-GB",
+  "textFontFamily": "Aa诗月花茶行楷体,初恋的朦胧诗",
+  "monospaceFontFamily": "方正屏显雅宋简体",
+  "interfaceFontFamily": "方正屏显雅宋简体",
   "theme": "moonstone"
 }
