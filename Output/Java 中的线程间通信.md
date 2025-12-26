@@ -1,6 +1,8 @@
 ---
 type: permanent
 banner: Assets/Banner/pexels-bertellifotografia-1144690.jpg
+aliases:
+  - 线程间通信
 ---
 # 🌐 核心观点
 

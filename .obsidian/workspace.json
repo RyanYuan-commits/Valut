@@ -49,31 +49,7 @@
             }
           },
           {
-            "id": "91886ebf5de9c4d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Java Memory Model 详解.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Java Memory Model 详解"
-            }
-          },
-          {
-            "id": "f1bacea2c102d856",
+            "id": "0e431533f92bfdb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,12 +73,12 @@
             }
           },
           {
-            "id": "c90873b2e2c0d1ce",
+            "id": "24bd3613d364091e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Java 中的线程间通信.md",
+                "file": "Output/JVM 启动参数详解.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -117,11 +93,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Java 中的线程间通信"
+              "title": "JVM 启动参数详解"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "管程",
+                "query": "Threadless",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,11 +165,13 @@
               "title": "🧠 我的第二大脑 知识工作台 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -209,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
+                "file": "Output/JVM 启动参数详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "🧠 我的第二大脑 知识工作台 的反向链接列表"
+              "title": "JVM 启动参数详解 的反向链接列表"
             }
           },
           {
@@ -228,12 +206,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
+                "file": "Output/JVM 启动参数详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "🧠 我的第二大脑 知识工作台 的出链列表"
+              "title": "JVM 启动参数详解 的出链列表"
             }
           },
           {
@@ -265,11 +243,12 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -287,27 +266,37 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "891c1c11d158a153",
+  "active": "24bd3613d364091e",
   "lastOpenFiles": [
-    "View/永久笔记目录.base",
-    "Output/Java Memory Model 详解.md",
+    "Output/JVM 启动参数详解.md",
     "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
-    "Templates/Daily Note 模板.md",
     "🧠 我的第二大脑 知识工作台.md",
+    "View/永久笔记目录.base",
+    "Excalidraw/JSR 133 画板.md",
+    "Projects/Dubbo 源码解读与实战.md",
+    "Output/Java 类加载器.md",
+    "Output/Dubbo 线程模型.md",
     "Input/InnoDB 存储引擎.md",
+    "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
+    "Output/Dubbo Remoting 层核心类与接口.md",
+    "Input/Dubbo Adaptive 机制.md",
+    "Daily Notes/2025-12-24.md",
+    "Daily Notes/2025-12-23.md",
+    "Excalidraw/Drawing 2025-12-23 20.33.25.excalidraw.md",
+    "Output/Java Synchronized 关键字实现原理.md",
+    "Output/Java 中的线程间通信.md",
+    "Output/Java Memory Model 详解.md",
+    "Templates/Daily Note 模板.md",
     "Daily Notes",
     "Excalidraw/Drawing 2025-12-22 19.50.04.excalidraw.md",
     "Assets/fonts/ChuLianDeShi-2.ttf",
     "Assets/fonts",
-    "Output/Java 中的线程间通信.md",
     "Assets/Java 线程通信的分层设计.png",
-    "Output/Java Synchronized 关键字实现原理.md",
     "Assets/对象头中锁状态的存储.png",
     "Assets/Java monitor 锁结构.png",
     "Assets/JMM 内存模型.png",
     "Assets/双核 CPU 架构简图.png",
     "Output/Java 常用资料收集.md",
-    "Output/Java 类加载器.md",
     "Output/Java 对象初始化过程.canvas",
     "Assets/双亲委派机制示意图.png",
     "Assets/拓展类加载器加载的文件.png",
@@ -320,15 +309,6 @@
     "Output/Java 对象初始化过程.md",
     "Output/结构类型与命名类型.md",
     "Output/静态类型语言与动态类型语言.md",
-    "Input/Java 字节码技术.md",
-    "Output/Java 运行时数据区域.md",
-    "Output/JDK bin 目录工具汇总整理.md",
-    "Output/JDK 概念辨析与历史发展.md",
-    "Output/MySQL InnoDB 存储引擎记录结构.md",
-    "Input/InnoDB 记录结构.md",
-    "Output/Spring 拓展点梳理.md",
-    "Input/InnoDB 的 B+ 树索引.md",
-    "Input/InnoDB 数据页结构.md",
     "Books/MySQL是怎样运行的从根儿上理解MySQL.epub",
     "Books/MySQL是怎样运行的：从根儿上理解MySQL (小孩子4919) (Z-Library).epub",
     "Books/SQL必知必会.epub",

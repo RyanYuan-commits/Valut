@@ -1,6 +1,9 @@
 ---
 type: permanent
 banner: Assets/Banner/Pasted image 20251122105012.png
+aliases:
+  - Synchronized
+  - synchronized
 ---
 # 🌐 核心观点
 
