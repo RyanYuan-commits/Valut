@@ -173,7 +173,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Output"
+          "MoC"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

@@ -6,7 +6,9 @@ views:
         - file.folder == "Projects"
     order:
       - file.name
-      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
     limit: 10
     columnSize:
-      file.name: 538
+      file.name: 305

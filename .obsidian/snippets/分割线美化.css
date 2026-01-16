@@ -1,0 +1,8 @@
+/* 在 .obsidian/snippets/hr-color.css 文件中 */
+hr {
+  border-top: 2px dashed #007BFF; /* 修改颜色为蓝色，样式为虚线 */
+  border-color: #007BFF; /* 确保颜色一致 */
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+

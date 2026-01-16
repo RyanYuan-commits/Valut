@@ -53,5 +53,6 @@
     }
   ],
   "editor:toggle-comments": [],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "editor:save-file": []
 }

@@ -4,10 +4,11 @@
   "baseFontSize": 20,
   "enabledCssSnippets": [
     "图片居中",
-    "点阵背景"
+    "去除下划线",
+    "分割线美化"
   ],
-  "textFontFamily": "Aa诗月花茶行楷体,初恋的朦胧诗",
+  "textFontFamily": "纳米民文仿宋,月星楷",
   "monospaceFontFamily": "Maple Mono NF CN",
-  "interfaceFontFamily": "方正屏显雅宋简体",
-  "theme": "moonstone"
+  "interfaceFontFamily": "Maple Mono NF CN",
+  "theme": "system"
 }

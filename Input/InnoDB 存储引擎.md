@@ -135,6 +135,7 @@ InnoDB 通过 Log Sequence Number 来标记版本, LSN 是 8 字节的数字, �
 - Sharp Checkpoint: 将所有的脏页都刷新回磁盘, 默认在数据库关闭时触发, 平时一般不使用, 影响性能;
 	
 - Fuzzy Checkpoint:
+
 	- Master Thread Checkpoint: 以每秒或每十秒的速度刷新, 过程是异步的, 不会阻塞查询;
 		
 	- FLUSH_LRU_LIST Checkpoint: 保证 LRU 列表有空闲页可用(差不多 100 个), 不满足就会将 LRU 列表的尾端移除;

@@ -22,7 +22,7 @@ System.out.println(1.0 - 0.9); // 输出：0.09999999999999998
 
 这种误差是由于浮点数在计算机中是使用二进制浮点数形式表示的, 无法精确的表示所有十进制小数; 
 
-为了解决这个问题, BigDecimal 使用非标度值 + 标度值的方式来精确的表示十进制小数, 例如, 123.45 的非标度值为 12345, 标度值为 2, 表示小数点后有两位.
+为了解决这个问题, `BigDecimal` 使用非标度值 + 标度值的方式来精确的表示十进制小数, 例如, 123.45 的非标度值为 12345, 标度值为 2, 表示小数点后有两位.
 
 ```java
 BigDecimal d1 = new BigDecimal("123.45");
@@ -51,23 +51,21 @@ System.out.println(a); // 输出：0.1000000000000000055511151231257827021181583
 
 ### 2.2	核心算数运算
 
-BigDecimal 通过成员方法支持各种运算逻辑; 由于 BigDecimal 的不可变性, 每次运算均会返回一个新的 BigDecimal 实例.
+`BigDecimal` 通过成员方法支持各种运算逻辑; 由于 `BigDecimal` 的不可变性, 每次运算均会返回一个新的 `BigDecimal` 实例.
 
-常见的运算方法有: add, substract, multiply, divide, remainder.
+常见的运算方法有: `add`, `substract`, `multiply`, `divide`, `remainder`.
 
 ### 2.3	除法运算与舍入模式
 
-当进行除法运算时, 必须指定舍入模式, 否则会抛出 ArithmeticException 异常.
+当进行**除法运算**时, **必须指定舍入模式**, 否则会抛出 `ArithmeticException` 异常, 舍入模式定义在 `RoundingMode` 枚举类中: 
 
-舍入模式定义在 RoundingMode 枚举类中, 常用的舍入模式有: 
-
-- RoundingMode.HALF_UP 四舍五入;
+- `RoundingMode.HALF_UP` 四舍五入;
 	
-- RoundingMode.HALF_EVEN 银行家舍入法;
+- `RoundingMode.HALF_EVEN` 银行家舍入法;
 	
-- RoundingMode.UP 向远离 0 的方向舍入;
-
-- RoundingMode.DOWN: 向靠近 0 的方向舍入.
+- `RoundingMode.UP`: 向远离 0 的方向舍入;
+	
+- `RoundingMode.DOWN`: 向靠近 0 的方向舍入.
 
 ### 2.4	精度控制和比较
 
@@ -80,8 +78,7 @@ BigDecimal num = new BigDecimal("123.456789");
 BigDecimal rounded = num.setScale(2, RoundingMode.HALF_UP); // 123.46
 ```
 
-BigDecimal 的 equals 只有当精度值和标度值均相同时才会返回 true, 所以日常使用中一般使用 compareTo 方法来比较两个 BigDecimal, 其返回值为 -1, 0, 1.
-
+`BigDecimal` 的 `equals` 只有当精度值和标度值均相同时才会返回 `true`, 所以日常使用中一般使用 `compareTo` 方法来比较两个 BigDecimal 实例, 其返回值为 -1, 0, 1.
 
 ---
 

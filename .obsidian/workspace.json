@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3536e2092bc2c719",
+        "id": "8cbb70f5f49141b2",
         "type": "tabs",
         "children": [
           {
-            "id": "9a431bf88dff9d81",
+            "id": "7729db925670c9b2",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
-                "mode": "source",
+                "file": "🧠 知识工作台.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -30,74 +30,10 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "🧠 我的第二大脑 知识工作台"
-            }
-          },
-          {
-            "id": "999c3a032fd5a074",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "View/永久笔记目录.base",
-                "viewName": "表格"
-              },
-              "pinned": true,
-              "icon": "lucide-table",
-              "title": "永久笔记目录"
-            }
-          },
-          {
-            "id": "0e431533f92bfdb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JSR133 Java 内存模型与线程规范 阅读笔记"
-            }
-          },
-          {
-            "id": "24bd3613d364091e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/JVM 启动参数详解.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JVM 启动参数详解"
+              "title": "🧠 知识工作台"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Threadless",
+                "query": "path:Output  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +101,7 @@
               "title": "🧠 我的第二大脑 知识工作台 的大纲"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/JVM 启动参数详解.md",
+                "file": "🧠 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "JVM 启动参数详解 的反向链接列表"
+              "title": "🧠 知识工作台 的反向链接列表"
             }
           },
           {
@@ -206,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/JVM 启动参数详解.md",
+                "file": "🧠 知识工作台.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "JVM 启动参数详解 的出链列表"
+              "title": "🧠 知识工作台 的出链列表"
             }
           },
           {
@@ -242,14 +177,23 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "afc2584abd684b49",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 665.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,57 +207,60 @@
       "bases:创建新数据库": false,
       "header-enhancer:Header Enhancer": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24bd3613d364091e",
+  "active": "7729db925670c9b2",
   "lastOpenFiles": [
-    "Output/JVM 启动参数详解.md",
-    "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
-    "🧠 我的第二大脑 知识工作台.md",
-    "View/永久笔记目录.base",
-    "Excalidraw/JSR 133 画板.md",
-    "Projects/Dubbo 源码解读与实战.md",
-    "Output/Java 类加载器.md",
-    "Output/Dubbo 线程模型.md",
-    "Input/InnoDB 存储引擎.md",
-    "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
-    "Output/Dubbo Remoting 层核心类与接口.md",
-    "Input/Dubbo Adaptive 机制.md",
-    "Daily Notes/2025-12-24.md",
+    "Excalidraw/Drawing 2026-01-16 17.42.03.excalidraw.md",
+    "🧠 知识工作台.md",
+    "Output/v-bind 对 class 属性的增强.md",
+    "Excalidraw/Draw Place of Dubbo 线程模型.md",
     "Daily Notes/2025-12-23.md",
-    "Excalidraw/Drawing 2025-12-23 20.33.25.excalidraw.md",
-    "Output/Java Synchronized 关键字实现原理.md",
-    "Output/Java 中的线程间通信.md",
-    "Output/Java Memory Model 详解.md",
-    "Templates/Daily Note 模板.md",
+    "Input/InnoDB 存储引擎.md",
+    "未命名.md",
+    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+    "Input/MySQL 体系结构和存储引擎.md",
+    "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
+    "Input/MySQL 重做日志 Redo Log.md",
+    "Output/关系数据库的 AD 保障 —— 预写式日志.md",
+    "Input/谷歌提示词工程白皮书-阅读笔记.md",
+    "MoC/Java Time API 内容目录索引.md",
+    "Output/LocalXXX —— 本地时间的语境.md",
+    "MoC",
+    "Output/JDK bin 目录工具汇总整理.md",
+    "Output/Java 堆快照生成工具 jmp.md",
+    "Output/JVM 启动参数详解.md",
+    "Output/Java 常用资料收集.md",
+    "Output/Vue 中的 「应用」 概念.md",
+    "View/永久笔记目录.base",
+    "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
+    "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
+    "Output/Vue 的模板语法.md",
+    "Assets/Vue 指令完整结构.png",
+    "Output/Vue 简介与快速上手.md",
+    "Output/命令范式 —— 命令式 vs 声明式.md",
+    "Output/Git 基础命令整理.md",
+    "Assets/Git Architecture.gif",
+    "Assets/Git 命令图例.png",
+    "Output/LocalDate/Time",
+    "Output/LocalDate",
+    "Assets/GFS Architecture.png",
+    "未命名.canvas",
+    "Assets/Pasted image 20251231173038.png",
+    "Assets/Banner/pexels-vadimsadovski-33522604-7049988.jpg",
+    "Assets/Pasted image 20251231172658.png",
+    "Assets/fonts/纳米民文仿宋.ttf",
+    "Assets/fonts/月星楷-Regular.ttf",
+    "Assets/MAT 界面.png",
     "Daily Notes",
-    "Excalidraw/Drawing 2025-12-22 19.50.04.excalidraw.md",
     "Assets/fonts/ChuLianDeShi-2.ttf",
     "Assets/fonts",
     "Assets/Java 线程通信的分层设计.png",
     "Assets/对象头中锁状态的存储.png",
-    "Assets/Java monitor 锁结构.png",
-    "Assets/JMM 内存模型.png",
-    "Assets/双核 CPU 架构简图.png",
-    "Output/Java 常用资料收集.md",
     "Output/Java 对象初始化过程.canvas",
-    "Assets/双亲委派机制示意图.png",
-    "Assets/拓展类加载器加载的文件.png",
-    "Assets/拓展类加载器和应用程序类加载器的继承关系.png",
-    "Assets/类加载器加载对象图例.png",
-    "Output/Java 中的 Lambda 表达式.md",
-    "Output/常见的 Java 字节码指令.md",
-    "Assets/Java 字节码栈操作指令案例.png",
-    "Output/JVM 的 invokedynamic 指令.md",
-    "Output/Java 对象初始化过程.md",
-    "Output/结构类型与命名类型.md",
-    "Output/静态类型语言与动态类型语言.md",
-    "Books/MySQL是怎样运行的从根儿上理解MySQL.epub",
-    "Books/MySQL是怎样运行的：从根儿上理解MySQL (小孩子4919) (Z-Library).epub",
-    "Books/SQL必知必会.epub",
-    "Excalidraw/SQL必知必会.epub",
-    "Books/SQL必知必会(第 5 版).mobi",
-    "Books"
+    "Books/MySQL是怎样运行的从根儿上理解MySQL.epub"
   ]
 }
