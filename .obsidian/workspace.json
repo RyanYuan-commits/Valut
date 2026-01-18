@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "54767f6f871f9eff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -45,18 +70,21 @@
       {
         "id": "9978811013ac4f46",
         "type": "tabs",
+        "dimension": 59.01525658807212,
         "children": [
           {
-            "id": "891c1c11d158a153",
+            "id": "8f07a943ed67100d",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "outline",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "icon": "lucide-list",
+              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染 的大纲"
             }
           },
           {
@@ -85,28 +113,32 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1efbb85094cf2785",
+        "type": "tabs",
+        "dimension": 40.98474341192787,
+        "children": [
           {
-            "id": "8f07a943ed67100d",
+            "id": "891c1c11d158a153",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "file-explorer",
               "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
-              "icon": "lucide-list",
-              "title": "🧠 我的第二大脑 知识工作台 的大纲"
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 479.5110321044922
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -122,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "🧠 知识工作台 的反向链接列表"
+              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染 的反向链接列表"
             }
           },
           {
@@ -141,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "🧠 知识工作台 的出链列表"
+              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染 的出链列表"
             }
           },
           {
@@ -193,10 +225,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 665.5
+    "width": 665.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "random-note:开始漫游笔记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -204,7 +238,6 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "header-enhancer:Header Enhancer": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
@@ -212,10 +245,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7729db925670c9b2",
+  "active": "54767f6f871f9eff",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-01-16 17.42.03.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-18 15.08.19.excalidraw.md",
+    "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+    "Excalidraw/Drawing 2026-01-18 15.08.15.excalidraw.md",
     "🧠 知识工作台.md",
+    "Excalidraw/Drawing 2026-01-16 17.42.03.excalidraw.md",
     "Output/v-bind 对 class 属性的增强.md",
     "Excalidraw/Draw Place of Dubbo 线程模型.md",
     "Daily Notes/2025-12-23.md",
@@ -240,9 +276,6 @@
     "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
     "Output/Vue 的模板语法.md",
     "Assets/Vue 指令完整结构.png",
-    "Output/Vue 简介与快速上手.md",
-    "Output/命令范式 —— 命令式 vs 声明式.md",
-    "Output/Git 基础命令整理.md",
     "Assets/Git Architecture.gif",
     "Assets/Git 命令图例.png",
     "Output/LocalDate/Time",
