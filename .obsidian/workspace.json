@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5110321044922,
-    "collapsed": true
+    "width": 479.5110321044922
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -221,9 +220,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f3800a979d1da7e",
+  "active": "891c1c11d158a153",
   "lastOpenFiles": [
-    "Input/快速记录.md",
+    "Output/快速记录.md",
     "🧠 知识工作台.md",
     "Output/颜色模型 —— Hex, RGB 与 HSL.md",
     "View/Inbox.base",
