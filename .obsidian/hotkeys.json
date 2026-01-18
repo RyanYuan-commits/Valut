@@ -54,5 +54,15 @@
   ],
   "editor:toggle-comments": [],
   "editor:delete-paragraph": [],
-  "editor:save-file": []
+  "editor:save-file": [],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "various-complements:reload-custom-dictionaries": []
 }

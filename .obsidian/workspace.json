@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7247332fedead91b",
+        "id": "8d5903673f7368b2",
         "type": "tabs",
         "children": [
           {
-            "id": "d99515f93f220a02",
+            "id": "1f3800a979d1da7e",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "4e9b8f4c4e8fa1ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/颜色模型 —— Hex, RGB 与 HSL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "颜色模型 —— Hex, RGB 与 HSL"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/颜色模型 —— Hex, RGB 与 HSL.md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "颜色模型 —— Hex, RGB 与 HSL 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -119,7 +94,7 @@
       {
         "id": "1efbb85094cf2785",
         "type": "tabs",
-        "dimension": 40.98474341192787,
+        "dimension": 40.98474341192788,
         "children": [
           {
             "id": "891c1c11d158a153",
@@ -246,8 +221,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e9b8f4c4e8fa1ee",
+  "active": "1f3800a979d1da7e",
   "lastOpenFiles": [
+    "Input/快速记录.md",
     "🧠 知识工作台.md",
     "Output/颜色模型 —— Hex, RGB 与 HSL.md",
     "View/Inbox.base",
@@ -276,7 +252,6 @@
     "Output/Vue 中的 「应用」 概念.md",
     "View/永久笔记目录.base",
     "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
-    "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
     "Assets/Git 命令图例.png",
