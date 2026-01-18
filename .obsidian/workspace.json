@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8cbb70f5f49141b2",
+        "id": "7247332fedead91b",
         "type": "tabs",
         "children": [
           {
-            "id": "7729db925670c9b2",
+            "id": "d99515f93f220a02",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "54767f6f871f9eff",
+            "id": "4e9b8f4c4e8fa1ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+                "file": "Output/颜色模型 —— Hex, RGB 与 HSL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染"
+              "title": "颜色模型 —— Hex, RGB 与 HSL"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+                "file": "Output/颜色模型 —— Hex, RGB 与 HSL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染 的大纲"
+              "title": "颜色模型 —— Hex, RGB 与 HSL 的大纲"
             }
           },
           {
@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5110321044922
+    "width": 479.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -245,12 +246,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54767f6f871f9eff",
+  "active": "4e9b8f4c4e8fa1ee",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-01-18 15.08.19.excalidraw.md",
-    "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
-    "Excalidraw/Drawing 2026-01-18 15.08.15.excalidraw.md",
     "🧠 知识工作台.md",
+    "Output/颜色模型 —— Hex, RGB 与 HSL.md",
+    "View/Inbox.base",
+    "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+    "Excalidraw/Drawing 2026-01-18 15.08.19.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-18 15.08.15.excalidraw.md",
     "Excalidraw/Drawing 2026-01-16 17.42.03.excalidraw.md",
     "Output/v-bind 对 class 属性的增强.md",
     "Excalidraw/Draw Place of Dubbo 线程模型.md",
@@ -274,7 +277,6 @@
     "View/永久笔记目录.base",
     "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
     "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
-    "Output/Vue 的模板语法.md",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
     "Assets/Git 命令图例.png",
@@ -293,7 +295,6 @@
     "Assets/fonts",
     "Assets/Java 线程通信的分层设计.png",
     "Assets/对象头中锁状态的存储.png",
-    "Output/Java 对象初始化过程.canvas",
-    "Books/MySQL是怎样运行的从根儿上理解MySQL.epub"
+    "Output/Java 对象初始化过程.canvas"
   ]
 }

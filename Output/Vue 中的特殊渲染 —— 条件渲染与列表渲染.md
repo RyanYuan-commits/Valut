@@ -178,9 +178,37 @@ Vue 能够侦听响应式数组的变更方法, 在其发生变化时触发相�
 items.value = items.value.filter((item) => item.message.match(/Foo/))
 ```
 
-### 展示过滤或pa
+### 2.7	展示过滤或排序后的结果
+
+可以使用计算属性或函数的方式来展示过滤或排序后的结果:
+
+```js
+// 使用计算属性
+const numbers = ref([1, 2, 3, 4, 5])
+
+const evenNumbers = computed(() => {
+  return numbers.value.filter((n) => n % 2 === 0)
+})
+
+`<li v-for="n in evenNumbers">{{ n }}</li>`
+
+// 使用方法
+const sets = ref([
+  [1, 2, 3, 4, 5],
+  [6, 7, 8, 9, 10]
+])
+
+function even(numbers) {
+  return numbers.filter((number) => number % 2 === 0)
+}
+
+`<ul v-for="numbers in sets"> <li v-for="n in even(numbers)"> {{ n }} </li> </ul>`
+```
 
 ---
 
 # 📚 参考内容
 
+[官方文档-条件渲染](https://cn.vuejs.org/guide/essentials/conditional.html)
+
+[官方文档-列表渲染](https://cn.vuejs.org/guide/essentials/list.html)
