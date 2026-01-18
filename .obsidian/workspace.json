@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5110321044922
+    "width": 479.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -220,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "891c1c11d158a153",
+  "active": "1f3800a979d1da7e",
   "lastOpenFiles": [
     "Output/快速记录.md",
     "🧠 知识工作台.md",
