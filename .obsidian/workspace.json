@@ -248,6 +248,12 @@
   },
   "active": "86f90127543c8265",
   "lastOpenFiles": [
+    "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
+    "Assets/Banner/pexels-messalaciulla-7897485.jpg",
+    "Assets/Banner/pexels-ken-cheung-3355734-5574638.jpg",
+    "Assets/Banner/pexels-erike-fusiki-58866350-8150302.jpg",
+    "Assets/Banner/pexels-erike-fusiki-58866350-8150291.jpg",
+    "Assets/Banner/pexels-bi-ravencrow-2154273033-35367845.jpg",
     "🧠 知识工作台.md",
     "Output/G1 垃圾收集器的基本概念与设计目标.md",
     "Output/使用 v-on 处理 DOM 事件.md",
@@ -275,7 +281,6 @@
     "Output/JDK bin 目录工具汇总整理.md",
     "Output/Java 堆快照生成工具 jmp.md",
     "Output/JVM 启动参数详解.md",
-    "Output/Java 常用资料收集.md",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
@@ -285,16 +290,11 @@
     "Assets/GFS Architecture.png",
     "未命名.canvas",
     "Assets/Pasted image 20251231173038.png",
-    "Assets/Banner/pexels-vadimsadovski-33522604-7049988.jpg",
-    "Assets/Pasted image 20251231172658.png",
     "Assets/fonts/纳米民文仿宋.ttf",
     "Assets/fonts/月星楷-Regular.ttf",
-    "Assets/MAT 界面.png",
     "Daily Notes",
     "Assets/fonts/ChuLianDeShi-2.ttf",
     "Assets/fonts",
-    "Assets/Java 线程通信的分层设计.png",
-    "Assets/对象头中锁状态的存储.png",
     "Output/Java 对象初始化过程.canvas"
   ]
 }
