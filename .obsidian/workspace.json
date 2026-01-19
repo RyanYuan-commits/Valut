@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "86f90127543c8265",
+            "id": "1f576623a8d746a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/G1 垃圾收集器的基本概念与设计目标.md",
+                "file": "Output/G1 设计目标与基本概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "G1 垃圾收集器的基本概念与设计目标"
+              "title": "G1 设计目标与基本概念"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/G1 垃圾收集器的基本概念与设计目标.md",
+                "file": "Output/G1 设计目标与基本概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "G1 垃圾收集器的基本概念与设计目标 的大纲"
+              "title": "G1 设计目标与基本概念 的大纲"
             }
           },
           {
@@ -246,16 +246,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86f90127543c8265",
+  "active": "1f576623a8d746a7",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
+    "Output/G1 设计目标与基本概念.md",
+    "Output/Java 类加载器.md",
+    "View/正在进行.base",
+    "正在进行.canvas",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/Banner/pexels-messalaciulla-7897485.jpg",
     "Assets/Banner/pexels-ken-cheung-3355734-5574638.jpg",
     "Assets/Banner/pexels-erike-fusiki-58866350-8150302.jpg",
     "Assets/Banner/pexels-erike-fusiki-58866350-8150291.jpg",
     "Assets/Banner/pexels-bi-ravencrow-2154273033-35367845.jpg",
-    "🧠 知识工作台.md",
-    "Output/G1 垃圾收集器的基本概念与设计目标.md",
     "Output/使用 v-on 处理 DOM 事件.md",
     "Output/快速记录.md",
     "Output/颜色模型 —— Hex, RGB 与 HSL.md",
@@ -280,7 +283,6 @@
     "MoC",
     "Output/JDK bin 目录工具汇总整理.md",
     "Output/Java 堆快照生成工具 jmp.md",
-    "Output/JVM 启动参数详解.md",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
@@ -288,13 +290,10 @@
     "Output/LocalDate/Time",
     "Output/LocalDate",
     "Assets/GFS Architecture.png",
-    "未命名.canvas",
-    "Assets/Pasted image 20251231173038.png",
     "Assets/fonts/纳米民文仿宋.ttf",
     "Assets/fonts/月星楷-Regular.ttf",
     "Daily Notes",
     "Assets/fonts/ChuLianDeShi-2.ttf",
-    "Assets/fonts",
     "Output/Java 对象初始化过程.canvas"
   ]
 }

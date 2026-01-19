@@ -1,6 +1,6 @@
 ---
 type: permanent
-finished: false
+ing: "1"
 ---
 # 🌐 核心观点
 
