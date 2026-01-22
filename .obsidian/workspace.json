@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "6a085c167e9ba2d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Docker 常用部署命令.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Docker 常用部署命令"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,13 +76,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Docker 常用部署命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "Docker 常用部署命令 的大纲"
             }
           },
           {
@@ -111,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5110321044922,
-    "collapsed": true
+    "width": 479.5110321044922
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -219,9 +243,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05b4904ea1b83ce4",
+  "active": "6a085c167e9ba2d8",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Output/Docker 常用部署命令.md",
     "Output/G1 设计目标与基本概念.md",
     "Output/Java 类加载器.md",
     "View/正在进行.base",
