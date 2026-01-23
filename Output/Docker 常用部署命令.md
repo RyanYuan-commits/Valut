@@ -35,18 +35,26 @@ docker run \
 -v /home/mysql/data:/var/lib/mysql \
 -v /home/mysql/conf/my.cnf:/etc/mysql/my.cnf \
 ```
+
 ## ES 相关部署
+
 #### 配置启动 ElasticSearch
+
 拉取镜像
+
 ```bash
 docker pull elasticsearch:7.17.9
 ```
+
 在配置 volume 之前需要运用 docker cp 命令将数据复制到文件夹中，否则会启动失败：
+
 ```bash
 docker cp 29507f11f773:/usr/share/elasticsearch/data /Users/bytedance/Documents/volumes/es
 docker cp 29507f11f773:/usr/share/elasticsearch/config /Users/bytedance/Documents/volumes/es
 ```
+
 使用 docker 启动 elasticsearch
+
 ```bash
 docker run -p 9200:9200 -p 9300:9300 --name elasticsearch \
 -e "discovery.type=single-node" \
@@ -59,12 +67,16 @@ docker run -p 9200:9200 -p 9300:9300 --name elasticsearch \
 -v /Users/yuankangqing/Documents/volumes/es/config:/usr/share/elasticsearch/config \
 -d elasticsearch:7.17.9
 ```
+
 在 ES 配置文件中允许跨域请求：
+
 ```
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
+
 ## 配置启动 Kibana
+
 ```bash
 docker cp e7aab1c16542:/usr/share/kibana/config /Users/bytedance/Documents/volumes/kibana/config
 ```
