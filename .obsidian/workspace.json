@@ -136,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5110321044922
+    "width": 512.5110321044922
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -245,8 +245,9 @@
   },
   "active": "6a085c167e9ba2d8",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
+    "Templates/永久笔记模板.md",
     "Output/Docker 常用部署命令.md",
+    "🧠 知识工作台.md",
     "Output/G1 设计目标与基本概念.md",
     "Output/Java 类加载器.md",
     "View/正在进行.base",
@@ -280,7 +281,6 @@
     "Output/LocalXXX —— 本地时间的语境.md",
     "MoC",
     "Output/JDK bin 目录工具汇总整理.md",
-    "Output/Java 堆快照生成工具 jmp.md",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
