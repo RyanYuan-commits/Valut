@@ -22,11 +22,57 @@ Neovim
 - opts: 又一个 table, 包含了对这个快捷键的一些额外设置, 这个我们在本讲后面单开一节进行说明
 
 ```lua
-vim.keymap.set("n", "<C-a>b", ":lua print('hello world')<CR>", { silent = true })
+vim.g.mapleader = " "
+vim.keymap.set({ "n", "i" }, "<leader>b", ":lua print('hello world')<CR>", { silent = true })
 ```
 
+## 2	rhs
 
+当在 insert 模式下执行时, 直接将内容输入在光标后, 没有执行命令, 可以通过将 `:` 替换为 `<Cmd>` 来确保后面的内容是在命令模式下输入的.
 
+还有一种方式, 是使用 lua 的函数:
+
+```lua
+vim.keymap.set({ "n", "i" }, "<leader>b", function ()
+    print("hello world")
+end, { silent = true })
+```
+
+## 3	lhs
+
+建议使用统一的前缀, 如 `SPEC`, `Alt` 等, 这个 "前缀" 可以用 `<leader>` 表示:
+
+```java
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>aa", ":lua print(123)<CR>", {})
+```
+
+## 4	opts
+
+### 4.1	remap
+
+布尔值, 如果为 false 则禁用递归映射. 默认为 false. 设想一下, 如果你突发奇想想要交换 j 和 k 该怎么办呢?像这样?
+
+```lua
+vim. keymap. set("n", "j", "k", { remap = true })
+vim. keymap. set("n", "k", "j", { remap = true })
+```
+
+加入我们启用了 remap, 那么就会导致 j 被映射到 k 上, k 再被映射到 j 上, 无穷递归. 所以, 我们需要禁用 remap. 实际上, 我们绝大多数情况下都没必要启用这个属性. 之所以在这里讲一下只是因为一些历史遗留原因, 你可能经常会看到这个属性. 但实际上, 我们根本用不到它.
+
+### 4.2	silent
+
+有些时候, 我们的快捷键对应的功能本身并不会有什么输出. 这个时候, 你会发现, 如果我们的 rhs 是一条命令, 那么这条命令会在 command line 被显示出来. 经过这段时间的观察, 你应该也发现了, command-line mode 下输入的命令在执行后不会被清空. 例如:
+
+```lua
+vim. keymap. set("n", ", a", ":lua a=1<CR>", {})
+```
+
+此时你会看到, 按下快捷键后, :lua a=1 被显示出来了. 这挺烦人的, 所以我们可以添加 silent = true 来解决问题:
+
+```lua
+vim. keymap. set("n", ", a", ":lua a=1<CR>", { silent = true })
+```
 
 
 
