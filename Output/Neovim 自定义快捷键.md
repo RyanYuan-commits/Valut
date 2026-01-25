@@ -74,7 +74,32 @@ vim. keymap. set("n", ", a", ":lua a=1<CR>", {})
 vim. keymap. set("n", ", a", ":lua a=1<CR>", { silent = true })
 ```
 
+### 4.3	nowait
 
+这个属性一般是在你设计的快捷键是另一个快捷键的开头的时候使用. 例如:
+
+```lua
+vim. keymap. set("n", ", a", ":lua print(456)<CR>", {})
+```
+
+我们前面也讲到了这个, 当按下 , a 的时候, neovim 会等待一段时间, 因为它要判断你是不是想要按 , ab. 为了不等待, 我们可以加上 nowait = true.
+
+```lua
+vim. keymap. set("n", ", ab", ":lua print(123)<CR>", {})
+vim. keymap. set("n", ", a", ":lua print(456)<CR>", { nowait = true })
+```
+
+不过, 这样做存在一个问题, 那就是更长的那个快捷键会失效. 所以, 我们一般只在想要更短的快捷键暂时生效, 且确定当前情境下不需要更长的那个快捷键的情况下使用这个属性.
+
+### 4.4	desc
+
+这个属性类似于一个注释, 是对快捷键功能的描述, 例如:
+
+```lua
+vim. keymap. set("n", ", ab", ":lua print(123)<CR>", { desc = "Print 123 in the cmdline" })
+```
+
+那么它有什么用呢?几乎没有, 因为你也可以直接写注释. 据我所知, 这个属性唯一的作用, 是有一些插件会基于你绑定的快捷键动态给出提示(比如 which-key), 此时你设置的 desc 属性就会被作为描述显示在插件的页面中.
 
 ---
 

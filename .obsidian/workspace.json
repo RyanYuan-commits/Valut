@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "51a5930f5023ed9a",
+            "id": "33836ef6989e4769",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Neovim 自定义快捷键.md",
+                "file": "Output/给 Neovim 安装插件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Neovim 自定义快捷键"
+              "title": "给 Neovim 安装插件"
             }
           }
         ],
@@ -76,13 +76,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Neovim 自定义快捷键.md",
+                "file": "Output/给 Neovim 安装插件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Neovim 自定义快捷键 的大纲"
+              "title": "给 Neovim 安装插件 的大纲"
             }
           },
           {
@@ -244,9 +244,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51a5930f5023ed9a",
+  "active": "33836ef6989e4769",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Output/给 Neovim 安装插件.md",
     "Output/Neovim 自定义快捷键.md",
     "Output/Neovim 的配置文件.md",
     "Output/Docker 常用部署命令.md",
@@ -280,7 +281,6 @@
     "Input/MySQL 重做日志 Redo Log.md",
     "Output/关系数据库的 AD 保障 —— 预写式日志.md",
     "Input/谷歌提示词工程白皮书-阅读笔记.md",
-    "MoC/Java Time API 内容目录索引.md",
     "MoC",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
