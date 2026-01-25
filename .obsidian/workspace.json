@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Neovim Bufferline"
             }
+          },
+          {
+            "id": "048e05b7b71c9889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Neovim 自定义快捷键.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Neovim 自定义快捷键"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Neovim Bufferline.md",
+                "file": "Output/Neovim 自定义快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Neovim Bufferline 的大纲"
+              "title": "Neovim 自定义快捷键 的大纲"
             }
           },
           {
@@ -268,7 +292,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "590300b6a99491a8",
+  "active": "048e05b7b71c9889",
   "lastOpenFiles": [
     "Output/Neovim Bufferline.md",
     "Output/给 Neovim 安装插件.md",
