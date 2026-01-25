@@ -1,7 +1,7 @@
 {
   "cssTheme": "Catppuccin",
   "accentColor": "#ff7518",
-  "baseFontSize": 20,
+  "baseFontSize": 22,
   "enabledCssSnippets": [
     "图片居中",
     "去除下划线",
