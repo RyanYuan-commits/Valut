@@ -12,6 +12,8 @@ Neovim, Buffer, Window, Tab
 
 ## 1	Buffer, Window, Tab
 
+### 1.1	概念介绍
+
 Neovim 的官方文档中是这样描述这三个概念的:
 
 ```
@@ -28,7 +30,40 @@ Neovim 的 Window 是用来呈现一个 Buffer 的;
 
 多个 Window 可以组成一个 Tab, 就是看到的整个页面.
 
+### 1.2	原生操作方式
 
+使用 `:buffers` 查看当前所有的 Buffer, 类似:
+
+```
+1 %a + "content/posts/neovim-beginner-guide/07/index.md" line 27
+9  h   "~/Documents/orgfiles/neovim.org" line 95
+```
+
+然后可以通过 `:buffer` 加上 id 来切换到指定的 Buffer, 其中 `a` 表示 active, `h` 表示 hidden, `+` 表示被修改但是没有写入文件.
+
+可以将同一个 Buffer 在不同的 Window 显示, 使用 `vsplit` 和 `split` 分别进行左右和上下分屏, 窗口管理的快捷键有:
+
+- `<C-w>h`: 切换到左侧窗口
+	
+- `<C-w>l`: 切换到右侧窗口
+	
+- `<C-w>j`: 切换到下方窗口
+	
+- `<C-w>k`: 切换到上方窗口
+	
+- `<C-w>c`: 关闭窗口
+	
+- `<C-w>o`: 关闭其他所有窗口
+
+## 2	使用 Bufferline 插件
+
+使用 `plugins/bufferline.lua` 新建:
+
+```lua
+return {
+    "akinsho/bufferline.nvim",
+}
+```
 
 
 
