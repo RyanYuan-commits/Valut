@@ -1,5 +1,6 @@
 ---
 type: permanent
+banner: Assets/Banner/pexels-bi-ravencrow-2154273033-35367845.jpg
 ---
 # 🌐 关键词
 
