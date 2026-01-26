@@ -80,9 +80,19 @@
               "icon": "lucide-file",
               "title": "打印 Gradle 项目的依赖"
             }
+          },
+          {
+            "id": "b325452c73d93bbf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,13 +112,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/打印 Gradle 项目的依赖.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "打印 Gradle 项目的依赖 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -270,11 +279,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f81d83d46a4c3df",
+  "active": "b325452c73d93bbf",
   "lastOpenFiles": [
+    "Output/打印 Gradle 项目的依赖.md",
     "Output/在 Gradle 中声明依赖.md",
     "🧠 知识工作台.md",
-    "Output/打印 Gradle 项目的依赖.md",
     "Output/Neovim 自定义快捷键.md",
     "Output/给 Neovim 安装插件.md",
     "Output/Neovim Bufferline.md",
