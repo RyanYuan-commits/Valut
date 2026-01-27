@@ -80,33 +80,9 @@
               "icon": "lucide-file",
               "title": "打印 Gradle 项目的依赖"
             }
-          },
-          {
-            "id": "b325452c73d93bbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Neovim Bufferline.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Neovim Bufferline"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Neovim Bufferline.md",
+                "file": "Output/打印 Gradle 项目的依赖.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Neovim Bufferline 的大纲"
+              "title": "打印 Gradle 项目的依赖 的大纲"
             }
           },
           {
@@ -294,14 +270,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b325452c73d93bbf",
+  "active": "9f81d83d46a4c3df",
   "lastOpenFiles": [
+    "Output/Neovim Bufferline.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/在 Gradle 中声明依赖.md",
     "🧠 知识工作台.md",
     "Output/Neovim 自定义快捷键.md",
     "Output/给 Neovim 安装插件.md",
-    "Output/Neovim Bufferline.md",
     "Assets/Gradle 中的生产者与消费者.png",
     "Output/Neovim 的配置文件.md",
     "Output/Docker 常用部署命令.md",
