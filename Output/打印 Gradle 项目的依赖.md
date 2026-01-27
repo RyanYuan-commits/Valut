@@ -113,6 +113,7 @@ A web-based, searchable dependency report is available by adding the --scan opti
 如果一个依赖被拒绝, Gradle 也会显示原因:
 
 - `Was requested : didn’t match versions <versions>`: 表示动态版本不匹配, 在请求的是动态版本( 如 `1.+` ), Gradle 在仓库里找到了这个版本, 但它不在 `1.+` 的范围内, 或者不符合你的要求, 所以被扔掉了.
+	
 - 
 
 
