@@ -85,10 +85,24 @@
             "id": "b325452c73d93bbf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Output/Neovim Bufferline.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Neovim Bufferline"
             }
           }
         ],
@@ -112,12 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Output/Neovim Bufferline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Neovim Bufferline 的大纲"
             }
           },
           {
