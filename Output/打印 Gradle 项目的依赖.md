@@ -50,7 +50,6 @@ compileClasspath - Compile classpath for source set 'main'.
 	
 - `(n)`: 表示无法解析的依赖项或依赖项配置. 
 
-
 ### 1.2	指定依赖项配置打印
 
 可以通过 `--configuration` 参数来实现仅打印某一个依赖项配置的依赖信息.
@@ -114,7 +113,7 @@ A web-based, searchable dependency report is available by adding the --scan opti
 
 - `Was requested : didn’t match versions <versions>`: 表示动态版本不匹配, 在请求的是动态版本( 如 `1.+` ), Gradle 在仓库里找到了这个版本, 但它不在 `1.+` 的范围内, 或者不符合你的要求, 所以被扔掉了.
 	
-- 
+- `Was requested : reject version <versions>`
 
 
 ---
