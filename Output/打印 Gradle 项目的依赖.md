@@ -40,7 +40,6 @@ compileClasspath - Compile classpath for source set 'main'.
      +--- com.fasterxml.jackson.core:jackson-core:2.17.2
      |    \--- com.fasterxml.jackson:jackson-bom:2.17.2 (*)
      \--- com.fasterxml.jackson:jackson-bom:2.17.2 (*)
-
 ...
 ```
 
@@ -113,8 +112,11 @@ A web-based, searchable dependency report is available by adding the --scan opti
 
 - `Was requested : didn’t match versions <versions>`: 表示动态版本不匹配, 在请求的是动态版本( 如 `1.+` ), Gradle 在仓库里找到了这个版本, 但它不在 `1.+` 的范围内, 或者不符合你的要求, 所以被扔掉了.
 	
-- `Was requested : reject version <versions>`
-
+- `Was requested : reject version <versions>`: 显式拒绝, 在构建脚本中写了自定义的 `ComponentSelection` 规则.
+	
+-  `Rejection: version <version>: <attributes information>`: 这个版本存在, 但是其属性 (如构建环境, 操作系统) 不符合当前工程的要求;
+	
+- `Selected by rule`: 不是标准的 Gradle 行为, 人为的规则干预. 
 
 ---
 

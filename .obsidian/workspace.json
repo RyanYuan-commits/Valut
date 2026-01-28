@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "🧠 知识工作台.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "1daa2a1f49909064",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/在 Gradle 中声明依赖.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "在 Gradle 中声明依赖"
-            }
-          },
-          {
-            "id": "9f81d83d46a4c3df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/打印 Gradle 项目的依赖.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "打印 Gradle 项目的依赖"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/打印 Gradle 项目的依赖.md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "打印 Gradle 项目的依赖 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -270,12 +221,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f81d83d46a4c3df",
+  "active": "eeb88a452cb38899",
   "lastOpenFiles": [
+    "Output/在 Gradle 中声明依赖.md",
+    "Output/打印 Gradle 项目的依赖.md",
     "Output/nvim-tree Neovim 文件管理器插件.md",
     "Output/Neovim Bufferline.md",
-    "Output/打印 Gradle 项目的依赖.md",
-    "Output/在 Gradle 中声明依赖.md",
     "🧠 知识工作台.md",
     "Output/Neovim 自定义快捷键.md",
     "Output/给 Neovim 安装插件.md",

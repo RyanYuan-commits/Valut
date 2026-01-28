@@ -55,38 +55,6 @@ implementation files('libs/something.jar')
 implementation fileTree(dir: 'libs', include: ['*.jar'])
 ```
 
-## 4	打印项目的依赖项
-
-可以通过命令行命令: `gradle :app:dependencies` 来打印依赖, 不指定 `app` 默认打印根项目的依赖.
-
-```shell
-$ ./gradlew app:dependencies
-
-> Task :app:dependencies
-
-------------------------------------------------------------
-Project ':app'
-------------------------------------------------------------
-
-implementation - Implementation dependencies for the 'main' feature. (n)
-\--- com.google.guava:guava:30.0-jre (n)
-
-runtimeClasspath - Runtime classpath of source set 'main'.
-+--- com.google.guava:guava:30.0-jre
-|    +--- com.google.guava:failureaccess:1.0.1
-|    +--- com.google.code.findbugs:jsr305:3.0.2
-|    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
-|    +--- com.google.code.findbugs:jsr305:3.0.2
-|    +--- org.checkerframework:checker-qual:3.5.0
-|    +--- com.google.errorprone:error_prone_annotations:2.3.4
-|    \--- com.google.j2objc:j2objc-annotations:1.3
-\--- org.apache.commons:commons-lang3:3.14.0
-
-runtimeOnly - Runtime-only dependencies for the 'main' feature. (n)
-\---
--- org.apache.commons:commons-lang3:3.14.0 (n)
-```
-
 ---
 
 # 📚 参考内容
