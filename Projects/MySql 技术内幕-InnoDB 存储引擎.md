@@ -25,8 +25,6 @@ class button-new-inbox-note
 `````
 ---
 
-
-
 [[MySQL 体系结构和存储引擎]]
 
 [[InnoDB 存储引擎]]
