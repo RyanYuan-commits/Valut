@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "a230e355fe87fea8",
+            "id": "fee2b004826089bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input/InnoDB 存储引擎.md",
+                "file": "Projects/Dubbo 源码解读与实战.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "InnoDB 存储引擎"
+              "title": "Dubbo 源码解读与实战"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Input/InnoDB 存储引擎.md",
+                "file": "Projects/Dubbo 源码解读与实战.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "InnoDB 存储引擎 的大纲"
+              "title": "Dubbo 源码解读与实战 的大纲"
             }
           },
           {
@@ -246,25 +246,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a230e355fe87fea8",
+  "active": "fee2b004826089bc",
   "lastOpenFiles": [
-    "Input/InnoDB 存储引擎.md",
+    "Output/Dubbo Transport 层核心实现.md",
+    "Output/Dubbo Remoting 层核心类与接口.md",
+    "Output/在 Gradle 中声明依赖.md",
+    "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
+    "Output/结构类型与命名类型.md",
+    "Output/机器时间 vs 人类时间.md",
+    "Output/对于 Java 常见的序列化算法的简单介绍.md",
+    "Output/给 Neovim 安装插件.md",
+    "Output/Dubbo ChannelBuffer 接口.md",
+    "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
+    "Output/Docker 常用部署命令.md",
+    "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
+    "MoC/Java Time API 内容目录索引.md",
     "🧠 知识工作台.md",
+    "Input/Dubbo SPI 机制.md",
+    "Assets/Dubbo 线程模型.png",
+    "Input/InnoDB 存储引擎.md",
     "Input/MySQL 体系结构和存储引擎.md",
     "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
     "Input/InnoDB 存储引擎文件.md",
-    "Output/在 Gradle 中声明依赖.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/nvim-tree Neovim 文件管理器插件.md",
     "Output/Neovim Bufferline.md",
     "Output/Neovim 自定义快捷键.md",
-    "Output/给 Neovim 安装插件.md",
     "Assets/Gradle 中的生产者与消费者.png",
     "Output/Neovim 的配置文件.md",
-    "Output/Docker 常用部署命令.md",
     "Templates/永久笔记模板.md",
     "Output/G1 设计目标与基本概念.md",
-    "Output/Java 类加载器.md",
     "View/正在进行.base",
     "正在进行.canvas",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
@@ -273,22 +284,11 @@
     "Assets/Banner/pexels-erike-fusiki-58866350-8150302.jpg",
     "Assets/Banner/pexels-erike-fusiki-58866350-8150291.jpg",
     "Assets/Banner/pexels-bi-ravencrow-2154273033-35367845.jpg",
-    "Output/使用 v-on 处理 DOM 事件.md",
-    "Output/快速记录.md",
-    "Output/颜色模型 —— Hex, RGB 与 HSL.md",
     "View/Inbox.base",
-    "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
-    "Excalidraw/Drawing 2026-01-18 15.08.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-18 15.08.15.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-16 17.42.03.excalidraw.md",
-    "Output/v-bind 对 class 属性的增强.md",
-    "Excalidraw/Draw Place of Dubbo 线程模型.md",
-    "Daily Notes/2025-12-23.md",
     "MoC",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
     "Assets/Git Architecture.gif",
-    "Assets/Git 命令图例.png",
     "Output/LocalDate/Time",
     "Output/LocalDate",
     "Assets/fonts/纳米民文仿宋.ttf",
