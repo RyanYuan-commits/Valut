@@ -249,6 +249,7 @@
   },
   "active": "5381b2af759fbe8c",
   "lastOpenFiles": [
+    "Assets/TRX_INDO_INSERT_REC.png",
     "Output/MySQL 中的 undo log.md",
     "🧠 知识工作台.md",
     "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
@@ -275,7 +276,6 @@
     "Assets/Dubbo 线程模型.png",
     "Input/InnoDB 存储引擎文件.md",
     "Output/打印 Gradle 项目的依赖.md",
-    "Output/nvim-tree Neovim 文件管理器插件.md",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
     "正在进行.canvas",
@@ -289,7 +289,6 @@
     "MoC",
     "View/永久笔记目录.base",
     "Assets/Vue 指令完整结构.png",
-    "Assets/Git Architecture.gif",
     "Output/LocalDate/Time",
     "Output/LocalDate",
     "Assets/fonts/纳米民文仿宋.ttf",
