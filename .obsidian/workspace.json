@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "f60e61608ad2df17",
+            "id": "b94affdfc6da957e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
+                "file": "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UNIX 中创建新进程的机制 - fork 与 exec"
+              "title": "MySql 技术内幕-InnoDB 存储引擎"
+            }
+          },
+          {
+            "id": "df699a8123171389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Input/InnoDB 存储引擎.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "InnoDB 存储引擎"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
+                "file": "Input/InnoDB 存储引擎.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UNIX 中创建新进程的机制 - fork 与 exec 的大纲"
+              "title": "InnoDB 存储引擎 的大纲"
             }
           },
           {
@@ -246,10 +270,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f60e61608ad2df17",
+  "active": "df699a8123171389",
   "lastOpenFiles": [
-    "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
+    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+    "Input/MySQL 体系结构和存储引擎.md",
     "🧠 知识工作台.md",
+    "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Output/计算机内核的任务.md",
     "Output/Dubbo Transport 层核心实现.md",
@@ -268,8 +294,6 @@
     "Input/Dubbo SPI 机制.md",
     "Assets/Dubbo 线程模型.png",
     "Input/InnoDB 存储引擎.md",
-    "Input/MySQL 体系结构和存储引擎.md",
-    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
     "Input/InnoDB 存储引擎文件.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/nvim-tree Neovim 文件管理器插件.md",
