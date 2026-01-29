@@ -5,8 +5,6 @@ aliases:
   - Write-ahead logging
   - 预写式日志
 banner: Assets/Banner/pexels-bertellifotografia-1144690.jpg
-banner-x: 55
-banner-y: 66
 ---
 # 🌐 核心观点
 
@@ -63,7 +61,7 @@ Redo Log 的空间是有限的, 比如 MySQL 默认的 Redo Log 文件大小为 
 
 ### 4.1	读取 Checkpoint LSN
 
-恢复的第一步并非从头扫描所有日志, 而是直接读取 Redo Log 文件中的 Checkpoint LSN. Checkpoint 记录了所有脏页已安全落盘的临界点. LSN 小于 Checkpoint 的修改必然已经在磁盘数据页上, 无需重做. 因此, 恢复扫描仅从 Checkpoint LSN 开始, 大幅缩短恢复时间.
+直接读取 Redo Log 文件中的 Checkpoint LSN. Checkpoint 记录了所有脏页已安全落盘的临界点. LSN 小于 Checkpoint 的修改必然已经在磁盘数据页上, 无需重做. 因此, 恢复扫描仅从 Checkpoint LSN 开始, 大幅缩短恢复时间.
 
 ### 4.2	扫描与重做
 

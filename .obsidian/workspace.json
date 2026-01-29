@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input/InnoDB 存储引擎.md",
+                "file": "Output/关系数据库的 AD 保障 —— 预写式日志.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "InnoDB 存储引擎"
+              "title": "关系数据库的 AD 保障 —— 预写式日志"
+            }
+          },
+          {
+            "id": "f156e9de0f20ade5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ],
@@ -102,13 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Input/InnoDB 存储引擎.md",
+                "file": "Output/关系数据库的 AD 保障 —— 预写式日志.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "InnoDB 存储引擎 的大纲"
+              "title": "关系数据库的 AD 保障 —— 预写式日志 的大纲"
             }
           },
           {
@@ -117,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CR",
+                "query": "WAL",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +148,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1efbb85094cf2785",
@@ -272,9 +283,10 @@
   },
   "active": "df699a8123171389",
   "lastOpenFiles": [
+    "Input/InnoDB 存储引擎.md",
     "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
-    "Input/MySQL 体系结构和存储引擎.md",
     "🧠 知识工作台.md",
+    "Input/MySQL 体系结构和存储引擎.md",
     "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Output/计算机内核的任务.md",
@@ -293,7 +305,6 @@
     "MoC/Java Time API 内容目录索引.md",
     "Input/Dubbo SPI 机制.md",
     "Assets/Dubbo 线程模型.png",
-    "Input/InnoDB 存储引擎.md",
     "Input/InnoDB 存储引擎文件.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/nvim-tree Neovim 文件管理器插件.md",
