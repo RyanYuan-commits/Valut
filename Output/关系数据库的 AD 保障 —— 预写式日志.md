@@ -59,31 +59,16 @@ Redo Log 的空间是有限的, 比如 MySQL 默认的 Redo Log 文件大小为 
 
 ## 4	WAL 断电恢复原理
 
-### 4.1	读取 Checkpoint LSN
+**读取 Checkpoint LSN**: 读取 Redo Log 文件中的 Checkpoint LSN, LSN 小于 Checkpoint 的修改必然已经在磁盘数据页上, 无需重做; 
 
-直接读取 Redo Log 文件中的 Checkpoint LSN. Checkpoint 记录了所有脏页已安全落盘的临界点. LSN 小于 Checkpoint 的修改必然已经在磁盘数据页上, 无需重做. 因此, 恢复扫描仅从 Checkpoint LSN 开始, 大幅缩短恢复时间.
+**日志扫描**: 从 Checkpoint LSN 开始向后扫描 Redo Log, 将日志对应的数据页从磁盘读入内存, 检查该数据页头部的 Page LSN, 如果 Redo LSN > Page LSN 说明日志记录先于数据页记录; 需要执行 Redo;
 
-### 4.2	扫描与重做
+**处理未提交的事务**: Redo Log 是物理日志, 重做阶段会不加区分地恢复所有已记录的修改, 包括那些执行了一半但未提交的事务. 为了满足原子性, 恢复流程随后会利用 Undo Log 进行清理; 在事务系统中查找那些在 Redo Log 中有记录但最终无 COMMIT 标记的事务, 利用 Undo Log 中记录的修改前数据, 将上述未提交事务所做的修改逆向撤销, 确保数据库状态不包含脏数据.
 
-从 Checkpoint LSN 开始向后扫描 Redo Log, 针对每一条日志记录(如 LSN 2000), 执行“体检”逻辑:
-
-- 读取磁盘页: 将日志对应的数据页从磁盘读入内存.
-	
-- 获取 Page LSN: 检查该数据页头部的 Page LSN(即该页最后一次物理更新时的 LSN).
-
-若 Redo LSN > Page LSN: 说明日志记录的修改发生在该页最近一次刷盘之后. 这意味着断电导致该修改丢失, 必须执行 Redo(重做). 若 Redo LSN <= Page LSN: 说明该页在断电前已经包含了该次修改(甚至更新的修改), 数据已持久化. 直接 跳过, 避免重复操作.
-
-### 4.3	事务回滚:处理未提交的事务
-
-Redo Log 是物理日志, 重做阶段会不加区分地恢复所有已记录的修改, 包括那些执行了一半但未提交的事务. 为了满足原子性, 恢复流程随后会利用 Undo Log 进行清理;
-
-在事务系统中查找那些在 Redo Log 中有记录但最终无 COMMIT 标记的事务, 利用 Undo Log 中记录的修改前数据, 将上述未提交事务所做的修改逆向撤销, 确保数据库状态不包含脏数据.
-
-### 4.4	异常页处理:Doublewrite Buffer (双写缓冲)
-
-如果在重做阶段发现磁盘上的数据页本身已损坏(如写了一半导致校验失败), Redo Log 无法基于坏页进行恢复. 此时, InnoDB 会利用 Doublewrite Buffer 中存储的该页副本进行修复, 修复后再继续应用 Redo Log.
+**处理异常页**: 如果在重做阶段发现磁盘上的数据页本身已损坏(如写了一半导致校验失败), Redo Log 无法基于坏页进行恢复. 此时, InnoDB 会利用 Doublewrite Buffer 中存储的该页副本进行修复, 修复后再继续应用 Redo Log.
 
 ---
 
 # 📚 参考内容
 
+[Write-ahead logging - wiki](https://en.wikipedia.org/wiki/Write-ahead_logging)
