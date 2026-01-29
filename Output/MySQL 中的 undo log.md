@@ -44,13 +44,7 @@ Insert 类型的 undo log 在代码中对应 `TRS_UNDO_INSERT_REC`, 这种 undo 
 
 ### 3.2	Update 类型的 undo record
 
-MVCC 需要保留 Record 的多个历史版本, 当某个 Record 的历史版本还在被使用时, 这个 Record 是不能被**真正的删除的**.
-
-当需要删除时, 其实只是修改对应 Record 的 Delete Mark 标记. 
-
-对应的, 如果这时这个 Record 又重新插入, 其实也只是修改一下 Delete Mark 标记, 也就是将这两种情况的 delete 和 insert 转变成了 update 操作. 
-
-再加上常规的 Record 修改, 因此这里的 Update Undo Record 会对应三种 Type: TRX_UNDO_UPD_EXIST_REC, TRX_UNDO_DEL_MARK_REC 和 TRX_UNDO_UPD_DEL_REC. 他们的存储内容也类似:
+MVCC 需要保留 Record 的多个历史版本, 当某个 Record 的历史版本还在被使用时, 这个 Record 是不能被**真正的删除的**.当需要删除时, 其实只是修改对应 Record 的 Delete Mark 标记. 对应的, 如果这时这个 Record 又重新插入, 其实也只是修改一下 Delete Mark 标记, 也就是将这两种情况的 delete 和 insert 转变成了 update 操作. 再加上常规的 Record 修改, 因此这里的 Update Undo Record 会对应三种 Type: TRX_UNDO_UPD_EXIST_REC, TRX_UNDO_DEL_MARK_REC 和 TRX_UNDO_UPD_DEL_REC. 他们的存储内容也类似:
 
 ---
 
