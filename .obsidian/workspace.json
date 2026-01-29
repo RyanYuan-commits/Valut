@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "f60e61608ad2df17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UNIX 中创建新进程的机制 - fork 与 exec"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "UNIX 中创建新进程的机制 - fork 与 exec 的大纲"
             }
           },
           {
@@ -221,8 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eeb88a452cb38899",
+  "active": "f60e61608ad2df17",
   "lastOpenFiles": [
+    "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
+    "🧠 知识工作台.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Output/计算机内核的任务.md",
     "Output/Dubbo Transport 层核心实现.md",
@@ -238,7 +265,6 @@
     "Output/Docker 常用部署命令.md",
     "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
     "MoC/Java Time API 内容目录索引.md",
-    "🧠 知识工作台.md",
     "Input/Dubbo SPI 机制.md",
     "Assets/Dubbo 线程模型.png",
     "Input/InnoDB 存储引擎.md",
@@ -250,7 +276,6 @@
     "Output/Neovim Bufferline.md",
     "Output/Neovim 自定义快捷键.md",
     "Assets/Gradle 中的生产者与消费者.png",
-    "Output/Neovim 的配置文件.md",
     "View/正在进行.base",
     "正在进行.canvas",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
