@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "b94affdfc6da957e",
+            "id": "5381b2af759fbe8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+                "file": "Output/MySQL 中的 undo log.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,45 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MySql 技术内幕-InnoDB 存储引擎"
-            }
-          },
-          {
-            "id": "df699a8123171389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/关系数据库的 AD 保障 —— 预写式日志.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "关系数据库的 AD 保障 —— 预写式日志"
-            }
-          },
-          {
-            "id": "f156e9de0f20ade5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "MySQL 中的 undo log"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/关系数据库的 AD 保障 —— 预写式日志.md",
+                "file": "Output/MySQL 中的 undo log.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关系数据库的 AD 保障 —— 预写式日志 的大纲"
+              "title": "MySQL 中的 undo log 的大纲"
             }
           },
           {
@@ -281,11 +247,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df699a8123171389",
+  "active": "5381b2af759fbe8c",
   "lastOpenFiles": [
-    "Input/InnoDB 存储引擎.md",
-    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+    "Output/MySQL 中的 undo log.md",
     "🧠 知识工作台.md",
+    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
+    "Output/关系数据库的 AD 保障 —— 预写式日志.md",
+    "Input/InnoDB 存储引擎.md",
     "Input/MySQL 体系结构和存储引擎.md",
     "Output/UNIX 中创建新进程的机制 - fork 与 exec.md",
     "Projects/Dubbo 源码解读与实战.md",
@@ -308,8 +276,6 @@
     "Input/InnoDB 存储引擎文件.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/nvim-tree Neovim 文件管理器插件.md",
-    "Output/Neovim Bufferline.md",
-    "Output/Neovim 自定义快捷键.md",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
     "正在进行.canvas",
