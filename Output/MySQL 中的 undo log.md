@@ -44,11 +44,31 @@ Insert 类型的 undo log 在代码中对应 `TRS_UNDO_INSERT_REC`, 这种 undo 
 
 ### 3.2	Update 类型的 undo record
 
-MVCC 需要保留 Record 的多个历史版本, 当某个 Record 的历史版本还在被使用时(即 Record 的事务 id 大于当前活跃的最小事务 Id 时), 这个 Record 是不能被**真正的删除的**, 针对不同的操作方式, MySQL 将 Update 类型的 undo record 划分为:
+MVCC 需要保留 Record 的多个历史版本, 当某个 Record 的历史版本还在被使用时(即 Record 的事务 id 大于当前活跃的最小事务 Id 时), 这个 Record 是不能被**真正的删除的**, 针对不同的操作方式, MySQL 将 Update 类型的 undo record 划分为以下三种, 它们存储的内容是类似的:
 
-- `TRX_UNDO_UPD_EXIST_REC`
-- `TRX_UNDO_DEL_MARK_REC`
-- `TRX_UNDO_UPD_DEL_REC`
+- `TRX_UNDO_UPD_EXIST_REC`: 更新已存在的记录;
+	
+- `TRX_UNDO_DEL_MARK_REC`: 删除标记记录;
+	
+- `TRX_UNDO_UPD_DEL_REC`: 更新一个已经删除的记录.
+
+![[TRX_UNDO_UPD_EXIST_REC.png|700]]
+
+除了跟 Insert Undo Record 相同的头尾信息, 以及主键 Key Fileds 之外, Update Undo Record 增加了:
+
+- Transaction Id 记录了产生这个历史版本事务 Id, 用作后续 MVCC 中的版本可见性判断;
+	
+- Rollptr 指向的是该记录的上一个版本的位置, 包括 space number, page number 和 page 内的 offset. 沿着 Rollptr 可以找到一个 Record 的所有历史版本.
+	
+- Update Fields 中记录的就是当前这个 Record 版本相对于其之后的一次修改的 Delta 信息, 包括所有被修改的 Field 的编号, 长度和历史值.
+
+## 4	undo record 的组织方式
+
+### 4.1	逻辑组织方式 - undo log
+
+每个事务会修改一组 Record, 对应的会产生一组 undo record, 这些 undo record 首尾相连就组成了这个事务的 undo log, 除了一个个 undo record 以外, 还有一个 Undo Record Header 来记录一些必要的控制信息, 一个 undo log 的结构如下:
+
+![[Undo Log.png|800]]
 
 
 
