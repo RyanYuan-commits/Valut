@@ -15,7 +15,7 @@ Undo Record, InnoDB
 Insert 类型的 undo log 在代码中对应 `TRS_UNDO_INSERT_REC`, 这种 undo log **不需要**支持 MVCC, 所以只需要记录对应 Record 的**主键**, 供回滚时查找 Record 的位置即可.
 
 ![[TRX_INDO_INSERT_REC.png|800]]
-其中 Undo Number 是 Undo 的一个递增编号, Table ID 用来表示是哪张表的修改. 下面一组 Key Fields 的长度不定, 因为对应表的主键可能由多个 field 组成, Undo Record 记录 Record 完整的主键信息, 回滚的时候可以通过这个信息在索引中定位到对应的 Record. 在 Undo Record 的头尾还各留了两个字节记录其前序和后继 Undo Record 的位置.
+其中 Undo Number 是 Undo 的一个**递增编号**, Table ID 用来表示是哪张表的修改. 下面一组 Key Fields 的长度不定, 因为对应表的主键可能由多个 field 组成, Undo Record 记录 Record 完整的主键信息, 回滚的时候可以通过这个信息在索引中定位到对应的 Record. 在 Undo Record 的头尾还各留了两个字节记录其前序和后继 Undo Record 的位置.
 
 ## 2	Update 类型的 undo record
 
