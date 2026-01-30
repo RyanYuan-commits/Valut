@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "MySQL 中的 undo log"
             }
+          },
+          {
+            "id": "77eaad7ab00ba5e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/InnoDB Undo Record 存储的内容.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "InnoDB Undo Record 存储的内容"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/MySQL 中的 undo log.md",
+                "file": "Output/InnoDB Undo Record 存储的内容.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MySQL 中的 undo log 的大纲"
+              "title": "InnoDB Undo Record 存储的内容 的大纲"
             }
           },
           {
@@ -247,13 +271,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5381b2af759fbe8c",
+  "active": "77eaad7ab00ba5e2",
   "lastOpenFiles": [
-    "Assets/Undo Log.png",
     "Output/MySQL 中的 undo log.md",
+    "🧠 知识工作台.md",
+    "Output/InnoDB Undo Record 存储的内容.md",
+    "Assets/Undo Log.png",
     "Assets/TRX_UNDO_UPD_EXIST_REC.png",
     "Assets/TRX_INDO_INSERT_REC.png",
-    "🧠 知识工作台.md",
     "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
     "Output/关系数据库的 AD 保障 —— 预写式日志.md",
     "Input/InnoDB 存储引擎.md",
