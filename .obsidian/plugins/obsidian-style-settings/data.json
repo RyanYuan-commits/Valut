@@ -7,5 +7,6 @@
   "minimal-style@@h3-variant": "normal",
   "minimal-style@@h3-l": false,
   "minimal-style@@h2-l": true,
-  "minimal-style@@h4-size": "1.0em"
+  "minimal-style@@h4-size": "1.0em",
+  "minimal-style@@h1-size": "1.2em"
 }

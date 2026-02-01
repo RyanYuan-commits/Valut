@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "数据库的隔离级别与并发控制"
             }
+          },
+          {
+            "id": "29eeab944d6cbe41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/InnoDB 多版本并发控制原理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "InnoDB 多版本并发控制原理"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/数据库的隔离级别与并发控制.md",
+                "file": "Output/InnoDB 多版本并发控制原理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数据库的隔离级别与并发控制 的大纲"
+              "title": "InnoDB 多版本并发控制原理 的大纲"
             }
           },
           {
@@ -247,10 +271,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c5c9b69f4ad5c15",
+  "active": "29eeab944d6cbe41",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
     "Output/数据库的隔离级别与并发控制.md",
+    "🧠 知识工作台.md",
+    "Output/InnoDB 多版本并发控制原理.md",
     "Output/快速记录.md",
     "Output/MySQL 中的 undo log.md",
     "Output/InnoDB Undo Record 存储的内容.md",
@@ -277,7 +302,6 @@
     "Output/Docker 常用部署命令.md",
     "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
     "MoC/Java Time API 内容目录索引.md",
-    "Input/Dubbo SPI 机制.md",
     "Assets/Dubbo 线程模型.png",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
