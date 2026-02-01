@@ -24,11 +24,3 @@ class button-new-inbox-note
 ````
 `````
 ---
-
-[[InnoDB 存储引擎]]
-
-[[InnoDB 关键特性]]
-
-[[InnoDB 存储引擎文件]]
-
-[[MySQL 重做日志 Redo Log]]
