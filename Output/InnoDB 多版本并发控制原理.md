@@ -34,9 +34,31 @@ ReadView 用于确定在事务执行期间哪些记录对其来说是可见的, 
 
 ![[ReadView 图例.png|1000]]
 
-事务的du'cao'zuo
+事务在执行过程中, 通过 ReadView 中的属性来判断哪些事务在其开始之前就已提交, 这些事务的操作对其是可见的.
 
----
+```cpp
+[[nodiscard]] bool changes_visible(trx_id_t id,   const table_name_t &name) const {  
+  // 检查 ID 是否大于零, 如果否会直接返回异常
+  ut_ad(id > 0);  
 
-# 📚 参考内容
+  // 如果 ID 小于等于 min_trx_id , 直接返回 true
+  if (id < m_up_limit_id || id == m_creator_trx_id) {  
+    return (true);  
+  }  
 
+  // 检查 ID 的准确性
+  check_trx_id_sanity(id, name);  
+
+  // 如果 ID 大于等于 max_trx_id 直接返回 false
+  if (id >= m_low_limit_id) {  
+    return (false);  
+  } else if (m_ids.empty()) {
+  // 如果 ID 在 min_trx_id 到 max_trx_id 之间
+    return (true);  
+  }  
+  // 在 m_jds 中搜索 ID, 如果不存在, 返回 true
+  const ids_t::value_type *p = m_ids.data();  
+  
+  return (!std::binary_search(p, p + m_ids.size(), id));  
+}
+```

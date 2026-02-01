@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "7c5c9b69f4ad5c15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/数据库的隔离级别与并发控制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "数据库的隔离级别与并发控制"
-            }
-          },
-          {
-            "id": "29eeab944d6cbe41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/InnoDB 多版本并发控制原理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB 多版本并发控制原理"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/InnoDB 多版本并发控制原理.md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "InnoDB 多版本并发控制原理 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -271,13 +222,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29eeab944d6cbe41",
+  "active": "eeb88a452cb38899",
   "lastOpenFiles": [
-    "Assets/ReadView 图例.png",
+    "Output/数据库的隔离级别与并发控制.md",
     "Output/InnoDB 多版本并发控制原理.md",
+    "Assets/ReadView 图例.png",
     "Excalidraw/InnoDB.md",
     "未命名.canvas",
-    "Output/数据库的隔离级别与并发控制.md",
     "🧠 知识工作台.md",
     "Output/快速记录.md",
     "Output/MySQL 中的 undo log.md",
