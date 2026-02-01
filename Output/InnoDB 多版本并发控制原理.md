@@ -20,7 +20,21 @@ InnoDB 使用 Lock + MVCC 实现不同的隔离级别, 对与**写事务**, 会�
 
 ## 2	关于 ReadView
 
-ReadView 用于确定在事务执行期间哪些记录对其来说是可见的, InnoDB 默认支持的不可重复读的隔离级别,  
+ReadView 用于确定在事务执行期间哪些记录对其来说是可见的, InnoDB 默认的隔离级别 Read Repeatable, 会在事务的第一次读操作开始时生成一个 ReadView, 而对于加锁读的语句, 则不会生成 Read View, 而是先在尝试在表格上加一个意向锁. Read View 有四个重要的字段:
+
+- `m_ids`:  创建时, 当前数据库中活跃事务的 ids, 
+	
+- `min_trx_id`: 创建时, 所有活跃事务中最早开启的事务 id, 
+	  
+- `max_trx_id` : 创建时下一个事务的 id 值, 即当前全局事务中最大的事务 id + 1；
+	
+- `creator_trx_id` : 创建该 Read View 的事务的事务 id. 
+
+将这些属性画在同一条 X 轴上大致为:
+
+![[ReadView 图例.png|1000]]
+
+事务的du'cao'zuo
 
 ---
 
