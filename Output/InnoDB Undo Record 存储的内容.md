@@ -29,15 +29,16 @@ MVCC 需要保留 Record 的多个历史版本, 当某个 Record 的历史版本
 
 ![[TRX_UNDO_UPD_EXIST_REC.png|700]]
 
-除了跟 Insert Undo Record 相同的头尾信息, 以及主键 Key Fileds 之外, Update Undo Record 增加了:
+除了跟 Insert Undo Record 相同的头尾信息, 以及主键之外, Update Undo Record 增加了:
 
-- Transaction Id 记录了产生这个历史版本事务 Id, 用作后续 MVCC 中的版本可见性判断;
+- **Transaction Id**: 记录了产生这个历史版本事务 Id, 用作后续 MVCC 中的版本可见性判断;
 	
-- Rollptr 指向的是该记录的上一个版本的位置, 包括 space number, page number 和 page 内的 offset. 沿着 Rollptr 可以找到一个 Record 的所有历史版本.
+- **Rollptr**: 指向该记录的上一个版本的位置, 包括 space number, page number 和 page 内的 offset. 沿着 Rollptr 可以找到一个 Record 的所有历史版本.
 	
-- Update Fields 中记录的就是当前这个 Record 版本相对于其之后的一次修改的 Delta 信息, 包括所有被修改的 Field 的编号, 长度和历史值.
+- **Update Fields**: 记录当前这个 Record 版本相对于**其之后的一次**修改的 Delta 信息, 包括所有被修改的 Field 的编号, 长度和历史值.
 
 ---
 
 # 📚 参考内容
 
+[MySQL · 引擎特性 · 庖丁解 InnoDB 之 UNDO LOG](http://mysql.taobao.org/monthly/2021/10/01/)
