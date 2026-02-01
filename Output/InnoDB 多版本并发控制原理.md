@@ -18,7 +18,7 @@ InnoDB 使用 Lock + MVCC 实现不同的隔离级别, 对与**写事务**, 会�
 
 与之对应的, InnoDB 还支持加锁读(Lock Read)的方式, 当 Select 语句中使用了如 `Select. . . . for Update/Share` 时, 这时查询不再通过 MVCC 的方式, 而是像写操作一样, 先对需要访问的记录加锁, 之后再读取记录内容, 这种方式会跟写请求相互阻塞, 从而读到的也一定是该记录当前最新的值, 因此也被称为当前读.
 
-## 2	关于 ReadView
+## 2	ReadView
 
 ReadView 用于确定在事务执行期间哪些记录对其来说是可见的, InnoDB 默认的隔离级别 Read Repeatable, 会在事务的第一次读操作开始时生成一个 ReadView, 而对于加锁读的语句, 则不会生成 Read View, 而是先在尝试在表格上加一个意向锁. Read View 有四个重要的字段:
 
@@ -62,3 +62,11 @@ ReadView 用于确定在事务执行期间哪些记录对其来说是可见的, 
   return (!std::binary_search(p, p + m_ids.size(), id));  
 }
 ```
+
+## 3	通过 undo log 寻找历史版本
+
+当读操作发现当前记录自己不可见后, 就需要通过 Undo Log 来寻找历史版本, 通过 Undo Record 记录的 trx_id 结合 ReadView 做可见性判断, 如果不可见就沿着 Record 或 Undo Record 中记录的 rollptr 一路找更老的历史版本. 
+
+![[使用 undo log 查找可见版本.png|1000]]
+
+Undo Log 作为 Logical Log, 记录的其实是前后两个版本的 diff 信息, 而读操作最终是要获得完整的 Record 内容的, 也就是说这个沿着 rollptr 指针一路查找的过程中需要用 Undo Record 中的 diff 内容依次构造出对应的历史版本.
