@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "5381b2af759fbe8c",
+            "id": "7c5c9b69f4ad5c15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/MySQL 中的 undo log.md",
+                "file": "Output/数据库的隔离级别与并发控制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MySQL 中的 undo log"
-            }
-          },
-          {
-            "id": "77eaad7ab00ba5e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/InnoDB Undo Record 存储的内容.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB Undo Record 存储的内容"
+              "title": "数据库的隔离级别与并发控制"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/InnoDB Undo Record 存储的内容.md",
+                "file": "Output/数据库的隔离级别与并发控制.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "InnoDB Undo Record 存储的内容 的大纲"
+              "title": "数据库的隔离级别与并发控制 的大纲"
             }
           },
           {
@@ -271,11 +247,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77eaad7ab00ba5e2",
+  "active": "7c5c9b69f4ad5c15",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
+    "Output/数据库的隔离级别与并发控制.md",
+    "Output/快速记录.md",
     "Output/MySQL 中的 undo log.md",
     "Output/InnoDB Undo Record 存储的内容.md",
-    "🧠 知识工作台.md",
     "Assets/Undo Log.png",
     "Assets/TRX_UNDO_UPD_EXIST_REC.png",
     "Assets/TRX_INDO_INSERT_REC.png",
@@ -301,8 +279,6 @@
     "MoC/Java Time API 内容目录索引.md",
     "Input/Dubbo SPI 机制.md",
     "Assets/Dubbo 线程模型.png",
-    "Input/InnoDB 存储引擎文件.md",
-    "Output/打印 Gradle 项目的依赖.md",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
     "正在进行.canvas",
