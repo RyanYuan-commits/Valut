@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "870addc3f402fb32",
+        "id": "9806ed7c373399de",
         "type": "tabs",
         "children": [
           {
-            "id": "eeb88a452cb38899",
+            "id": "2ae51b79b6dd5dda",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "0d000899c378eaee",
+            "id": "a04467199a5ab672",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Java 类加载器.md",
+                "file": "Output/JDK 动态代理机制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Java 类加载器"
+              "title": "JDK 动态代理机制"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Java 类加载器.md",
+                "file": "Output/JDK 动态代理机制.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java 类加载器 的大纲"
+              "title": "JDK 动态代理机制 的大纲"
             }
           },
           {
@@ -246,11 +246,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d000899c378eaee",
+  "active": "a04467199a5ab672",
   "lastOpenFiles": [
-    "Output/打破 Java 的双亲委派机制.md",
-    "Output/Java 类加载器.md",
+    "Output/静态类型语言与动态类型语言.md",
+    "Output/JDK 动态代理机制.md",
     "🧠 知识工作台.md",
+    "Output/JDK8 及之前的类加载器分类.md",
+    "Output/打破 Java 的双亲委派机制.md",
     "Output/Java 类加载器的双亲委派机制.md",
     "Output/G1 设计目标与基本概念.md",
     "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
@@ -272,8 +274,6 @@
     "Output/Prompt 收集 - 概念三问.md",
     "Output/Dubbo Adaptive 机制.md",
     "Output/Prompt 收集 - 结构建构.md",
-    "Output/Prompt 收集 - 思想精炼师.md",
-    "Output/Dubbo 线程模型.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
