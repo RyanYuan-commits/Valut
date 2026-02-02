@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,13 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo 的自适应拓展机制.md",
+                "file": "Input/Dubbo Adaptive 机制.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 的自适应拓展机制 的大纲"
+              "title": "Dubbo Adaptive 机制 的大纲"
             }
           },
           {
@@ -222,12 +222,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/Dubbo 的自适应拓展机制.md",
+                "file": "Input/Dubbo Adaptive 机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Dubbo 的自适应拓展机制 的出链列表"
+              "title": "Dubbo Adaptive 机制 的出链列表"
             }
           },
           {
@@ -294,10 +294,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68099ec83ab04747",
+  "active": "c0ecc013b894e683",
   "lastOpenFiles": [
-    "Output/Dubbo SPI 机制.md",
     "Output/Dubbo 的自适应拓展机制.md",
+    "Output/Dubbo SPI 机制.md",
     "Input/Dubbo Adaptive 机制.md",
     "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
     "🧠 知识工作台.md",
