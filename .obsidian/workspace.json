@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "a04467199a5ab672",
+            "id": "045e214432de6fc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/JDK 动态代理机制.md",
+                "file": "Output/估算 Java 对象大小.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JDK 动态代理机制"
+              "title": "估算 Java 对象大小"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/JDK 动态代理机制.md",
+                "file": "Output/估算 Java 对象大小.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "JDK 动态代理机制 的大纲"
+              "title": "估算 Java 对象大小 的大纲"
             }
           },
           {
@@ -246,11 +246,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a04467199a5ab672",
+  "active": "045e214432de6fc3",
   "lastOpenFiles": [
-    "Output/静态类型语言与动态类型语言.md",
-    "Output/JDK 动态代理机制.md",
     "🧠 知识工作台.md",
+    "Output/JDK 动态代理机制.md",
+    "Output/静态类型语言与动态类型语言.md",
     "Output/JDK8 及之前的类加载器分类.md",
     "Output/打破 Java 的双亲委派机制.md",
     "Output/Java 类加载器的双亲委派机制.md",
