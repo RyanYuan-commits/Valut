@@ -2,13 +2,11 @@
 type: permanent
 banner: Assets/Banner/pexels-yuyang-zhang-1354920916-25785552.jpg
 ---
-# 🌐 关键词
-
-Dubbo, SPI
-
 ---
 
-# 🔖 详细解释
+**关键词**: Dubbo, SPI
+
+---
 
 [[JDK SPI 机制|JDK SPI]] 没有缓存能力且无法通过名称精准匹配实例, 为了弥补它的不足, Dubbo 也定义出了一套自己的 SPI 机制, 能实现 O(1) 时间复杂度获取实例对象, 并且缓存实例, 做到按需加载.
 
@@ -51,9 +49,3 @@ System.out.println(customSpi.getDefaultPort()); // Output: 8080
 IDemoSpi customSpi1 = extensionLoader.getExtension("customSpi");  
 System.out.println(customSpi == customSpi1); // Output: true
 ```
-
-
----
-
-# 📚 参考内容
-
