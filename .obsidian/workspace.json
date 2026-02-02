@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "68099ec83ab04747",
+            "id": "62fe47273b95269f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,33 +80,9 @@
               "icon": "lucide-file",
               "title": "Dubbo 的自适应拓展机制"
             }
-          },
-          {
-            "id": "91c8d5c1fa8347eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo SPI 机制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo SPI 机制"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Input/Dubbo Adaptive 机制.md",
+                "file": "Output/Dubbo 的自适应拓展机制.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo Adaptive 机制 的大纲"
+              "title": "Dubbo 的自适应拓展机制 的大纲"
             }
           },
           {
@@ -222,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Input/Dubbo Adaptive 机制.md",
+                "file": "Output/Dubbo 的自适应拓展机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Dubbo Adaptive 机制 的出链列表"
+              "title": "Dubbo 的自适应拓展机制 的出链列表"
             }
           },
           {
@@ -294,11 +270,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0ecc013b894e683",
+  "active": "62fe47273b95269f",
   "lastOpenFiles": [
+    "Input/Dubbo Adaptive 机制.md",
+    "Output/Dubbo Transport 层核心实现.md",
     "Output/Dubbo 的自适应拓展机制.md",
     "Output/Dubbo SPI 机制.md",
-    "Input/Dubbo Adaptive 机制.md",
     "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
     "🧠 知识工作台.md",
     "Templates/永久笔记模板.md",
@@ -323,7 +300,6 @@
     "Output/InnoDB 中 Undo Record 的组织方式.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
-    "Output/InnoDB 多版本并发控制原理.md",
     "Assets/使用 undo log 查找可见版本.png",
     "Assets/ReadView 图例.png",
     "未命名.canvas",

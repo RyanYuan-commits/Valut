@@ -4,7 +4,7 @@ banner: Assets/Banner/pexels-photo-9160637.jpeg
 ---
 ---
 
-**关键词**: Dubbo, 自适应, 拓展 
+**关键词**: Dubbo, 自适应拓展, Adaptive 
 
 ---
 
@@ -34,7 +34,7 @@ public @interface Adaptive {
 }
 ```
 
-`@Adaptive` 为拓展加载器提供拓展点实例注入的信息, 可以使用在类和方法上, 如果使用在类上, 说明该类是一个手工实现的适配器类, 标记在方法上则会引导 Dubbo 为该方法自动生成适配代码, 其接收参数 `String[] { "key1", "key2" }`, 如果 URL 中包含 key1, 则使用它的 value 作为拓展点名称, 如果 key1 不存在或值为空, 则使用 key2 作为拓展点名称, 如果 key1, key2 均不存在, 则会使用默认的拓展点, 比如下面的 `Transporter` 接口, 
+`@Adaptive` 为拓展加载器提供拓展点实例注入的信息, 可以使用在类和方法上, 如果使用在类上, 说明该类是一个手工实现的适配器类, 标记在方法上则会引导 Dubbo 为该方法自动生成适配代码, 其接收一个 `String[]`.
 
 ```java
 @SPI(value = "netty", scope = ExtensionScope.FRAMEWORK)
