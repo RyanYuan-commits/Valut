@@ -22,7 +22,7 @@ dubbo-rpc
 
 与 dubbo-remoting 模块类型, 其中 dubbo-rpc-api 是对具体协议, 服务暴露, 服务引用, 代理等抽象, 是整个 Protocol 的核心. 剩余的模块是 Dubbo 对具体支持协议的实现.
 
-```sh
+```
 .
 |-- aot
 |-- cluster
@@ -513,7 +513,7 @@ RpcInvocation 实现了 Invocation 接口, 核心字段如下, 通过读写这�
 - methodName (String类型): 调用的目标方法名称. 
 	
 - serviceName (String类型): 调用的目标服务名称, 示例中就是org.apache.dubbo.demo.DemoService. 
-
+	
 - parameterTypes (Class 数组类型): 记录了目标方法的全部参数类型. 
 	
 - parameterTypesDesc (String类型): 参数列表签名. 

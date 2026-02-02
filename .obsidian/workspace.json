@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "d8a142587333618a",
+            "id": "0d3415f1a2f29305",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Dubbo 源码解读与实战.md",
+                "file": "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo 源码解读与实战"
+              "title": "Dubbo 核心接口介绍, RPC 层骨架梳理"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Dubbo 源码解读与实战.md",
+                "file": "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 源码解读与实战 的大纲"
+              "title": "Dubbo 核心接口介绍, RPC 层骨架梳理 的大纲"
             }
           },
           {
@@ -247,16 +247,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8a142587333618a",
+  "active": "0d3415f1a2f29305",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
+    "Projects/Dubbo 源码解读与实战.md",
     "Output/Java ArrayList 扩容机制.md",
     "Output/Java ArrayList 构造方法分析.md",
     "Input/Json 序列化库 Jackson.md",
     "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
     "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
     "Input/MySQL 重做日志 Redo Log.md",
-    "Projects/Dubbo 源码解读与实战.md",
     "Input/InnoDB 存储引擎文件.md",
     "Input/InnoDB 关键特性.md",
     "Input/InnoDB 存储引擎.md",
@@ -282,7 +283,6 @@
     "Output/Dubbo Transport 层核心实现.md",
     "Output/Dubbo Remoting 层核心类与接口.md",
     "Output/在 Gradle 中声明依赖.md",
-    "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
     "Assets/Dubbo 线程模型.png",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
