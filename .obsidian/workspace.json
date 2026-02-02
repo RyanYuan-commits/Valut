@@ -58,13 +58,51 @@
             }
           },
           {
-            "id": "815eff26a719c229",
+            "id": "2ccee148fd0df45d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Output/Prompt 收集 - 概念三问.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Prompt 收集 - 概念三问"
+            }
+          },
+          {
+            "id": "82bdb227c19b6fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo SPI 机制与 Adaptive 机制的关系"
             }
           }
         ],
@@ -88,12 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Output/Prompt 收集 - 概念三问.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Prompt 收集 - 概念三问 的大纲"
             }
           },
           {
@@ -123,8 +162,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "1efbb85094cf2785",
@@ -148,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 576.0124969482422,
-    "collapsed": true
+    "width": 576.0124969482422
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -184,11 +221,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Output/Prompt 收集 - 概念三问.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Prompt 收集 - 概念三问 的出链列表"
             }
           },
           {
@@ -255,15 +293,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "815eff26a719c229",
+  "active": "2ccee148fd0df45d",
   "lastOpenFiles": [
+    "Templates/永久笔记模板.md",
+    "Output/Dubbo Adaptive 机制.md",
+    "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
+    "Output/Prompt 收集 - 概念三问.md",
     "Input/Dubbo Adaptive 机制.md",
+    "Output/Prompt 收集 - 结构建构.md",
+    "Output/Prompt 收集 - 思想精炼师.md",
     "🧠 知识工作台.md",
     "Output/Dubbo 线程模型.md",
     "Output/Dubbo SPI 机制.md",
     "Output/JDK SPI 机制.md",
     "Input/Dubbo SPI 机制.md",
-    "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
     "Output/Java ArrayList 扩容机制.md",
@@ -282,15 +325,10 @@
     "Assets/使用 undo log 查找可见版本.png",
     "Output/数据库的隔离级别与并发控制.md",
     "Assets/ReadView 图例.png",
-    "Excalidraw/InnoDB.md",
     "未命名.canvas",
-    "Output/快速记录.md",
-    "Output/MySQL 中的 undo log.md",
-    "Output/InnoDB Undo Record 存储的内容.md",
     "Assets/Undo Log.png",
     "Assets/TRX_UNDO_UPD_EXIST_REC.png",
     "Assets/TRX_INDO_INSERT_REC.png",
-    "Output/关系数据库的 AD 保障 —— 预写式日志.md",
     "Assets/Dubbo 线程模型.png",
     "Assets/Gradle 中的生产者与消费者.png",
     "View/正在进行.base",
