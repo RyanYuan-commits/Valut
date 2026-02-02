@@ -1,5 +1,4 @@
 ---
-source:
 type: input
 banner: Assets/Banner/pexels-eliannedipp-4666748.jpg
 ---
@@ -16,7 +15,6 @@ banner: Assets/Banner/pexels-eliannedipp-4666748.jpg
 - 查询优化: 对解析出来的结构进行优化, 确定最终的执行方案. 
 	
 - 存储引擎: 调用存储引擎完成最终的查询.
-
 
 ---
 

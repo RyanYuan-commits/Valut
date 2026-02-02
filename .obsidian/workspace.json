@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "8c1a6ba883f0a0de",
+            "id": "86701e64dd5db150",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input/估算 Java 对象的大小.md",
+                "file": "Input/谷歌提示词工程白皮书-阅读笔记.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "估算 Java 对象的大小"
+              "title": "谷歌提示词工程白皮书-阅读笔记"
             }
           },
           {
-            "id": "3cad51efe45164df",
+            "id": "2a9d264159e34b80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/估算 Java 对象大小.md",
+                "file": "Input/MySQL 客户端请求处理流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "估算 Java 对象大小"
+              "title": "MySQL 客户端请求处理流程"
             }
           }
         ],
@@ -102,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/估算 Java 对象大小.md",
+                "file": "Input/MySQL 客户端请求处理流程.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "估算 Java 对象大小 的大纲"
+              "title": "MySQL 客户端请求处理流程 的大纲"
             }
           },
           {
@@ -270,11 +270,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cad51efe45164df",
+  "active": "2a9d264159e34b80",
   "lastOpenFiles": [
-    "Output/估算 Java 对象大小.md",
-    "Input/估算 Java 对象的大小.md",
     "🧠 知识工作台.md",
+    "Input/谷歌提示词工程白皮书-阅读笔记.md",
+    "Input/Java 字节码技术.md",
+    "Input/字符集和比较规则.md",
+    "Input/Dubbo Exchange 层.md",
+    "Input/Dubbo Protocol.md",
+    "Input/估算 Java 对象的大小.md",
+    "Output/估算 Java 对象大小.md",
     "Input/Dubbo Adaptive 机制.md",
     "Output/Dubbo 的自适应拓展机制.md",
     "Output/Dubbo Transport 层核心实现.md",
@@ -293,11 +298,6 @@
     "Output/Java ArrayList 扩容机制.md",
     "Output/Java ArrayList 构造方法分析.md",
     "Input/Json 序列化库 Jackson.md",
-    "Input/JSR133 Java 内存模型与线程规范 阅读笔记.md",
-    "Projects/MySql 技术内幕-InnoDB 存储引擎.md",
-    "Input/MySQL 重做日志 Redo Log.md",
-    "Input/InnoDB 存储引擎文件.md",
-    "Input/InnoDB 关键特性.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
