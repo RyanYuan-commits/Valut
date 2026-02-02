@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c0ecc013b894e683",
+            "id": "8c1a6ba883f0a0de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input/Dubbo Adaptive 机制.md",
+                "file": "Input/估算 Java 对象的大小.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo Adaptive 机制"
-            }
-          },
-          {
-            "id": "62fe47273b95269f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo 的自适应拓展机制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo 的自适应拓展机制"
+              "title": "估算 Java 对象的大小"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo 的自适应拓展机制.md",
+                "file": "Input/估算 Java 对象的大小.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 的自适应拓展机制 的大纲"
+              "title": "估算 Java 对象的大小 的大纲"
             }
           },
           {
@@ -198,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/Dubbo 的自适应拓展机制.md",
+                "file": "Input/Dubbo Adaptive 机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Dubbo 的自适应拓展机制 的出链列表"
+              "title": "Dubbo Adaptive 机制 的出链列表"
             }
           },
           {
@@ -270,14 +246,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62fe47273b95269f",
+  "active": "8c1a6ba883f0a0de",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
     "Input/Dubbo Adaptive 机制.md",
-    "Output/Dubbo Transport 层核心实现.md",
     "Output/Dubbo 的自适应拓展机制.md",
+    "Output/Dubbo Transport 层核心实现.md",
     "Output/Dubbo SPI 机制.md",
     "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
-    "🧠 知识工作台.md",
     "Templates/永久笔记模板.md",
     "Output/Prompt 收集 - 概念三问.md",
     "Output/Dubbo Adaptive 机制.md",
