@@ -26,6 +26,3 @@ dependencies {
     implementation('com.ryan.test:gradle-test:1.0')
 }
 ```
-
-## 3	Gradle 中的依赖类型
-

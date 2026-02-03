@@ -56,33 +56,9 @@
               "icon": "lucide-file",
               "title": "Gradle 的依赖"
             }
-          },
-          {
-            "id": "38b314a9742f77af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Gradle 中的依赖类型.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gradle 中的依赖类型"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Gradle 中的依赖类型.md",
+                "file": "Output/Gradle 的依赖.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gradle 中的依赖类型 的大纲"
+              "title": "Gradle 的依赖 的大纲"
             }
           },
           {
@@ -270,10 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38b314a9742f77af",
+  "active": "045e214432de6fc3",
   "lastOpenFiles": [
-    "Output/Gradle 的依赖.md",
     "Output/Gradle 中的依赖类型.md",
+    "Output/Gradle 的依赖.md",
     "Output/估算 Java 对象大小.md",
     "🧠 知识工作台.md",
     "Output/JDK 动态代理机制.md",
