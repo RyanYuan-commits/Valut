@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Gradle 的依赖.md",
+                "file": "Output/打印 Gradle 项目的依赖.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gradle 的依赖"
+              "title": "打印 Gradle 项目的依赖"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Gradle 的依赖.md",
+                "file": "Output/打印 Gradle 项目的依赖.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gradle 的依赖 的大纲"
+              "title": "打印 Gradle 项目的依赖 的大纲"
             }
           },
           {
@@ -248,8 +248,8 @@
   },
   "active": "045e214432de6fc3",
   "lastOpenFiles": [
-    "Output/Gradle 中的依赖类型.md",
     "Output/Gradle 的依赖.md",
+    "Output/Gradle 中的依赖类型.md",
     "Output/估算 Java 对象大小.md",
     "🧠 知识工作台.md",
     "Output/JDK 动态代理机制.md",
