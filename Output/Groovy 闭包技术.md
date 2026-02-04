@@ -23,11 +23,10 @@ myClosure("Groovy")
 myClosure.call("Groovy")
 ```
 
-## 2	闭包的三个关键引用
 
+## 2	Groovy 针对闭包的语法简化
 
-
-## 3	Groovy 针对闭包的语法简化
+### 2.1	作为参数的语法简化
 
 在 Groovy 中, 当函数的**最后一个参数**是闭包, 可以将闭包写在括号外面;
 
@@ -41,7 +40,7 @@ someMethod(arg1, arg2) { closureBody }
 
 所以在 Gradle 构建脚本中类似 `dependencies { ... }` 和 `tasks { ... }` 的形式, 其实是传递了闭包的函数调用.
 
-### 3.1	隐式参数
+### 2.2	隐式参数
 
 如果闭包只有一个参数时, 可以省略参数和 `->` 符号, 这个唯一的参数会被隐式的命名为 `it`;
 
@@ -57,9 +56,9 @@ printNumberIt(42) // 输出: Number: 42
 
 比如, 在 `subprojects` 中, 可以通过 `it.name` 来获取当前配置项目的名称.
 
-## 4	委托对象
+## 3	委托对象
 
-闭包可以通过 `c.delegate = xxx` 来指定委托对象; 在闭包内部, 如果你调用一个方法或者访问一个属性, Groovy 会首先尝试在闭包的委托对象上查找;
+在闭包内部, 每当调用一个方法或者访问一个属性, Groovy 会首先尝试在闭包的**委托对象**上查找; 可以通过 `c.delegate = xxx` 来指定委托对象; 
 
 当在 Gradle 构建脚本中写 `dependencies { ... }` 时, 闭包委托对象的类型是 `DependencyHandler`, 所以你在 `{ ... }` 可以直接的调用 `implemention`, `testImplementions` 等方法.
 
