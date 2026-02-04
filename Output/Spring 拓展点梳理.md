@@ -1,13 +1,11 @@
 ---
 type: permanent
 ---
-# 🌐 核心观点
-
-
-
 ---
 
-# 🔖 详细解释
+**关键词**: Spring
+
+---
 
 ## 1	BeanFactoryPostProcessor 及其子接口
 
@@ -15,9 +13,7 @@ type: permanent
 
 ```java
 public interface BeanFactoryPostProcessor {
-
     void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException;
-
 }
 ```
 
@@ -146,9 +142,7 @@ private void invokeAwareInterfaces(Object bean) {
 
 ```java
 public interface BeanFactoryAware extends Aware {  
-
     void setBeanFactory(BeanFactory beanFactory) throws BeansException;  
-
 }
 ```
 
@@ -196,7 +190,6 @@ private void invokeAwareMethods(String beanName, Object bean) {
 
 ```java
 public interface BeanPostProcessor {  
-
     default Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {  
        return bean;  
     }  
@@ -205,7 +198,6 @@ public interface BeanPostProcessor {
     default Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {  
        return bean;  
     }  
-  
 }
 ```
 

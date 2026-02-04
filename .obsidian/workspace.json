@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "edfd0647042ad75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Spring 拓展点梳理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spring 拓展点梳理"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Spring 拓展点梳理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "Spring 拓展点梳理 的大纲"
             }
           },
           {
@@ -221,10 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ae51b79b6dd5dda",
+  "active": "edfd0647042ad75f",
   "lastOpenFiles": [
-    "Output/Gradle Java Library 插件定义的依赖配置.md",
     "🧠 知识工作台.md",
+    "Output/Gradle Java Library 插件定义的依赖配置.md",
     "Output/Groovy 闭包技术.md",
     "Output/Prompt 收集 - 概念三问.md",
     "Output/估算 Java 对象大小.md",
