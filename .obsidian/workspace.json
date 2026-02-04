@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "045e214432de6fc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/打印 Gradle 项目的依赖.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "打印 Gradle 项目的依赖"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/打印 Gradle 项目的依赖.md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "打印 Gradle 项目的依赖 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -246,12 +221,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "045e214432de6fc3",
+  "active": "2ae51b79b6dd5dda",
   "lastOpenFiles": [
-    "Output/Gradle 的依赖.md",
-    "Output/Gradle 中的依赖类型.md",
     "Output/估算 Java 对象大小.md",
+    "Output/Gradle 的依赖.md",
+    "Output/打印 Gradle 项目的依赖.md",
+    "Output/使用 Gradle dependencies 任务列出依赖项.md",
+    "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
     "🧠 知识工作台.md",
+    "Output/Gradle 中的依赖类型.md",
     "Output/JDK 动态代理机制.md",
     "Output/静态类型语言与动态类型语言.md",
     "Output/JDK8 及之前的类加载器分类.md",
@@ -271,9 +249,6 @@
     "Output/Dubbo 的自适应拓展机制.md",
     "Output/Dubbo Transport 层核心实现.md",
     "Output/Dubbo SPI 机制.md",
-    "Input/Dubbo SPI 机制与 Adaptive 机制的关系.md",
-    "Templates/永久笔记模板.md",
-    "Output/Prompt 收集 - 概念三问.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
