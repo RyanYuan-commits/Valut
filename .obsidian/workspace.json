@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "c22c198bf8978e47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Groovy 闭包技术.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Groovy 闭包技术"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +78,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -221,14 +245,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ae51b79b6dd5dda",
+  "active": "c22c198bf8978e47",
   "lastOpenFiles": [
+    "Output/Groovy 闭包技术.md",
+    "🧠 知识工作台.md",
     "Output/估算 Java 对象大小.md",
     "Output/Gradle 的依赖.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/使用 Gradle dependencies 任务列出依赖项.md",
     "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
-    "🧠 知识工作台.md",
     "Output/Gradle 中的依赖类型.md",
     "Output/JDK 动态代理机制.md",
     "Output/静态类型语言与动态类型语言.md",
@@ -248,7 +273,6 @@
     "Input/Dubbo Adaptive 机制.md",
     "Output/Dubbo 的自适应拓展机制.md",
     "Output/Dubbo Transport 层核心实现.md",
-    "Output/Dubbo SPI 机制.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
