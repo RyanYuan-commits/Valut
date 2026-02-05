@@ -5,13 +5,11 @@ aliases:
   - ref
   - Ref
 ---
-# 🌐 核心观点
-
-非侵入式的响应式系统是 Vue 最独特的特性之一, 在数据模型修改时视图也会同步更新.
-
 ---
 
-# 🔖 详细解释
+**关键词**: Vue, 响应式
+
+---
 
 ## 1	ref 函数介绍
 
@@ -81,7 +79,5 @@ async function increment() {
 ```
 
 ---
-
-# 📚 参考内容
 
 [官方文档 - 响应式基础](https://cn.vuejs.org/guide/essentials/reactivity-fundamentals.html)

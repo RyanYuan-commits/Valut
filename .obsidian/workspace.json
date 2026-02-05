@@ -37,10 +37,24 @@
             "id": "2eb420fd3e585408",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "在 Vue 中使用 ref 函数声明响应式状态"
             }
           }
         ],
@@ -64,12 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "在 Vue 中使用 ref 函数声明响应式状态 的大纲"
             }
           },
           {
@@ -233,6 +248,7 @@
   },
   "active": "2eb420fd3e585408",
   "lastOpenFiles": [
+    "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
     "🧠 知识工作台.md",
     "Output/Spring 拓展点梳理.md",
     "Output/Gradle Java Library 插件定义的依赖配置.md",
@@ -258,7 +274,6 @@
     "Input/字符集和比较规则.md",
     "Input/Dubbo Exchange 层.md",
     "Input/Dubbo Protocol.md",
-    "Input/估算 Java 对象的大小.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
