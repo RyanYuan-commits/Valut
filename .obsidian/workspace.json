@@ -34,27 +34,13 @@
             }
           },
           {
-            "id": "edfd0647042ad75f",
+            "id": "2eb420fd3e585408",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Spring 拓展点梳理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Spring 拓展点梳理"
+              "title": "新标签页"
             }
           }
         ],
@@ -78,13 +64,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Spring 拓展点梳理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring 拓展点梳理 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -246,9 +231,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "edfd0647042ad75f",
+  "active": "2eb420fd3e585408",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Output/Spring 拓展点梳理.md",
     "Output/Gradle Java Library 插件定义的依赖配置.md",
     "Output/Groovy 闭包技术.md",
     "Output/Prompt 收集 - 概念三问.md",
@@ -273,7 +259,6 @@
     "Input/Dubbo Exchange 层.md",
     "Input/Dubbo Protocol.md",
     "Input/估算 Java 对象的大小.md",
-    "Input/Dubbo Adaptive 机制.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
