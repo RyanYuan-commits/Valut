@@ -8,11 +8,9 @@ banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 
 ---
 
-JDK 动态代理是基于接口代理, 要求被代理的类必须实现至少一个接口.
-
 ## 1	使用方式
 
-首先定义一个类, 这个类需要实现至少一个接口:
+JDK 动态代理是**基于接口代理**, 要求被代理的类必须实现至少一个接口. 首先定义一个类, 这个类需要实现至少一个接口:
 
 ```java
 class UserServiceImpl implements UserService {  
