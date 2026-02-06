@@ -80,9 +80,21 @@
               "icon": "lucide-file",
               "title": "描述依赖响应式状态的复杂逻辑 —— 计算属性"
             }
+          },
+          {
+            "id": "99eb1c4a5bbfc78a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,7 +282,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "239f51fcfed54c14",
+  "active": "99eb1c4a5bbfc78a",
   "lastOpenFiles": [
     "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
     "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
