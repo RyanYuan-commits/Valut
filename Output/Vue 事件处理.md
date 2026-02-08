@@ -8,21 +8,23 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 
 ---
 
-可以使用 `v-on` 指令 (简写为 `@`) 来监听 DOM 事件, 并在事件触发时执行对应的 JavaScript.
+可以使用 `v-on` 指令 (简写为 `@`) 来**监听** DOM 事件, 并在**事件触发**时执行对应的 JavaScript.
 
 ```vue
-<button @click="greet">Greet</button>
+<button @click="warn('Form cannot be submitted yet.', $event)"> 
+	Submit 
+</button>
 
 <script>
-const name = ref('Vue.js')
-
-function greet(event) {
-  alert(`Hello ${name.value}!`)
+function warn(message, event) {
   if (event) {
-    alert(event.target.tagName)
+    event.preventDefault()
   }
+  alert(message)
 }
 </script>
 ```
+
+
 
 ---
