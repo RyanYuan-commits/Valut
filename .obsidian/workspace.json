@@ -249,6 +249,7 @@
   "active": "1ee91e04d41949a8",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
     "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
     "Output/JDK 动态代理机制.md",
     "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
@@ -261,7 +262,6 @@
     "Output/Gradle 的依赖.md",
     "Output/打印 Gradle 项目的依赖.md",
     "Output/使用 Gradle dependencies 任务列出依赖项.md",
-    "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
     "Output/Gradle 中的依赖类型.md",
     "Output/静态类型语言与动态类型语言.md",
     "Output/JDK8 及之前的类加载器分类.md",
