@@ -2,17 +2,15 @@
 type: permanent
 banner: Assets/Banner/pexels-eliannedipp-4666748.jpg
 ---
-# 🌐 核心观点
+---
 
-整理自 Vue 官方文档 「简介」 与 「快速上手」 部分.
+**关键词**: Vue
 
 ---
 
-# 🔖 详细解释
-
 ## 1	什么是 Vue?
 
-Vue 是用于构建用户界面的 JavaScript 界面, 基于标准的 HTML, CSS 和 JavaScript 构建, 并提供了一套**[[命令范式 —— 命令式 vs 声明式|声明式]]**的, **组件化**的编程模型.
+Vue 是用于构建用户界面的 JavaScript 界面, 基于标准的 HTML, CSS 和 JavaScript 构建, 并提供了一套[[命令范式 —— 命令式 vs 声明式|声明式]]的, **组件化**的编程模型.
 
 ```js
 import { createApp, ref } from 'vue'
@@ -165,5 +163,3 @@ bun create vue@latest
 ```
 
 ---
-
-# 📚 参考内容
