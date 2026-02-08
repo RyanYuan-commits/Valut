@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/JDK 动态代理机制.md",
+                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JDK 动态代理机制"
+              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染"
             }
           }
         ],
@@ -248,6 +248,7 @@
   },
   "active": "3a34b341acf0c11d",
   "lastOpenFiles": [
+    "Output/JDK 动态代理机制.md",
     "🧠 知识工作台.md",
     "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
     "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
@@ -261,7 +262,6 @@
     "Output/使用 Gradle dependencies 任务列出依赖项.md",
     "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
     "Output/Gradle 中的依赖类型.md",
-    "Output/JDK 动态代理机制.md",
     "Output/静态类型语言与动态类型语言.md",
     "Output/JDK8 及之前的类加载器分类.md",
     "Output/打破 Java 的双亲委派机制.md",
