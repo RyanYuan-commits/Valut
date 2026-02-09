@@ -3,95 +3,13 @@ source: https://o.alldu.cn/docs/dubbo%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B8%
 created: 2025-11-21
 type: input
 ---
-## 1	ExchangeChannel
-
-### 1.1	ExchangeChannel 接口
-
-
-
-ExchangeChannel 继承了 Channel 接口, 并在此基础上, 抽象了 Exchange 层的网络连接; 在 Exchange 层完成了同步和异步的转换, request 方法的两个重载返回值均为 CompletableFuture. 
-
-### 1.2	HeaderExchangeChannel
-
-```java
-@Override  
-public void send(Object message, boolean sent) throws RemotingException {  
-    if (closed) {  
-        throw new RemotingException(  
-                this.getLocalAddress(),  
-                null,  
-                "Failed to send message " + message + ", cause: The channel " + this + " is closed!");  
-    }  
-
-	// 只处理 Request, Response 和 String
-    if (message instanceof Request || message instanceof Response || message instanceof String) {  
-        channel.send(message, sent);  
-    } else {  
-        Request request = new Request();  
-        request.setVersion(Version.getProtocolVersion());  
-        request.setTwoWay(false);  
-        request.setData(message);  
-        channel.send(request, sent);  
-    }  
-}
-```
-
-HeaderExchangeChannel 本质上是一个 Channel 的装饰器, 关键方法是委托给这个 Channel 对象完成的.
-
-```java
-@Override  
-public CompletableFuture<Object> request(Object request, int timeout, ExecutorService executor)  
-        throws RemotingException {  
-    if (closed) {  
-        throw new RemotingException(  
-                this.getLocalAddress(),  
-                null,  
-                "Failed to send request " + request + ", cause: The channel " + this + " is closed!");  
-    }  
-
-	// 构建 Request 对象
-    Request req;  
-    if (request instanceof Request) {  
-        req = (Request) request;  
-    } else {  
-        // create request.  
-        req = new Request();  
-        req.setVersion(Version.getProtocolVersion());  
-        req.setTwoWay(true);  
-        req.setData(request);  
-    }  
-
-	// 返回值是一个 DefaultFuture	
-    DefaultFuture future = DefaultFuture.newFuture(channel, req, timeout, executor);  
-    try {  
-        channel.send(req);  
-    } catch (RemotingException e) {  
-        future.cancel();  
-        throw e;  
-    }  
-    return future;  
-}
-```
-
-request 方法返回的是一个 DefaultFuture 对象, 其作用和 Netty 的 ChannelFuture 类似, 可以获取某个操作的完成状态, 等收到响应后, DefaultFuture 才算完成.
-
-## 2	DefaultFuture
-
-### 2.1	核心集合
-
-DefaultFuture 继承了 JDK 中的 CompletableFuture, 在其中维护了两个 static Map:
-
-- CHNNELS: 负责请求与 Channel 之间的关联关系, 其中 Key 为请求 ID, Value 为发送请求的 Channel;
-	
-- FUTURES: 负责请求与 DefaultFuture 之间的关联关系, Key 为请求 ID, Value 为请求对应的 Default Future.
-
 ### 2.2	关键字段
 
 - request (Request 类型) 和 id (Long 类型): 对应请求以及请求的 ID. 
 	
 - channel (Channel 类型): 发送请求的 Channel. 
 	
-- timeout (int 类型): 整个请求-响应交互完成的超时时间. 
+- timeout (int 类型): 
 	
 - start (long 类型): 该 DefaultFuture 的创建时间. 
 	

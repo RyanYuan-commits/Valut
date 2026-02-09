@@ -82,12 +82,12 @@
             }
           },
           {
-            "id": "e8a1d32892a8c64a",
+            "id": "22a3542b0ca6a22a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
+                "file": "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,7 +102,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo Exchange 层对于 Channel 接口的实现"
+              "title": "Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture"
             }
           }
         ],
@@ -126,13 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
+                "file": "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo Exchange 层对于 Channel 接口的实现 的大纲"
+              "title": "Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture 的大纲"
             }
           },
           {
@@ -294,11 +294,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8a1d32892a8c64a",
+  "active": "22a3542b0ca6a22a",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
+    "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
     "Input/Dubbo Exchange 层.md",
     "Projects/Dubbo 源码解读与实战.md",
-    "🧠 知识工作台.md",
     "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
     "MoC/Dubbo Exchange 层.md",
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
@@ -321,7 +322,6 @@
     "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
     "Output/Vue 表单输入双向绑定 (v-model).md",
     "Output/v-bind 对 class 属性的增强.md",
-    "Output/Vue 事件处理.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",

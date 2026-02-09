@@ -29,7 +29,6 @@ Dubbo 源码剖析与实战 - 极客时间: https://time.geekbang.org/column/int
 
 [[Dubbo Transport 层核心实现]]
 
-[[MoC/Dubbo Exchange 层|Dubbo Exchange 层]]
 [[Dubbo Exchange 层 Request 类字段解析]]
 
 [[Dubbo Exchange 层 Response 类字段解析]]
