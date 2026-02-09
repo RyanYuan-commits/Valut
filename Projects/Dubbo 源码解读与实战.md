@@ -11,8 +11,6 @@ Dubbo 源码剖析与实战 - 极客时间: https://time.geekbang.org/column/int
 
 ---
 
-[[Dubbo Exchange 层]]
-
 [[Dubbo SPI 机制]]
 
 [[Dubbo Adaptive 机制]]
