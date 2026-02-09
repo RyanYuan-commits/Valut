@@ -11,4 +11,4 @@ views:
         direction: DESC
     limit: 10
     columnSize:
-      file.name: 390
+      file.name: 501
