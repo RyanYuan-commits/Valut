@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "19f6724a36158789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Vue 表单输入双向绑定 (v-model).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vue 表单输入双向绑定 (v-model)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Vue 表单输入双向绑定 (v-model).md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vue 表单输入双向绑定 (v-model) 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -139,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -246,12 +222,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19f6724a36158789",
+  "active": "2ae51b79b6dd5dda",
   "lastOpenFiles": [
+    "Output/Vue 表单输入双向绑定 (v-model).md",
     "🧠 知识工作台.md",
     "Output/Vue 的模板语法.md",
     "Output/v-bind 对 class 属性的增强.md",
-    "Output/Vue 表单输入双向绑定 (v-model).md",
     "Output/Vue 事件处理.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
