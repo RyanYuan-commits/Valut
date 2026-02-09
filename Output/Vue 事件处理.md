@@ -1,6 +1,8 @@
 ---
 type: permanent
 banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
+aliases:
+  - v-on
 ---
 ---
 

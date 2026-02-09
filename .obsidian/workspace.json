@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4d3db1f8cd6cb39e",
+            "id": "19f6724a36158789",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Vue 事件处理.md",
+                "file": "Output/Vue 表单输入双向绑定 (v-model).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vue 事件处理"
+              "title": "Vue 表单输入双向绑定 (v-model)"
             }
           }
         ],
@@ -78,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Vue 事件处理.md",
+                "file": "Output/Vue 表单输入双向绑定 (v-model).md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vue 事件处理 的大纲"
+              "title": "Vue 表单输入双向绑定 (v-model) 的大纲"
             }
           },
           {
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WAL",
+                "query": "v-bind",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1efbb85094cf2785",
@@ -138,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -246,12 +246,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d3db1f8cd6cb39e",
+  "active": "19f6724a36158789",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
+    "Output/Vue 的模板语法.md",
+    "Output/v-bind 对 class 属性的增强.md",
+    "Output/Vue 表单输入双向绑定 (v-model).md",
+    "Output/Vue 事件处理.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
-    "Output/Vue 事件处理.md",
     "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
     "Output/v-if 与 v-for 的优先级问题以及解决方案.md",
     "Output/Vue 简介与快速上手.md",
@@ -273,8 +276,6 @@
     "Output/JDK8 及之前的类加载器分类.md",
     "Output/打破 Java 的双亲委派机制.md",
     "Output/Java 类加载器的双亲委派机制.md",
-    "Output/G1 设计目标与基本概念.md",
-    "Input/Dubbo 核心接口介绍, RPC 层骨架梳理.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",

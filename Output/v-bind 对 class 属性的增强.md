@@ -16,7 +16,6 @@ Vue 专门为 `class` 和 `style` 的 `v-bind` 用法做了特殊的功能增强
 
 ### 1.1	绑定对象
 
-
 ```vue
 <template>
 <div
