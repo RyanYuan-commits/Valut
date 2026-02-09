@@ -2,13 +2,11 @@
 type: permanent
 banner: Assets/Banner/pexels-photo-9160637.jpeg
 ---
-# 🌐 核心观点
-
-Vue 使用一种基于 HTML 的模板语法, 可以通过声明式的方式将数据绑定到特定的 DOM 元素上.
-
 ---
 
-# 🔖 详细解释
+**关键词**: Vue
+
+---
 
 ## 1	解释为纯文本
 

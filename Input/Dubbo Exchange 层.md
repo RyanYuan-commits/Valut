@@ -263,7 +263,7 @@ public void received(Channel channel, Object message) throws RemotingException {
 		handler.received(exchangeChannel, message);
 	}
 }
-# ```
+```
 
 received 方法对收到的消息做了分类处理:
 
@@ -279,7 +279,3 @@ received 方法对收到的消息做了分类处理:
 
  
 ---
-
-# 我的思考
-
-这个观点如何与我已知的知识产生联系? 它让我想到了什么?

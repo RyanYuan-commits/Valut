@@ -3,13 +3,11 @@ created: 2025-11-24
 type: permanent
 banner: Assets/Banner/pexels-jeremy-bishop-1260133-2524874.jpg
 ---
-# 🌐 核心观点
-
-Remoting 层提供了多种客户端和服务端通信的能力, 包含了 Exchange, Transport 和 Serialize 三个层级.
-
 ---
 
-# 🔖 详细解释
+**关键词**: Dubbo, 源码解析, Exchange, Transport, Serialize
+
+---
 
 ## 1	Remoting 层总览
 
@@ -174,6 +172,3 @@ public static Client connect(URL url, ChannelHandler... handlers) throws Remotin
 ChannelHandlerDispatcher 实现了 ChannelHandler 接口, 其内部维护了一个 CopyOnWriteArraySet 集合, 当某个事件触发后, 会调用这个集合中所有元素的对应方法.
 
 ---
-
-# 📚 参考内容
-
