@@ -10,19 +10,7 @@ aliases:
 
 ---
 
-```java
-public abstract class AbstractEndpoint extends AbstractPeer implements Resetable {  
-  
-    protected final ErrorTypeAwareLogger logger = LoggerFactory.getErrorTypeAwareLogger(getClass());  
-  
-    private Codec2 codec;  
-  
-    private int connectTimeout;
-	
-}
-```
-
-### 2.1	继承关系
+## 1	继承关系
 
 `AbstractEndpoint` 继承了 `AbstractPeer`, 并且实现了 `Resetable` 接口, 有重置配置的能力. `AbstractClient` 和 `AbstractServer` 都是 `AbstractEndpoint` 的子类.
 
@@ -32,8 +20,7 @@ public abstract class AbstractEndpoint extends AbstractPeer implements Resetable
 
 ![[AbstractEndpoint 继承关系.png|700]]
 
-
-### 2.2	构造函数与 Resetable 特性
+## 2	构造函数与 Resetable 特性
 
 ```java
 public abstract class AbstractEndpoint extends AbstractPeer implements Resetable {  
@@ -47,13 +34,12 @@ public abstract class AbstractEndpoint extends AbstractPeer implements Resetable
     public AbstractEndpoint(URL url, ChannelHandler handler) {  
         super(url, handler);  
         this.codec = getChannelCodec(url);  
-        this.connectTimeout =  
-                url.getPositiveParameter(Constants.CONNECT_TIMEOUT_KEY, Constants.DEFAULT_CONNECT_TIMEOUT);  
+        this.connectTimeout = url.getPositiveParameter(Constants.CONNECT_TIMEOUT_KEY, Constants.DEFAULT_CONNECT_TIMEOUT);  
     }
 }
 ```
 
-`AbstractEndpoint` 中维护了一个 `Codec2` 对象和超时时间, 会通过传入的 URL 进行解析和构建.
+`AbstractEndpoint` 中维护了一个 `Codec2` 对象和超时时间, 会通过传入的 URL 创建对应的实例.
 
 ```java
 @Override  
@@ -84,6 +70,6 @@ public void reset(URL url) {
 }
 ```
 
-AbstractEndpoint 还实现了 Resetable 接口, 可以根据传入的 URL 重置 AbstractEndpoint 的字段.
+`AbstractEndpoint` 还实现了 `Resetable` 接口, 可以根据传入的 URL 重置 `AbstractEndpoint` 的字段.
 
 ---
