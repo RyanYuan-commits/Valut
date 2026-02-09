@@ -5,34 +5,8 @@ type: input
 ---
 # 阅读笔记
 
-Exchange 层是 Dubbo Remoting 层的最顶层, Dubbo 将信息的 **交换行为** 抽象成 Exchange 层, Exchange 层以 Request 和 Response 为核心, 针对 Channel, ChannelHandler, CLient, RemotingServer 等接口进行了实现.
-
+d
 [[Dubbo Remoting 层核心类与接口]]
-
-## 1	请求与返回类
-
-### 1.1	Response 核心字段
-
-```java
-public class Response {
-	
-	// 响应ID，与相应请求的ID一致
-	private long mId = 0;
-	
-	// 当前协议的版本号，与请求消息的版本号一致
-	private String mVersion;
-	
-	// 响应状态码，有OK、CLIENT_TIMEOUT、SERVER_TIMEOUT等10多个可选值
-	private byte mStatus = OK; 
-	
-	private boolean mEvent = false;
-	
-	private String mErrorMsg; // 可读的错误响应消息
-	
-	private Object mResult; // 响应体
-
-}
-```
 
 ## 2	ExchangeChannel
 

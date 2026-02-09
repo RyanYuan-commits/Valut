@@ -34,31 +34,7 @@
             }
           },
           {
-            "id": "f8c25c71c6434a7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Input/Dubbo Exchange 层.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo Exchange 层"
-            }
-          },
-          {
-            "id": "762b2f7fcaf74cb5",
+            "id": "4b22148c1461110b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,9 +56,57 @@
               "icon": "lucide-file",
               "title": "Dubbo 源码解读与实战"
             }
+          },
+          {
+            "id": "7d49f9aa53d10a95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系"
+            }
+          },
+          {
+            "id": "f58b2f2be8a1bdf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MoC/Dubbo Exchange 层.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo Exchange 层"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,13 +126,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Dubbo 源码解读与实战.md",
+                "file": "MoC/Dubbo Exchange 层.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 源码解读与实战 的大纲"
+              "title": "Dubbo Exchange 层 的大纲"
             }
           },
           {
@@ -270,17 +294,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "762b2f7fcaf74cb5",
+  "active": "f58b2f2be8a1bdf8",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
-    "Input/Dubbo Exchange 层.md",
-    "Output/Dubbo Exchange 层 Request 类字段解析.md",
+    "Output/Dubbo Remoting 层 Channel 接口.md",
+    "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
+    "MoC/Dubbo Exchange 层.md",
     "Projects/Dubbo 源码解读与实战.md",
+    "Input/Dubbo Exchange 层.md",
+    "Output/Dubbo Exchange 层概述.md",
+    "Templates/MoC 笔记模板.md",
+    "🧠 知识工作台.md",
+    "Output/Dubbo Exchange 层 Response 类字段解析.md",
+    "Output/Dubbo Exchange 层 Request 类字段解析.md",
     "Output/Dubbo Remoting 层核心类与接口.md",
     "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
     "Projects/Vue 官方文档阅读.md",
     "Output/Vue 的模板语法.md",
-    "Templates/MoC 笔记模板.md",
     "Templates/文献笔记模板.md",
     "Templates/永久笔记模板.md",
     "Templates/项目笔记模板.md",
@@ -295,11 +324,6 @@
     "Output/v-if 与 v-for 的优先级问题以及解决方案.md",
     "Output/Vue 简介与快速上手.md",
     "Output/命令范式 —— 命令式 vs 声明式.md",
-    "Output/使用 Gradle dependencyInsight 来确定依赖版本.md",
-    "Output/JDK 动态代理机制.md",
-    "Output/在 Vue 中使用 ref 函数声明响应式状态.md",
-    "Output/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
-    "Output/Spring 拓展点梳理.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
