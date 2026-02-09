@@ -35,9 +35,7 @@ dubbo-remoting 模块中的 dubbo-remoting-api 是其他模块的顶层抽象, �
 	
 - 其他接口: Endpoint, Channel, Transport, Dispatcher 等顶层接口也在这个包中, 它们是 Dubbo Remoting 的核心接口.
 
-## 2	Endpoint, Channel, ChannelHandler
-
-详见: [[Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系]]
+## 2	[[Dubbo Remoting 层核心接口之间的关系]]
 
 ## 3	Codec2
 

@@ -25,10 +25,11 @@ Dubbo 源码剖析与实战 - 极客时间: https://time.geekbang.org/column/int
 
 [[Dubbo Remoting 层核心类与接口]]
 
-[[Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系]]
+[[Dubbo Remoting 层核心接口之间的关系]]
 
 [[Dubbo Transport 层核心实现]]
 
+[[MoC/Dubbo Exchange 层|Dubbo Exchange 层]]
 [[Dubbo Exchange 层 Request 类字段解析]]
 
 [[Dubbo Exchange 层 Response 类字段解析]]

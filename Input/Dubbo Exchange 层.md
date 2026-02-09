@@ -3,35 +3,15 @@ source: https://o.alldu.cn/docs/dubbo%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B8%
 created: 2025-11-21
 type: input
 ---
-# 阅读笔记
+## 1	ExchangeChannel
 
-d
-[[Dubbo Remoting 层核心类与接口]]
+### 1.1	ExchangeChannel 接口
 
-## 2	ExchangeChannel
 
-### 2.1	ExchangeChannel 接口
-
-```java
-public interface ExchangeChannel extends Channel {
-
-	// ...... 废弃接口 ......
-
-    CompletableFuture<Object> request(Object request, ExecutorService executor) throws RemotingException;
-
-    CompletableFuture<Object> request(Object request, int timeout, ExecutorService executor) throws RemotingException;
-
-    ExchangeHandler getExchangeHandler();
-
-    @Override
-    void close(int timeout);
-	
-}
-```
 
 ExchangeChannel 继承了 Channel 接口, 并在此基础上, 抽象了 Exchange 层的网络连接; 在 Exchange 层完成了同步和异步的转换, request 方法的两个重载返回值均为 CompletableFuture. 
 
-### 2.2	HeaderExchangeChannel
+### 1.2	HeaderExchangeChannel
 
 ```java
 @Override  
@@ -95,9 +75,9 @@ public CompletableFuture<Object> request(Object request, int timeout, ExecutorSe
 
 request 方法返回的是一个 DefaultFuture 对象, 其作用和 Netty 的 ChannelFuture 类似, 可以获取某个操作的完成状态, 等收到响应后, DefaultFuture 才算完成.
 
-## 3	DefaultFuture
+## 2	DefaultFuture
 
-### 3.1	核心集合
+### 2.1	核心集合
 
 DefaultFuture 继承了 JDK 中的 CompletableFuture, 在其中维护了两个 static Map:
 
@@ -105,7 +85,7 @@ DefaultFuture 继承了 JDK 中的 CompletableFuture, 在其中维护了两个 s
 	
 - FUTURES: 负责请求与 DefaultFuture 之间的关联关系, Key 为请求 ID, Value 为请求对应的 Default Future.
 
-### 3.2	关键字段
+### 2.2	关键字段
 
 - request (Request 类型) 和 id (Long 类型): 对应请求以及请求的 ID. 
 	
@@ -123,7 +103,7 @@ DefaultFuture 继承了 JDK 中的 CompletableFuture, 在其中维护了两个 s
 
 通过 DefaultFuture.newFuture 创建 Default 实例时, 会初始化上述字段, 并创建请求响应的超时任务.
 
-### 3.3	请求与响应流程
+### 2.3	请求与响应流程
 
 在 HeaderExchangeChannel 方法中完成 DefaultFuture 创建后, 会将请求通过底层的 Dubbo Channel 发送出去, 发送过程中会触发 HeaderExchangeHandler 的 sent 方法, 在这个方法中会更新 sent 字段, 记录发送时间戳, 后续如果出现超时, 会在提示信息中展示该时间戳.
 
@@ -131,7 +111,7 @@ DefaultFuture 继承了 JDK 中的 CompletableFuture, 在其中维护了两个 s
 
 当响应传递到 HeaderExchangeHandler 后, 会调用 handleResponse 方法处理, 在这个方法中调用了 DefaultFuture 的 received 方法, 这个方法会找到与这次请求相关联的 DefaultFuture 对象, 然后调用其 doReceived 方法, 将 DefaultFuture 设置为完成状态.
 
-### 3.4	超时响应检测
+### 2.4	超时响应检测
 
 在创建 DefaultFuture 时, 会调用 timeoutCheck 方法创建 TimeoutCheckTask 定时任务, 并添加到时间轮中:
 
@@ -158,9 +138,9 @@ private void notifyTimeout(DefaultFuture future) {
 }
 ```
 
-## 4	HeaderExchangeHandler
+## 3	HeaderExchangeHandler
 
-### 4.1	与上层交互的关键类
+### 3.1	与上层交互的关键类
 
 HeaderExchangeHandler 是 Exchange 层与上层交互的关键类之一: 
 
@@ -172,7 +152,7 @@ HeaderExchangeHandler 是 Exchange 层与上层交互的关键类之一:
 
 HeaderExchangeHandler 的 connected, disconnected, sent, received, caught 方法都会转发给上层提供的 ExchangeHandler 来处理.
 
-### 4.2	received 方法
+### 3.2	received 方法
 
 ```java
 @Override
