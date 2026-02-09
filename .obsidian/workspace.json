@@ -89,8 +89,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "1efbb85094cf2785",
@@ -224,8 +223,15 @@
   },
   "active": "2ae51b79b6dd5dda",
   "lastOpenFiles": [
-    "Output/Vue 表单输入双向绑定 (v-model).md",
+    "Templates/MoC 笔记模板.md",
+    "Templates/文献笔记模板.md",
+    "Templates/永久笔记模板.md",
+    "Projects/Vue 官方文档阅读.md",
     "🧠 知识工作台.md",
+    "Templates/项目笔记模板.md",
+    "Output/G1 设计目标与基本概念.md",
+    "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
+    "Output/Vue 表单输入双向绑定 (v-model).md",
     "Output/Vue 的模板语法.md",
     "Output/v-bind 对 class 属性的增强.md",
     "Output/Vue 事件处理.md",
@@ -245,13 +251,6 @@
     "Output/Prompt 收集 - 概念三问.md",
     "Output/估算 Java 对象大小.md",
     "Output/Gradle 的依赖.md",
-    "Output/打印 Gradle 项目的依赖.md",
-    "Output/使用 Gradle dependencies 任务列出依赖项.md",
-    "Output/Gradle 中的依赖类型.md",
-    "Output/静态类型语言与动态类型语言.md",
-    "Output/JDK8 及之前的类加载器分类.md",
-    "Output/打破 Java 的双亲委派机制.md",
-    "Output/Java 类加载器的双亲委派机制.md",
     "Assets/undo record 的物理组织形式 - undo segment.png",
     "Assets/undo record 的逻辑组织方式 - undo log.png",
     "Assets/使用 undo log 查找可见版本.png",
