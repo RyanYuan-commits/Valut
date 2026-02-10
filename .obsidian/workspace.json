@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "946a1d55f10fcfa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Dubbo 配置总线 - URL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo 配置总线 - URL"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Dubbo 配置总线 - URL.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "Dubbo 配置总线 - URL 的大纲"
             }
           },
           {
@@ -131,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Dubbo 配置总线 - URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +166,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "🧠 知识工作台 的反向链接列表"
+              "title": "Dubbo 配置总线 - URL 的反向链接列表"
             }
           },
           {
@@ -150,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 知识工作台.md",
+                "file": "Output/Dubbo 配置总线 - URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "🧠 知识工作台 的出链列表"
+              "title": "Dubbo 配置总线 - URL 的出链列表"
             }
           },
           {
@@ -222,10 +247,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ae51b79b6dd5dda",
+  "active": "946a1d55f10fcfa0",
   "lastOpenFiles": [
-    "Output/Vue 访问底层的 DOM 元素.md",
+    "Output/Dubbo 配置总线 - URL.md",
     "🧠 知识工作台.md",
+    "Output/Vue 访问底层的 DOM 元素.md",
     "Output/Vue 侦听器.md",
     "Output/Gradle Java Library 插件定义的依赖配置.md",
     "Output/Gradle 中的依赖类型.md",
@@ -249,7 +275,6 @@
     "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
     "Output/Dubbo Remoting 层 Channel 接口.md",
     "Output/Dubbo Remoting 层 ChannelHandler 接口.md",
-    "Output/Dubbo Exchange 层概述.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
