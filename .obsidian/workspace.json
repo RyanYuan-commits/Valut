@@ -272,8 +272,9 @@
   },
   "active": "3fc90e1f061f9ce5",
   "lastOpenFiles": [
-    "Output/Dubbo Netty 启动流程 - NettyServer.md",
     "Output/Dubbo Transport 层核心实现.md",
+    "Output/Dubbo Netty 启动流程 - NettyServer.md",
+    "🧠 知识工作台.md",
     "Output/Dubbo Transport 层 AbstractServer 类.md",
     "Output/Dubbo Transport 层 AbstractEndpoint 类.md",
     "Output/Dubbo Transport 层 AbstractPeer 类.md",
@@ -281,7 +282,6 @@
     "Input/Dubbo Exchange 层.md",
     "Output/Dubbo Exchange 层与上层交互的关键类 - HeaderExchangeHandler.md",
     "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
-    "🧠 知识工作台.md",
     "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
     "MoC/Dubbo Exchange 层.md",
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
