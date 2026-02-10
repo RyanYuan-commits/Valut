@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Dubbo Transport 层核心实现.md",
+                "file": "MoC/Dubbo Transport 层核心接口梳理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo Transport 层核心实现"
-            }
-          },
-          {
-            "id": "3fc90e1f061f9ce5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo Netty 启动流程 - NettyServer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo Netty 启动流程 - NettyServer"
+              "title": "Dubbo Transport 层核心接口梳理"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo Netty 启动流程 - NettyServer.md",
+                "file": "MoC/Dubbo Transport 层核心接口梳理.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo Netty 启动流程 - NettyServer 的大纲"
+              "title": "Dubbo Transport 层核心接口梳理 的大纲"
             }
           },
           {
@@ -179,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/Dubbo Netty 启动流程 - NettyServer.md",
+                "file": "MoC/Dubbo Transport 层核心接口梳理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +165,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Dubbo Netty 启动流程 - NettyServer 的反向链接列表"
+              "title": "Dubbo Transport 层核心接口梳理 的反向链接列表"
             }
           },
           {
@@ -198,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/Dubbo Netty 启动流程 - NettyServer.md",
+                "file": "MoC/Dubbo Transport 层核心接口梳理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Dubbo Netty 启动流程 - NettyServer 的出链列表"
+              "title": "Dubbo Transport 层核心接口梳理 的出链列表"
             }
           },
           {
@@ -250,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 393.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,22 +246,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fc90e1f061f9ce5",
+  "active": "4b22148c1461110b",
   "lastOpenFiles": [
-    "Output/Dubbo Transport 层 AbstractServer 类.md",
-    "Output/Dubbo Netty 启动流程 - NettyServer.md",
+    "Projects/Dubbo 源码解读与实战.md",
+    "MoC/Dubbo Transport 层核心接口梳理.md",
+    "Output/Dubbo Remoting 层核心类与接口.md",
     "Output/Dubbo Transport 层核心实现.md",
+    "Output/Dubbo Netty 启动流程 - NettyServer.md",
+    "Output/Dubbo Transport 层 AbstractServer 类.md",
     "🧠 知识工作台.md",
     "Output/Dubbo Transport 层 AbstractEndpoint 类.md",
     "Output/Dubbo Transport 层 AbstractPeer 类.md",
-    "Projects/Dubbo 源码解读与实战.md",
     "Input/Dubbo Exchange 层.md",
     "Output/Dubbo Exchange 层与上层交互的关键类 - HeaderExchangeHandler.md",
     "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
     "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
     "MoC/Dubbo Exchange 层.md",
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
-    "Output/Dubbo Remoting 层核心类与接口.md",
     "Output/Dubbo Remoting 层 Endpoint 接口.md",
     "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
     "Output/Dubbo Remoting 层 Channel 接口.md",
@@ -296,7 +274,6 @@
     "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
     "Projects/Vue 官方文档阅读.md",
     "Output/Vue 的模板语法.md",
-    "Templates/文献笔记模板.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
