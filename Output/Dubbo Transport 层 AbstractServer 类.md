@@ -45,7 +45,7 @@ public AbstractServer(URL url, ChannelHandler handler) throws RemotingException 
     super(url, handler);  
     executorRepository = ExecutorRepository.getInstance(url.getOrDefaultApplicationModel());  
     localAddress = getUrl().toInetSocketAddress();  
-  
+	  
     String bindIp = getUrl().getParameter(Constants.BIND_IP_KEY, getUrl().getHost());  
     int bindPort = getUrl().getParameter(Constants.BIND_PORT_KEY, getUrl().getPort());  
     if (url.getParameter(ANYHOST_KEY, false) || NetUtils.isInvalidLocalHost(bindIp)) {  
