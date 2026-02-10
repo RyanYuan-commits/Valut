@@ -26,4 +26,21 @@ Dubbo 中**任意的一个实现**都可以抽象为一个 URL, Dubbo 使用 URL
 dubbo://172.17.32.91:20880/org.apache.dubbo.demo.DemoService?anyhost=true&application=dubbo-demo-api-provider&dubbo=2.0.2&interface=org.apache.dubbo.demo.DemoService&methods=sayHello,sayHelloAsync&pid=32508&release=&side=provider&timestamp=1593253404714dubbo://172.17.32.91:20880/org.apache.dubbo.demo.DemoService?anyhost=true&application=dubbo-demo-api-provider&dubbo=2.0.2&interface=org.apache.dubbo.demo.DemoService&methods=sayHello,sayHelloAsync&pid=32508&release=&side=provider&timestamp=1593253404714
 ```
 
+在 Dubbo 中, URL 的构造方法为:
+
+```java
+// org.apache.dubbo.common.URL#URL
+public URL(String protocol, String username, String password, String host, int port, String path, Map<String, String> parameters) {  
+    if (StringUtils.isEmpty(username) && StringUtils.isNotEmpty(password)) {  
+        throw new IllegalArgumentException("Invalid url, password without username!");  
+    }  
+	  
+    this.urlAddress = new PathURLAddress(protocol, username, password, path, host, port);  
+    this.urlParam = URLParam.parse(parameters);  
+    this.attributes = null;  
+}
+```
+
+
+
 ---
