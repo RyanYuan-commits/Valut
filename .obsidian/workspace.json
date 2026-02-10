@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "946a1d55f10fcfa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo 配置总线 - URL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo 配置总线 - URL"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Dubbo 配置总线 - URL.md",
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dubbo 配置总线 - URL 的大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -156,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/Dubbo 配置总线 - URL.md",
+                "file": "🧠 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +141,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Dubbo 配置总线 - URL 的反向链接列表"
+              "title": "🧠 知识工作台 的反向链接列表"
             }
           },
           {
@@ -175,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/Dubbo 配置总线 - URL.md",
+                "file": "🧠 知识工作台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Dubbo 配置总线 - URL 的出链列表"
+              "title": "🧠 知识工作台 的出链列表"
             }
           },
           {
@@ -247,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "946a1d55f10fcfa0",
+  "active": "2ae51b79b6dd5dda",
   "lastOpenFiles": [
     "Output/Dubbo 配置总线 - URL.md",
     "🧠 知识工作台.md",

@@ -41,6 +41,6 @@ public URL(String protocol, String username, String password, String host, int p
 }
 ```
 
-
+在 dubbo-common 包中提供了 `URLBuilder` 来辅助构造 URL, 以及 `URLStrParser` 来将字符串解析成 URL 对象. 
 
 ---
