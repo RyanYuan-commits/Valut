@@ -179,17 +179,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/Vue 中的特殊渲染 —— 条件渲染与列表渲染.md",
+                "file": "Output/Dubbo Netty 启动流程 - NettyServer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Vue 中的特殊渲染 —— 条件渲染与列表渲染 的反向链接列表"
+              "title": "Dubbo Netty 启动流程 - NettyServer 的反向链接列表"
             }
           },
           {
@@ -250,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5,
-    "collapsed": true
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,10 +271,10 @@
   },
   "active": "3fc90e1f061f9ce5",
   "lastOpenFiles": [
-    "Output/Dubbo Transport 层核心实现.md",
-    "Output/Dubbo Netty 启动流程 - NettyServer.md",
-    "🧠 知识工作台.md",
     "Output/Dubbo Transport 层 AbstractServer 类.md",
+    "Output/Dubbo Netty 启动流程 - NettyServer.md",
+    "Output/Dubbo Transport 层核心实现.md",
+    "🧠 知识工作台.md",
     "Output/Dubbo Transport 层 AbstractEndpoint 类.md",
     "Output/Dubbo Transport 层 AbstractPeer 类.md",
     "Projects/Dubbo 源码解读与实战.md",

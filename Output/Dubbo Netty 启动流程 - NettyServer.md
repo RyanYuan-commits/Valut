@@ -1,6 +1,6 @@
 ---
 type: permanent
-banner:
+banner: Assets/Banner/pexels-photo-9160637.jpeg
 ---
 ---
 
@@ -8,7 +8,7 @@ banner:
 
 ---
 
-`NettyServer` 继承了 `AbstractServer` 抽象类, 实现了 `doOpen()` 抽象方法.
+`NettyServer` 继承了 [[Dubbo Transport 层 AbstractServer 类|AbstractServer]] 抽象类, 实现了 `doOpen()` 抽象方法.
 
 ```java
 @Override
@@ -53,6 +53,5 @@ protected void doOpen() throws Throwable {
 在这个方法中, Dubbo 完成了 `ServerBootstrap` 的初始化, Boss 和 Worker `EventLoopGroup` 的创建, 以及通过 `ChannelInitializer` 初始化 `ChannelHandler` 等一系列k Netty 服务启动的标准流程; 最终得到的结构大致为:
 
 ![[Dubbo NettyServer|900]]
-
 
 ---
