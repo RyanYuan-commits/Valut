@@ -32,19 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "e7a16c80250ec6ac",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,12 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "🧠 知识工作台 的大纲"
             }
           },
           {
@@ -124,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -141,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🧠 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +140,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "🧠 知识工作台 的反向链接列表"
             }
           },
           {
@@ -159,11 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🧠 知识工作台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "🧠 知识工作台 的出链列表"
             }
           },
           {
@@ -230,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a16c80250ec6ac",
+  "active": "2ae51b79b6dd5dda",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
     "Output/Dubbo 配置总线 - URL.md",
