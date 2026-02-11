@@ -6,7 +6,7 @@ banner: Assets/Banner/pexels-eberhardgross-1624496.jpg
 ---
 ---
 
-jcmd 是 JDK 8 推出的一款本地诊断工具, 只支持连接本机上同一个用户空间的 JVM 进程.
+**关键词**: jdk, 本地诊断
 
 ---
 
@@ -39,8 +39,6 @@ jps -lm
 
 11155 org.jetbrains.idea.maven.server.RemoteMavenServer
 ```
-
-上面的几个命令的结果类似, 查看本机的进程信息.
 
 ## 3	查看 JVM 支持的命令
 

@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5ebe2e1e7d49cb96",
+        "id": "f218c70804f76b37",
         "type": "tabs",
         "children": [
           {
-            "id": "75ea10b9211fe050",
+            "id": "75e395b8b83d3b3b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/本地诊断工具 - jcmd.md",
-                "mode": "source",
+                "file": "🧠 知识工作台.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -27,8 +28,9 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "本地诊断工具 - jcmd"
+              "title": "🧠 知识工作台"
             }
           }
         ]
@@ -214,12 +216,14 @@
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-random-note:Open Random Note from Search": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75ea10b9211fe050",
+  "active": "75e395b8b83d3b3b",
   "lastOpenFiles": [
+    "Output/本地诊断工具 - jcmd.md",
+    "Output/常见的 Java 字节码指令.md",
+    "Output/打破 Java 的双亲委派机制.md",
     "Templates/项目笔记模板.md",
     "🧠 知识工作台.md",
     "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
@@ -243,9 +247,6 @@
     "Input/Dubbo Exchange 层.md",
     "Output/Dubbo Exchange 层与上层交互的关键类 - HeaderExchangeHandler.md",
     "Output/Dubbo 对于 CompleteableFuture 的拓展 - DefaultFuture.md",
-    "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
-    "MoC/Dubbo Exchange 层.md",
-    "MoC/Dubbo Remoting 层核心接口之间的关系.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",

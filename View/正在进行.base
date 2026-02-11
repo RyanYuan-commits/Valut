@@ -4,3 +4,5 @@ views:
     filters:
       and:
         - "!ing.isEmpty()"
+    columnSize:
+      file.name: 450
