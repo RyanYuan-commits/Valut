@@ -1,34 +1,29 @@
 ---
 type: permanent
 ---
-# 🌐 核心观点
+---
 
-Instant 表示时间轴上的一个瞬时点, 是绝对的机器时间. 它不关心地理位置, 只关心“宇宙中这一刻”的进度.
+**关键词**: java, instant
 
 ---
 
-# 🔖 详细解释
-
 ## 1	底层原理
 
-**基准线**:以 Unix 纪元 (1970-01-01T00:00:00Z UTC) 为基准点 (Epoch).
-
-**高精度**:内部通过两个字段存储:
+以 Unix 纪元 (1970-01-01T00:00:00Z UTC) 为基准点 (Epoch), 内部通过两个字段存储:
 
 - `private final long seconds;`(自纪元以来的秒数)
 	
 - `private final int nanos;` (当前秒内的纳秒数, 0 到 999, 999, 999).
 
-**不含时区**: 它始终是 UTC 时间. 输出格式通常以 Z 结尾 (如 2026-01-12T16:54:40. 123Z).
+它始终是 UTC 时间. 输出格式通常以 Z 结尾 (如 2026-01-12T16:54:40.123Z).
 
 ## 2	常用 API
 
-### 2.1	工厂方法
+### 2.1	创建方式
 
 ```java
 // 获取当前的 UTC 时刻
 Instant now = Instant.now();
-
 // 从 Epoch 创建
 Instant instant = Instant.ofEpochMilli(epochMilli);
 Instant instant = Instant.ofEpochSecond(epochMilli / 1000);
@@ -74,6 +69,3 @@ Instant plusNanos = instant.plusNanos(100000000L);
 ```
 
 ---
-
-# 📚 参考内容
-

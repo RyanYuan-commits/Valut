@@ -1,7 +1,6 @@
 ---
 type: MOC
 ---
-# 🧩 主题的核心逻辑
 
 ```mermaid
 graph LR
