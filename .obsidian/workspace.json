@@ -32,8 +32,19 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "e7a16c80250ec6ac",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +64,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 知识工作台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🧠 知识工作台 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -131,7 +141,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "🧠 知识工作台 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -150,12 +159,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 知识工作台.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "🧠 知识工作台 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -222,10 +230,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ae51b79b6dd5dda",
+  "active": "e7a16c80250ec6ac",
   "lastOpenFiles": [
-    "Output/Dubbo 配置总线 - URL.md",
     "🧠 知识工作台.md",
+    "Output/Dubbo 配置总线 - URL.md",
     "Output/Vue 访问底层的 DOM 元素.md",
     "Output/Vue 侦听器.md",
     "Output/Gradle Java Library 插件定义的依赖配置.md",
