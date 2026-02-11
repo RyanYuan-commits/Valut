@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9806ed7c373399de",
+        "id": "5ebe2e1e7d49cb96",
         "type": "tabs",
         "children": [
           {
-            "id": "2ae51b79b6dd5dda",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧠 知识工作台.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🧠 知识工作台"
-            }
-          },
-          {
-            "id": "cf68980a869d6ccb",
+            "id": "75ea10b9211fe050",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Java 定时任务 - Timer.md",
+                "file": "Output/本地诊断工具 - jcmd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Java 定时任务 - Timer"
+              "title": "本地诊断工具 - jcmd"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +51,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Output/Java 定时任务 - Timer.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java 定时任务 - Timer 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -139,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
+    "width": 351.51625061035156,
     "collapsed": true
   },
   "right": {
@@ -156,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/Java 定时任务 - Timer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +137,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Java 定时任务 - Timer 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -175,12 +146,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Output/Java 定时任务 - Timer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Java 定时任务 - Timer 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -244,13 +214,17 @@
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-random-note:Open Random Note from Search": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cf68980a869d6ccb",
+  "active": "75ea10b9211fe050",
   "lastOpenFiles": [
-    "Output/Java 定时任务 - Timer.md",
+    "Templates/项目笔记模板.md",
     "🧠 知识工作台.md",
+    "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
+    "Input/MySQL 客户端请求处理流程.md",
+    "Output/Java 定时任务 - Timer.md",
     "Output/Dubbo 配置总线 - URL.md",
     "Output/Vue 访问底层的 DOM 元素.md",
     "Output/Vue 侦听器.md",
@@ -272,9 +246,6 @@
     "Output/Dubbo Exchange 层对于 Channel 接口的实现.md",
     "MoC/Dubbo Exchange 层.md",
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
-    "Output/Dubbo Remoting 层 Endpoint 接口.md",
-    "Output/Dubbo Remoting 层核心接口 Endpoint, Channel, ChannelHandler 之间的关系.md",
-    "Output/Dubbo Remoting 层 Channel 接口.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",

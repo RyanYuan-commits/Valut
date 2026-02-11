@@ -4,15 +4,11 @@ aliases:
   - jcmd
 banner: Assets/Banner/pexels-eberhardgross-1624496.jpg
 ---
-# 🌐 核心观点
+---
 
 jcmd 是 JDK 8 推出的一款本地诊断工具, 只支持连接本机上同一个用户空间的 JVM 进程.
 
 ---
-
-# 🔖 详细解释
-
-jcmd 是 JDK 8 推出的一款**本地**诊断工具, **只支持**连接本机上**同一个用户空间**的 JVM 进程.
 
 ## 1	查看帮助
 
@@ -74,9 +70,4 @@ VM.version
 help
 ```
 
-
-
 ---
-
-# 📚 参考内容
-
