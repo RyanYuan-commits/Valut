@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "323f8800a0927a83",
+            "id": "53466402066365e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Garbage First 深度学习.md",
+                "file": "Output/JVM Concurrent Mark Sweep 收集器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Garbage First 深度学习"
+              "title": "JVM Concurrent Mark Sweep 收集器"
+            }
+          },
+          {
+            "id": "25dcc13b63e4dacf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/三色标记法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "三色标记法"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -244,11 +268,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "323f8800a0927a83",
+  "active": "25dcc13b63e4dacf",
   "lastOpenFiles": [
-    "Output/Java 应用性能考量 - 响应性与吞吐量.md",
-    "Projects/Garbage First 深度学习.md",
+    "Assets/三色标记法流程图.png",
+    "Output/三色标记法.md",
+    "Output/JVM Concurrent Mark Sweep 收集器.md",
+    "Assets/CMS GC 过程.png",
     "🧠 知识工作台.md",
+    "Projects/Garbage First 深度学习.md",
+    "Output/Java 应用性能考量 - 响应性与吞吐量.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Output/Dubbo SPI 机制.md",
     "Dubbo SPI 机制.md",
@@ -271,9 +299,6 @@
     "Output/Java 定时任务 - Timer.md",
     "Output/Dubbo 配置总线 - URL.md",
     "Output/Vue 访问底层的 DOM 元素.md",
-    "Output/Vue 侦听器.md",
-    "Output/Gradle Java Library 插件定义的依赖配置.md",
-    "Output/Gradle 中的依赖类型.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
@@ -281,8 +306,6 @@
     "Assets/使用 undo log 查找可见版本.png",
     "Assets/ReadView 图例.png",
     "未命名.canvas",
-    "Assets/Undo Log.png",
-    "Assets/TRX_UNDO_UPD_EXIST_REC.png",
     "View/正在进行.base",
     "正在进行.canvas",
     "View/Inbox.base",
