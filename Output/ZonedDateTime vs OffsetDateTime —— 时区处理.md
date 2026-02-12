@@ -48,57 +48,6 @@ ZonedDateTime zdtFromInstant = Instant.now().atZone(ZoneId.of("Europe/Paris"));
 
 ## 4	转换关系
 
-```mermaid
-graph LR
-    %% 节点定义
-    subgraph MachineTime [机器时间]
-        Instant((Instant))
-    end
-
-    subgraph LocalTimeGroup [本地时间 - 无时区]
-        LD[LocalDate]
-        LT[LocalTime]
-        LDT[LocalDateTime]
-    end
-
-    subgraph ZonedTimeGroup [带时区时间]
-        ZDT[ZonedDateTime]
-        ODT[OffsetDateTime]
-    end
-
-    %% 转化关系
-    
-    %% Instant 与 Zoned/Offset
-    Instant -- "atZone(ZoneId)" --> ZDT
-    Instant -- "atOffset(ZoneOffset)" --> ODT
-    ZDT -- "toInstant()" --> Instant
-    ODT -- "toInstant()" --> Instant
-
-    %% Local 与 Zoned/Offset
-    LDT -- "atZone(ZoneId)" --> ZDT
-    LDT -- "atOffset(ZoneOffset)" --> ODT
-    ZDT -- "toLocalDateTime()" --> LDT
-    ODT -- "toLocalDateTime()" --> LDT
-
-    %% Local 内部互转
-    LD -- "atTime(LocalTime)" --> LDT
-    LT -- "atDate(LocalDate)" --> LDT
-    LDT -- "toLocalDate()" --> LD
-    LDT -- "toLocalTime()" --> LT
-
-    %% ZDT 与 ODT 互转
-    ZDT -- "toOffsetDateTime()" --> ODT
-    ODT -- "toZonedDateTime()" --> ZDT
-
-    %% 样式美化
-    style Instant fill:#f9f,stroke:#333,stroke-width:2px
-    style LDT fill:#bbf,stroke:#333,stroke-width:2px
-    style ZDT fill:#bfb,stroke:#333,stroke-width:2px
-    style ODT fill:#dfd,stroke:#333,stroke-width:1px
-```
-
+![[java time 包类转化关系.png]]
 
 ---
-
-# 📚 参考内容
-
