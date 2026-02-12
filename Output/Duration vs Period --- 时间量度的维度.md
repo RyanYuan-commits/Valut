@@ -2,13 +2,11 @@
 type: permanent
 banner: Assets/Banner/pexels-eliannedipp-4666748.jpg
 ---
-# 🌐 核心观点
-
-在 `java.time` API 中, 时间量度被拆分为 Duration 和 Period 两个维度.
-
 ---
 
-# 🔖 详细解释
+**关键词**: java, 时间量度, Duration, Period
+
+---
 
 ## 1	核心定义
 
@@ -69,8 +67,4 @@ System.out.printf("工龄/年龄：%d年%d个月%d天", age.getYears(), age.getM
 
 是 "名义上" 的跨度. 例如, `Period.ofMonths(1)` 加在 1 月 31 日上, 结果会是 2 月 28/29 日.
 
-
 ---
-
-# 📚 参考内容
-
