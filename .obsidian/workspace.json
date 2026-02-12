@@ -56,33 +56,9 @@
               "icon": "lucide-file",
               "title": "JVM Concurrent Mark Sweep 收集器"
             }
-          },
-          {
-            "id": "25dcc13b63e4dacf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/三色标记法.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "三色标记法"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -197,11 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Output/JVM Concurrent Mark Sweep 收集器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "JVM Concurrent Mark Sweep 收集器 的出链列表"
             }
           },
           {
@@ -248,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,10 +243,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25dcc13b63e4dacf",
+  "active": "53466402066365e8",
   "lastOpenFiles": [
-    "Assets/三色标记法流程图.png",
     "Output/三色标记法.md",
+    "Assets/三色标记法流程图.png",
     "Output/JVM Concurrent Mark Sweep 收集器.md",
     "Assets/CMS GC 过程.png",
     "🧠 知识工作台.md",
