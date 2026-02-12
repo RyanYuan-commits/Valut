@@ -246,8 +246,9 @@
   },
   "active": "323f8800a0927a83",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
+    "Output/Java 应用性能考量 - 响应性与吞吐量.md",
     "Projects/Garbage First 深度学习.md",
+    "🧠 知识工作台.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Output/Dubbo SPI 机制.md",
     "Dubbo SPI 机制.md",
@@ -273,7 +274,6 @@
     "Output/Vue 侦听器.md",
     "Output/Gradle Java Library 插件定义的依赖配置.md",
     "Output/Gradle 中的依赖类型.md",
-    "Output/Vue 中声明响应式的另一种方式 —— reactive.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
