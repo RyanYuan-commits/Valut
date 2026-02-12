@@ -4,4 +4,4 @@ banner:
 ---
 ---
 
-Oracle 官方 G1 文档: [https://www.oracle.com/technical-resources/articles/java/g1gc.html](https://www.oracle.com/technical-resources/articles/java/g1gc.html)
+Getting Started with the G1 Garbage Collector: https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html
