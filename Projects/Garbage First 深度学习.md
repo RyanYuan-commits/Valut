@@ -4,6 +4,8 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 ---
 ---
 
+## 1	参考文章
+
 [Getting Started with the G1 Garbage Collector](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html) 
 
 [Garbage-First Garbage Collector Tuning](https://docs.oracle.com/en/java/javase/17/gctuning/garbage-first-garbage-collector-tuning.html#GUID-90E30ACA-8040-432E-B3A0-1E0440AB556A)
@@ -11,6 +13,8 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 [Java Hotspot G1 GC的一些关键技术](https://tech.meituan.com/2016/09/23/g1.html)
 
 ---
+
+## 2	永久笔记
 
 [[三色标记法]]
 
@@ -23,5 +27,7 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 [[G1 通过 SATB 防止并发标记错误]]
 
 ---
+
+## 3	文献笔记
 
 [[Garbage-First Garbage Collector Tuning]]
