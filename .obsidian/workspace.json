@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,12 +272,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95ce1aa43f216a04",
+  "active": "f6e9ec7397834245",
   "lastOpenFiles": [
-    "Output/记忆集与卡表.md",
-    "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
+    "Projects/Garbage First 深度学习.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/记忆集与卡表.md",
     "Output/Java 的四种引用类型.md",
     "Output/Prompt 收集 - 概念三问.md",
     "Output/JVM Concurrent Mark Sweep 收集器.md",
