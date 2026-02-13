@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "117542fddc4f357b",
+            "id": "188190cdb2e85380",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,57 +56,9 @@
               "icon": "lucide-file",
               "title": "Garbage-First Garbage Collector Tuning"
             }
-          },
-          {
-            "id": "671449c0d680fdfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/G1 垃圾回收的基本单位 - Region.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "G1 垃圾回收的基本单位 - Region"
-            }
-          },
-          {
-            "id": "0239796b4bc14acf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/G1 通过 SATB 防止并发标记错误.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "G1 通过 SATB 防止并发标记错误"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Initiating",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -294,17 +246,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0239796b4bc14acf",
+  "active": "188190cdb2e85380",
   "lastOpenFiles": [
+    "Output/JVM Concurrent Mark Sweep 收集器.md",
+    "Input/Garbage-First Garbage Collector Tuning.md",
+    "Projects/Garbage First 深度学习.md",
+    "🧠 知识工作台.md",
     "Output/G1 垃圾回收的基本单位 - Region.md",
     "Output/G1 通过 SATB 防止并发标记错误.md",
     "Output/三色标记法.md",
-    "Input/Garbage-First Garbage Collector Tuning.md",
-    "🧠 知识工作台.md",
-    "Projects/Garbage First 深度学习.md",
     "Assets/g1 GC 内存布局.png",
     "Input/G1 垃圾回收的基本单位 - Region.md",
-    "Output/JVM Concurrent Mark Sweep 收集器.md",
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",
     "Output/Java 应用性能考量 - 响应性与吞吐量.md",
