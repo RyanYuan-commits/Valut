@@ -248,8 +248,9 @@
   },
   "active": "188190cdb2e85380",
   "lastOpenFiles": [
-    "Output/JVM Concurrent Mark Sweep 收集器.md",
+    "Output/Java 的四种引用类型.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/JVM Concurrent Mark Sweep 收集器.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
     "Output/G1 垃圾回收的基本单位 - Region.md",
@@ -278,7 +279,6 @@
     "Output/打破 Java 的双亲委派机制.md",
     "Templates/项目笔记模板.md",
     "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
-    "Input/MySQL 客户端请求处理流程.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
