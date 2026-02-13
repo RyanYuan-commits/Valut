@@ -14,6 +14,8 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 
 [[三色标记法]]
 
+[[记忆集与卡表]]
+
 [[JVM Concurrent Mark Sweep 收集器]]
 
 [[G1 垃圾回收的基本单位 - Region]]
