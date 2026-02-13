@@ -44,4 +44,16 @@ if (objectReferenceQueue.poll() != null) {
 }
 ```
 
+## 3	引用处理速度优化
+
+对于特殊的引用, 垃圾回收器不能简单的回收它们, 需要根据它们的类型进行特殊的处理, 这个过程在 GC 日志中的关键字为 "Reference Processing".
+
+G1 收集器默认希望利用多核 CPU 来加速引用处理, 它使用了一种启发式的策略来决定启动多少线程, 每当处理一定数量的引用就多启动一个线程, 这个数量通过 JVM 参数 `-XX:ReferencesPerThread` 控制, 最大值受 `-XX:ParallelGCThreads` 制约, 这个启发式的策略可以通过如下的方式调整:
+
+- 设置 `-XX:ReferencesPerThread=0` 来禁用该规则, 默认使用所有可用线程;
+	
+- 设置 `-XX:-ParallelRefProcEnabled` 来完全禁用并行化.
+
+当发现这个阶段花费时间较长时, 可以通过 `-XX:ReferencesPerThread=0` 来优化.
+
 ---
