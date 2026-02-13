@@ -82,9 +82,57 @@
               "icon": "lucide-file",
               "title": "Garbage-First Garbage Collector Tuning"
             }
+          },
+          {
+            "id": "410b75f61852e106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Input/Garbage-First Garbage Collector Tuning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Garbage-First Garbage Collector Tuning"
+            }
+          },
+          {
+            "id": "a4927477e6e38065",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/G1 常用的可调选项及其默认值.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "G1 常用的可调选项及其默认值"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,11 +320,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6e9ec7397834245",
+  "active": "a4927477e6e38065",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
-    "Projects/Garbage First 深度学习.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Projects/Garbage First 深度学习.md",
+    "🧠 知识工作台.md",
+    "Output/G1 常用的可调选项及其默认值.md",
     "Output/记忆集与卡表.md",
     "Output/Java 的四种引用类型.md",
     "Output/Prompt 收集 - 概念三问.md",
@@ -304,7 +353,6 @@
     "Output/Java Instant —— 时间轴上的绝对点.md",
     "Output/本地诊断工具 - jcmd.md",
     "Output/常见的 Java 字节码指令.md",
-    "Output/打破 Java 的双亲委派机制.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
