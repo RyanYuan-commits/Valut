@@ -80,9 +80,19 @@
               "icon": "lucide-file",
               "title": "Garbage-First Garbage Collector Tuning"
             }
+          },
+          {
+            "id": "93b8cac118662904",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Input/Garbage-First Garbage Collector Tuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +198,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Garbage-First Garbage Collector Tuning 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -198,12 +207,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Input/Garbage-First Garbage Collector Tuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Garbage-First Garbage Collector Tuning 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -270,7 +278,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "117542fddc4f357b",
+  "active": "93b8cac118662904",
   "lastOpenFiles": [
     "Input/Garbage-First Garbage Collector Tuning.md",
     "Projects/Garbage First 深度学习.md",
