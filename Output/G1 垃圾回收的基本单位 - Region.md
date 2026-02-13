@@ -58,7 +58,10 @@ void HeapRegion::setup_heap_region_size(size_t initial_heap_size, size_t max_hea
 }
 ```
 
-常用的关于 Region 的日志
+常用的关于 Region 的日志:
 
+- `[debug] gc.heap`: 打印 Region 的大小, 以及各个分代各自占用的大小, 如 `region size 8192K, 921 young (7544832K), 6 survivors (49152K)`.
+	
+- `[info] gc.heap`: 查看某次 GC 堆中每种区域的变化, 如 `Eden regions: 915->0(915)`, `Humongous regions: 2->2`, 括号里的数字表示当前这个分代的 Region 数.
 
 ---
