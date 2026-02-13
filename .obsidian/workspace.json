@@ -82,13 +82,27 @@
             }
           },
           {
-            "id": "93b8cac118662904",
+            "id": "671449c0d680fdfb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Output/G1 垃圾回收的基本单位 - Region.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "G1 垃圾回收的基本单位 - Region"
             }
           }
         ],
@@ -189,6 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Output/G1 垃圾回收的基本单位 - Region.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +213,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "G1 垃圾回收的基本单位 - Region 的反向链接列表"
             }
           },
           {
@@ -207,11 +222,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Output/G1 垃圾回收的基本单位 - Region.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "G1 垃圾回收的基本单位 - Region 的出链列表"
             }
           },
           {
@@ -278,12 +294,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93b8cac118662904",
+  "active": "671449c0d680fdfb",
   "lastOpenFiles": [
+    "Output/G1 垃圾回收的基本单位 - Region.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Input/G1 垃圾回收的基本单位 - Region.md",
     "Projects/Garbage First 深度学习.md",
-    "Output/JVM Concurrent Mark Sweep 收集器.md",
     "🧠 知识工作台.md",
+    "Output/JVM Concurrent Mark Sweep 收集器.md",
     "Output/三色标记法.md",
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",
@@ -308,8 +326,6 @@
     "Projects/《MySql 技术内幕 InnoDB 存储引擎》阅读.md",
     "Input/MySQL 客户端请求处理流程.md",
     "Output/Java 定时任务 - Timer.md",
-    "Output/Dubbo 配置总线 - URL.md",
-    "Output/Vue 访问底层的 DOM 元素.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
