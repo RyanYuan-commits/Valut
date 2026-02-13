@@ -24,32 +24,32 @@ Region 的大小通过参数 `-XX:G1HeapRegionSize` 设置, 取值范围从 1M �
 
 ```cpp
 // share/vm/gc_implementation/g1/heapRegion.cpp
-// Minimum region size; we won't go lower than that.
-// We might want to decrease this in the future, to deal with small
-// heaps a bit more efficiently.
+// 最小 Region 大小；我们不会设置比这更小的值。
+// 未来我们可能考虑减小此值，以便更有效地处理较小的堆内存。
 #define MIN_REGION_SIZE  (      1024 * 1024 )
-// Maximum region size; we don't go higher than that. There's a good
-// reason for having an upper bound. We don't want regions to get too
-// large, otherwise cleanup's effectiveness would decrease as there
-// will be fewer opportunities to find totally empty regions after
-// marking.
+
+// 最大 Region 大小；我们不会设置比这更大的值。设置上限有充分的理由：
+// 我们不希望 Region 过大，否则在标记完成后，寻找完全空闲 Region 的机会将减少，
+// 从而降低清理效率。
 #define MAX_REGION_SIZE  ( 32 * 1024 * 1024 )
-// The automatic region size calculation will try to have around this
-// many regions in the heap (based on the min heap size).
+
+// 自动 Region 大小计算将尝试在堆中维持大约这个数量的 Region（基于最小堆大小）。
 #define TARGET_REGION_NUMBER          2048
+
 void HeapRegion::setup_heap_region_size(size_t initial_heap_size, size_t max_heap_size) {
   uintx region_size = G1HeapRegionSize;
   if (FLAG_IS_DEFAULT(G1HeapRegionSize)) {
+    // 若未手动设置 G1HeapRegionSize 参数，则自动计算
     size_t average_heap_size = (initial_heap_size + max_heap_size) / 2;
     region_size = MAX2(average_heap_size / TARGET_REGION_NUMBER,
                        (uintx) MIN_REGION_SIZE);
   }
   int region_size_log = log2_long((jlong) region_size);
-  // Recalculate the region size to make sure it's a power of
-  // 2. This means that region_size is the largest power of 2 that's
-  // <= what we've calculated so far.
+  // 重新计算 Region 大小，确保其为 2 的幂。
+  // 这意味着 region_size 是不超过当前计算值的最大 2 的幂。
   region_size = ((uintx)1 << region_size_log);
-  // Now make sure that we don't go over or under our limits.
+  
+  // 确保最终值在最小/最大限制范围内
   if (region_size < MIN_REGION_SIZE) {
     region_size = MIN_REGION_SIZE;
   } else if (region_size > MAX_REGION_SIZE) {
@@ -57,6 +57,8 @@ void HeapRegion::setup_heap_region_size(size_t initial_heap_size, size_t max_hea
   }
 }
 ```
+
+常用的关于 Region 的日志
 
 
 ---

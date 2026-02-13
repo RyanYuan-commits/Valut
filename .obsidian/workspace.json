@@ -296,9 +296,9 @@
   },
   "active": "671449c0d680fdfb",
   "lastOpenFiles": [
-    "Assets/g1 GC 内存布局.png",
-    "Output/G1 垃圾回收的基本单位 - Region.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/G1 垃圾回收的基本单位 - Region.md",
+    "Assets/g1 GC 内存布局.png",
     "Input/G1 垃圾回收的基本单位 - Region.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
