@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "f6e9ec7397834245",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Garbage First 深度学习.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Garbage First 深度学习"
+            }
+          },
+          {
             "id": "95ce1aa43f216a04",
             "type": "leaf",
             "state": {
@@ -58,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,8 +274,8 @@
   },
   "active": "95ce1aa43f216a04",
   "lastOpenFiles": [
-    "Projects/Garbage First 深度学习.md",
     "Output/记忆集与卡表.md",
+    "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
     "Output/Java 的四种引用类型.md",
