@@ -104,9 +104,19 @@
               "icon": "lucide-file",
               "title": "G1 常用的可调选项及其默认值"
             }
+          },
+          {
+            "id": "8782e0f8ef873d05",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,12 +232,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Input/Garbage-First Garbage Collector Tuning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Garbage-First Garbage Collector Tuning 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -294,10 +303,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "769cb448952d869c",
+  "active": "8782e0f8ef873d05",
   "lastOpenFiles": [
-    "Output/G1 常用的可调选项及其默认值.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/G1 常用的可调选项及其默认值.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
     "Output/记忆集与卡表.md",
