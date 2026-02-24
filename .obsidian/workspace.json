@@ -106,9 +106,19 @@
               "icon": "lucide-file",
               "title": "G1 Mixed GC"
             }
+          },
+          {
+            "id": "607e6a35502fe71c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -295,64 +305,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "6797fe34e1bdb126",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5ee22e5a3cdba79a",
-        "type": "window",
-        "children": [
-          {
-            "id": "08bc31bf90971ebb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "558e2faa2f30fefe",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Input/Garbage-First Garbage Collector Tuning.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Garbage-First Garbage Collector Tuning"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2291,
-        "y": 70,
-        "width": 1113,
-        "height": 1320,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "5f89b6a69624dc5d",
+  "active": "607e6a35502fe71c",
   "lastOpenFiles": [
-    "Output/记忆集与卡表.md",
     "Output/G1 Mixed GC.md",
+    "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/记忆集与卡表.md",
     "MoC/G1 性能调优.md",
     "Projects/Garbage First 深度学习.md",
     "Output/Prompt 收集 - 概念三问.md",
     "Output/G1 中的 Young GC.md",
-    "Input/Garbage-First Garbage Collector Tuning.md",
     "Output/G1 中的 GC 分类.md",
     "Output/G1 调优 - 避免频繁的 Full GC.md",
     "Output/Git 约定式提交规范.md",
