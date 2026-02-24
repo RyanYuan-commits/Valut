@@ -2,8 +2,6 @@
 type: project
 banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 ---
----
-
 ## 1	参考文章
 
 [Getting Started with the G1 Garbage Collector](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html) 
@@ -51,6 +49,8 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 [[G1 垃圾回收的基本单位 - Region]]
 
 [[G1 通过 SATB 防止并发标记错误]]
+
+
 
 ---
 

@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "63ecb20a2a47573a",
+            "id": "4007c5eb31f9b184",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "769cb448952d869c",
+            "id": "738204b892b70429",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Input/Garbage-First Garbage Collector Tuning.md",
+                "file": "MoC/G1 性能调优.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,16 +78,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Garbage-First Garbage Collector Tuning"
+              "title": "G1 性能调优"
             }
           },
           {
-            "id": "281ce6009a92602e",
+            "id": "829d316fd91371e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/G1 常用的可调选项及其默认值.md",
+                "file": "Output/G1 调优 - 避免频繁的 Full GC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,21 +102,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "G1 常用的可调选项及其默认值"
-            }
-          },
-          {
-            "id": "8782e0f8ef873d05",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "G1 调优 - 避免频繁的 Full GC"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -303,12 +293,64 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8782e0f8ef873d05",
+  "floating": {
+    "id": "6797fe34e1bdb126",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5ee22e5a3cdba79a",
+        "type": "window",
+        "children": [
+          {
+            "id": "08bc31bf90971ebb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "558e2faa2f30fefe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Input/Garbage-First Garbage Collector Tuning.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Garbage-First Garbage Collector Tuning"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 35,
+        "y": 70,
+        "width": 1677,
+        "height": 1320,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "829d316fd91371e8",
   "lastOpenFiles": [
     "Input/Garbage-First Garbage Collector Tuning.md",
-    "Output/G1 常用的可调选项及其默认值.md",
+    "Output/G1 调优 - 避免频繁的 Full GC.md",
+    "MoC/G1 性能调优.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
+    "Projects/MySql 技术内幕 InnoDB 存储引擎 阅读.md",
+    "Output/G1 常用的可调选项及其默认值.md",
     "Output/记忆集与卡表.md",
     "Output/Java 的四种引用类型.md",
     "Output/Prompt 收集 - 概念三问.md",
@@ -333,9 +375,6 @@
     "Assets/java time 包转化关系.png",
     "Excalidraw/java time 包类转化关系.md",
     "Output/LocalXXX —— 本地时间的语境.md",
-    "Output/Java Instant —— 时间轴上的绝对点.md",
-    "Output/本地诊断工具 - jcmd.md",
-    "Output/常见的 Java 字节码指令.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
