@@ -50,7 +50,9 @@ banner: Assets/Banner/pexels-picjumbo-com-55570-4457409.jpg
 
 [[G1 通过 SATB 防止并发标记错误]]
 
+[[G1 的 GC 模式]]
 
+[[G1 调优 - 避免频繁的 Full GC]]
 
 ---
 
