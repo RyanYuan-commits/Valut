@@ -36,6 +36,39 @@ IHOP 默认值为 45, 含义是老年代使用空间 / 整个堆空间的比例,
 
 ## 2	全局并发标记日志
 
-
+```java
+// 发生全局并发标记的原因是大对象分配
+66955.252: [G1Ergonomics (Concurrent Cycles) request concurrent cycle initiation, reason: occupancy higher than threshold, occupancy: 1449132032 bytes, allocation request: 579608 bytes, threshold: 1449
+551430 bytes (45.00 %), source: concurrent humongous allocation]
+2014-12-10T11:13:09.532+0800: 66955.252: Application time: 2.5750418 seconds
+ 66955.259: [G1Ergonomics (Concurrent Cycles) request concurrent cycle initiation, reason: requested by GC cause, GC cause: G1 Humongous Allocation]
+{Heap before GC invocations=1874 (full 4):
+ garbage-first heap   total 3145728K, used 1281786K [0x0000000700000000, 0x00000007c0000000, 0x00000007c0000000)
+  region size 1024K, 171 young (175104K), 27 survivors (27648K)
+ Metaspace       used 116681K, capacity 137645K, committed 137984K, reserved 1171456K
+  class space    used 13082K, capacity 16290K, committed 16384K, reserved 1048576K
+ 66955.259: [G1Ergonomics (Concurrent Cycles) initiate concurrent cycle, reason: concurrent cycle initiation requested]
+2014-12-10T11:13:09.539+0800: 66955.259: [GC pause (G1 Humongous Allocation) (young) (initial-mark)
+…….
+2014-12-10T11:13:09.597+0800: 66955.317: [GC concurrent-root-region-scan-start]
+2014-12-10T11:13:09.597+0800: 66955.318: Total time for which application threads were stopped: 0.0655753 seconds
+2014-12-10T11:13:09.610+0800: 66955.330: Application time: 0.0127071 seconds
+2014-12-10T11:13:09.614+0800: 66955.335: Total time for which application threads were stopped: 0.0043882 seconds
+2014-12-10T11:13:09.625+0800: 66955.346: [GC concurrent-root-region-scan-end, 0.0281351 secs]
+2014-12-10T11:13:09.625+0800: 66955.346: [GC concurrent-mark-start]
+2014-12-10T11:13:09.645+0800: 66955.365: Application time: 0.0306801 seconds
+2014-12-10T11:13:09.651+0800: 66955.371: Total time for which application threads were stopped: 0.0061326 seconds
+2014-12-10T11:13:10.212+0800: 66955.933: [GC concurrent-mark-end, 0.5871129 secs]
+2014-12-10T11:13:10.212+0800: 66955.933: Application time: 0.5613792 seconds
+2014-12-10T11:13:10.215+0800: 66955.935: [GC remark 66955.936: [GC ref-proc, 0.0235275 secs], 0.0320865 secs]
+ [Times: user=0.05 sys=0.00, real=0.03 secs]
+2014-12-10T11:13:10.247+0800: 66955.968: Total time for which application threads were stopped: 0.0350098 seconds
+2014-12-10T11:13:10.248+0800: 66955.968: Application time: 0.0001691 seconds
+2014-12-10T11:13:10.250+0800: 66955.970: [GC cleanup 1178M->632M(3072M), 0.0060632 secs]
+ [Times: user=0.02 sys=0.00, real=0.01 secs]
+2014-12-10T11:13:10.256+0800: 66955.977: Total time for which application threads were stopped: 0.0088462 seconds
+2014-12-10T11:13:10.257+0800: 66955.977: [GC concurrent-cleanup-start]
+2014-12-10T11:13:10.259+0800: 66955.979: [GC concurrent-cleanup-end, 0.0024743 secs
+```
 
 ---
