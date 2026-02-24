@@ -335,9 +335,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 1728,
+        "x": 2291,
         "y": 70,
-        "width": 1678,
+        "width": 1113,
         "height": 1320,
         "maximize": false,
         "zoom": 0
@@ -346,8 +346,9 @@
   },
   "active": "5f89b6a69624dc5d",
   "lastOpenFiles": [
-    "MoC/G1 性能调优.md",
+    "Output/记忆集与卡表.md",
     "Output/G1 Mixed GC.md",
+    "MoC/G1 性能调优.md",
     "Projects/Garbage First 深度学习.md",
     "Output/Prompt 收集 - 概念三问.md",
     "Output/G1 中的 Young GC.md",
@@ -358,7 +359,6 @@
     "🧠 知识工作台.md",
     "Projects/MySql 技术内幕 InnoDB 存储引擎 阅读.md",
     "Output/G1 常用的可调选项及其默认值.md",
-    "Output/记忆集与卡表.md",
     "Output/Java 的四种引用类型.md",
     "Output/JVM Concurrent Mark Sweep 收集器.md",
     "Output/G1 垃圾回收的基本单位 - Region.md",
