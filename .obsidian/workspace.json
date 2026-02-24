@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "07d4a0e3487a9a17",
+            "id": "698e2672f18008f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/G1 内存分区初始化源码.md",
+                "file": "Projects/Kafka 核心技术与实战.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,17 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "G1 内存分区初始化源码"
-            }
-          },
-          {
-            "id": "5b74d9fced802790",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Kafka 核心技术与实战"
             }
           }
         ],
@@ -279,11 +269,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07d4a0e3487a9a17",
+  "active": "698e2672f18008f6",
   "lastOpenFiles": [
-    "Output/G1 内存分区初始化源码.md",
+    "Output/理解消息引擎系统.md",
+    "Projects/Kafka 核心技术与实战.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
+    "Projects/未命名.md",
+    "Output/G1 内存分区初始化源码.md",
     "MoC/G1 的 GC 模式.md",
     "Output/G1 中的 Mixed GC.md",
     "Output/G1 中的 Young GC.md",
@@ -307,9 +300,6 @@
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",
     "Output/Java 应用性能考量 - 响应性与吞吐量.md",
-    "Projects/Dubbo 源码解读与实战.md",
-    "Output/Dubbo SPI 机制.md",
-    "Dubbo SPI 机制.md",
     "Assets/java time 包类转化关系.png",
     "Assets/java time 包转化关系.png",
     "Assets/Banner/Pasted image 20251122105012.png",
