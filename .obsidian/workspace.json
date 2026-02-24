@@ -104,33 +104,9 @@
               "icon": "lucide-file",
               "title": "G1 调优 - 避免频繁的 Full GC"
             }
-          },
-          {
-            "id": "e1b1080fa3dfcf95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Git 约定式提交规范.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Git 约定式提交规范"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -366,7 +342,7 @@
       }
     ]
   },
-  "active": "e1b1080fa3dfcf95",
+  "active": "829d316fd91371e8",
   "lastOpenFiles": [
     "Output/Git 约定式提交规范.md",
     "Output/G1 调优 - 避免频繁的 Full GC.md",
