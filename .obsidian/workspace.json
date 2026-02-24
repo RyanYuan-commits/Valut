@@ -80,6 +80,16 @@
               "icon": "lucide-file",
               "title": "G1 内存分区初始化源码"
             }
+          },
+          {
+            "id": "5b74d9fced802790",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
         "currentTab": 2
