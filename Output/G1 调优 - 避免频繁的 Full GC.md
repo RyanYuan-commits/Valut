@@ -13,6 +13,12 @@ banner: Assets/Banner/pexels-maxravier-3331094.jpg
 - 疏散失败 (最核心原因): 有年轻代晋升失败和老年代转移失败两种情况;
 
 - 巨型对象分配失败: 类似老年代转移失败, 老年代中没有足够的空间分配给新的巨型对象;
+	
+- 并发模式失败: 在并发标记过程尚未完成时, 老年代的空间就已耗尽 (如年轻代大量晋升);
+	
+- 元空间不足: 加载的类过多 (如大量使用动态代理, CGLib, JSP 等), 导致增长到阈值且无法扩容;
+	
+- 显示调用 `System.gc()`
 
 ## 2	观测 Full GC
 
@@ -30,6 +36,6 @@ banner: Assets/Banner/pexels-maxravier-3331094.jpg
 	
 - 通过显示的设置 `-XX:ConcGCThreads` 来增大并发标记线程的数量;
 	
-- 将 G1 设置为更早开始标记, G1 会根据早期应用程序的行为自动确定 IHOP (Initiating Heap Occupancy Percent, 启动堆占用百分比) 阈值, 如果应用程序发生变化, 这个预测可能不正确, 有两种选择, 通过修改 `-XX:G1ReservePercent` 来增加自适应 IHOP 计算中使用的缓冲区, 或者使用 `-XX:-GUseAdaptiveIHOP` 和 `-XXInitiatingHeapOccupancyPercent` 手动设置 IHOP 来禁用它. 
+- 将 G1 设置为更早开始标记, G1 会根据早期应用程序的行为自动确定 IHOP (Initiating Heap Occupancy Percent, 启动堆占用百分比) 阈值, 如果应用程序发生变化, 这个预测可能不正确, 可以通过修改 `-XX:G1ReservePercent` 来增加自适应 IHOP 计算中使用的缓冲区, 或使用 `-XX:-GUseAdaptiveIHOP` 和 `-XXInitiatingHeapOccupancyPercent` 手动设置 IHOP 来禁用它. 
 
 ---
