@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "f0d971b68131e151",
+            "id": "dcc4ff116508fbde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/G1 中的 Young GC.md",
+                "file": "MoC/G1 的 GC 模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "G1 中的 Young GC"
+              "title": "G1 的 GC 模式"
+            }
+          },
+          {
+            "id": "c2783366fe773398",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/G1 中的 Mixed GC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "G1 中的 Mixed GC"
+            }
+          },
+          {
+            "id": "9e6378e19388fee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/G1 中的 Mixed GC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "G1 中的 Mixed GC"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,19 +293,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0d971b68131e151",
+  "active": "9e6378e19388fee0",
   "lastOpenFiles": [
     "MoC/G1 的 GC 模式.md",
     "Projects/Garbage First 深度学习.md",
-    "Output/G1 中的 Mixed GC.md",
-    "MoC/Young GC.md",
     "🧠 知识工作台.md",
+    "Output/G1 中的 Mixed GC.md",
+    "Output/G1 中的 Young GC.md",
+    "MoC/Young GC.md",
     "Input/Garbage-First Garbage Collector Tuning.md",
     "Output/G1 调优 - 避免频繁的 Full GC.md",
     "MoC/G1 性能调优.md",
     "Output/记忆集与卡表.md",
     "Output/Prompt 收集 - 概念三问.md",
-    "Output/G1 中的 Young GC.md",
     "Output/G1 中的 GC 分类.md",
     "Output/Git 约定式提交规范.md",
     "Projects/MySql 技术内幕 InnoDB 存储引擎 阅读.md",

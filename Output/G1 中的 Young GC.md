@@ -40,32 +40,51 @@ G1 在逻辑上将 Region 分为年轻代和老年代, 比例不是固定的, �
 2014-11-14T17:57:23.654+0800: 27.884: [GC pause (G1 Evacuation Pause) (young)
 Desired survivor size 11534336 bytes, new threshold 15 (max 15)
 - age   1:    5011600 bytes,    5011600 total
+ // 要扫描的区域和扫描这些区域的预计时间
  27.884: [G1Ergonomics (CSet Construction) start choosing CSet, _pending_cards: 1461, predicted base time: 35.25 ms, remaining time: 64.75 ms, target pause time: 100.00 ms]
+ // Young GC 会扫描全部的年轻代区域
  27.884: [G1Ergonomics (CSet Construction) add young regions to CSet, eden: 159 regions, survivors: 13 regions, predicted young region time: 44.09 ms]
  27.884: [G1Ergonomics (CSet Construction) finish choosing CSet, eden: 159 regions, survivors: 13 regions, old: 0 regions, predicted pause time: 79.34 ms, target pause time: 100.00 ms]
 , 0.0158389 secs]
+   // 收集由 4 个线程并发执行, 耗时 8.1ms
    [Parallel Time: 8.1 ms, GC Workers: 4]
+	  // 收集线程开始的时间
       [GC Worker Start (ms): Min: 27884.5, Avg: 27884.5, Max: 27884.5, Diff: 0.1]
+	  // 扫描 Roots 花费的时间
       [Ext Root Scanning (ms): Min: 0.4, Avg: 0.8, Max: 1.2, Diff: 0.8, Sum: 3.1]
+	  // 每个线程花费在更新 Remember Set 上的时间
       [Update RS (ms): Min: 0.0, Avg: 0.3, Max: 0.6, Diff: 0.6, Sum: 1.4]
          [Processed Buffers: Min: 0, Avg: 2.8, Max: 5, Diff: 5, Sum: 11]
+	  // 扫描 Remember Set 花费的时间
       [Scan RS (ms): Min: 0.0, Avg: 0.1, Max: 0.1, Diff: 0.1, Sum: 0.3]
+	  // 扫描 Code Roots 耗时, 即经过 JIT 编译后的代码里, 引用 heap 的对象
       [Code Root Scanning (ms): Min: 0.0, Avg: 0.1, Max: 0.2, Diff: 0.2, Sum: 0.6]
+	  // 拷贝活的对象到新 Region 时的耗时
       [Object Copy (ms): Min: 4.9, Avg: 5.1, Max: 5.2, Diff: 0.3, Sum: 20.4]
+	  // 线程结束, 在结束前扫描其他线程是否有未扫描完的引用, 如果有, 则替该线程完成后再申请结束
       [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+	  // 花费在其他工作上的时间
       [GC Worker Other (ms): Min: 0.0, Avg: 0.4, Max: 1.3, Diff: 1.3, Sum: 1.4]
+	  // 每个线程花费的时间和
       [GC Worker Total (ms): Min: 6.4, Avg: 6.8, Max: 7.8, Diff: 1.4, Sum: 27.2]
+	  // 每个线程结束的时间
       [GC Worker End (ms): Min: 27891.0, Avg: 27891.3, Max: 27892.3, Diff: 1.3]
+   // 用来将 code root 修正到正确的 evacuate 之后的对象位置所花费的时间
    [Code Root Fixup: 0.5 ms]
+   // 更新 Code Root 引用的耗时, GC 后对象位置变化, 需要更新
    [Code Root Migration: 1.3 ms]
+   // 清除 Code Root 的耗时
    [Code Root Purge: 0.0 ms]
+   // 清除 Card Table 的耗时
    [Clear CT: 0.2 ms]
+   // 其他事项耗时 5.8ms, 包括选择 CSet, 处理一用对象等
    [Other: 5.8 ms]
       [Choose CSet: 0.0 ms]
       [Ref Proc: 5.0 ms]
       [Ref Enq: 0.1 ms]
       [Redirty Cards: 0.0 ms]
       [Free CSet: 0.2 ms]
+   // 新生代清空了, 下次扩容到 301.0M
    [Eden: 159.0M(159.0M)->0.0B(301.0M) Survivors: 13.0M->11.0M Heap: 328.8M(3072.0M)->167.3M(3072.0M)]
 Heap after GC invocations=13 (full 1):
  garbage-first heap   total 3145728K, used 171269K [0x0000000700000000, 0x00000007c0000000, 0x00000007c0000000)
@@ -75,7 +94,5 @@ Heap after GC invocations=13 (full 1):
 }
  [Times: user=0.05 sys=0.01, real=0.02 secs]
 ```
-
-
 
 ---
