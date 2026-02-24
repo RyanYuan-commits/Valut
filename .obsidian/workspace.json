@@ -104,9 +104,33 @@
               "icon": "lucide-file",
               "title": "G1 调优 - 避免频繁的 Full GC"
             }
+          },
+          {
+            "id": "e1b1080fa3dfcf95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Git 约定式提交规范.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Git 约定式提交规范"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -333,19 +357,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 35,
+        "x": 1163,
         "y": 70,
-        "width": 1677,
+        "width": 1113,
         "height": 1320,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "829d316fd91371e8",
+  "active": "e1b1080fa3dfcf95",
   "lastOpenFiles": [
-    "Input/Garbage-First Garbage Collector Tuning.md",
+    "Output/Git 约定式提交规范.md",
     "Output/G1 调优 - 避免频繁的 Full GC.md",
+    "Input/Garbage-First Garbage Collector Tuning.md",
     "MoC/G1 性能调优.md",
     "Projects/Garbage First 深度学习.md",
     "🧠 知识工作台.md",
@@ -374,7 +399,6 @@
     "Output/ZonedDateTime vs OffsetDateTime —— 时区处理.md",
     "Assets/java time 包转化关系.png",
     "Excalidraw/java time 包类转化关系.md",
-    "Output/LocalXXX —— 本地时间的语境.md",
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
