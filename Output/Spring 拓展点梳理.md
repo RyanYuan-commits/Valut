@@ -233,6 +233,3 @@ applyBeanPostProcessorsBeforeInitialization 在实例化方法 invokeInitMethods
 这两个方法都是通过 getBeanPostProcessors() 方法获取所有的 BeanPostProcessor 遍历执行.
 
 ---
-
-# 📚 参考内容
-
