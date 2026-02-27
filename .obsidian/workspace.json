@@ -32,8 +32,19 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "9803beea60412e30",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,12 +231,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "188190cdb2e85380",
+  "active": "9803beea60412e30",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
     "Output/Git 约定式提交规范.md",
     "Output/Spring 拓展点梳理.md",
     "Output/Spring Bean 的生命周期.md",
-    "🧠 知识工作台.md",
     "Excalidraw/Java time 包.md",
     "Projects/Dubbo 源码解读与实战.md",
     "Projects/Garbage First 深度学习.md",
