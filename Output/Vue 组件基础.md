@@ -109,7 +109,10 @@ const posts = ref([
   </div>
 </template>
 
-
+<BlogPost
+  ...
+  @enlarge-text="postFontSize += 0.1"
+ />
 ```
 
 

@@ -80,9 +80,19 @@
               "icon": "lucide-file",
               "title": "Vue 组件基础"
             }
+          },
+          {
+            "id": "0ed1e6994d9149b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -269,10 +279,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a206e70211b06e29",
+  "active": "0ed1e6994d9149b2",
   "lastOpenFiles": [
-    "Assets/Vue 组件.png",
     "Output/Vue 组件基础.md",
+    "Assets/Vue 组件.png",
     "Projects/Vue 官方文档阅读.md",
     "🧠 知识工作台.md",
     "Output/Vue 侦听器.md",
