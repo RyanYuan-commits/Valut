@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "5f8b29b1b7d9ad05",
+            "id": "74f75e00ebb687ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "222249436eabcaeb",
+            "id": "a206e70211b06e29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Vue 模板引用.md",
+                "file": "Output/Vue 组件基础.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,31 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vue 模板引用"
-            }
-          },
-          {
-            "id": "7374e96bb553d291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Vue 侦听器.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vue 侦听器"
+              "title": "Vue 组件基础"
             }
           }
         ],
@@ -293,14 +269,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "222249436eabcaeb",
+  "active": "a206e70211b06e29",
   "lastOpenFiles": [
+    "Assets/Vue 组件.png",
+    "Output/Vue 组件基础.md",
     "Projects/Vue 官方文档阅读.md",
-    "Output/Vue 模板引用.md",
+    "🧠 知识工作台.md",
     "Output/Vue 侦听器.md",
+    "Output/Vue 模板引用.md",
     "Output/Vue 表单输入双向绑定 (v-model).md",
     "Output/Vue 表单输入绑定.md",
-    "🧠 知识工作台.md",
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
     "Output/Dubbo Remoting 层 ChannelHandler 接口.md",
     "Output/Dubbo Remoting 层 Channel 接口.md",
@@ -320,8 +298,6 @@
     "Output/理解消息引擎系统.md",
     "Projects/未命名.md",
     "Output/G1 内存分区初始化源码.md",
-    "MoC/G1 的 GC 模式.md",
-    "Output/G1 中的 Mixed GC.md",
     "Assets/g1 GC 内存布局.png",
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",
@@ -330,7 +306,6 @@
     "Assets/Banner/Pasted image 20251122105012.png",
     "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
     "Assets/undo record 的物理组织形式 - undo segment.png",
-    "Assets/undo record 的逻辑组织方式 - undo log.png",
     "未命名.canvas",
     "View/正在进行.base",
     "正在进行.canvas",

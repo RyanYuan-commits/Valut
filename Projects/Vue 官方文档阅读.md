@@ -28,4 +28,6 @@ Vue 官方文档 https://cn.vuejs.org/
 
 [[Vue 模板引用]]
 
+[[Vue 组件基础]]
+
 ---
