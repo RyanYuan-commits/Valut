@@ -63,6 +63,18 @@ import ButtonCounter from './ButtonCounter.vue'
 
 ## 4	传递 props
 
+**场景**: 构建一个博客网站, 需要一个表示博客文章的组件, 我们可能希望所有的博客文章共享同一套布局, 需要向组件中传递数据.
 
+props 是一种特别的 Attributes, 使用前需要现在组件中定义该 prop:
+
+```vue
+<script setup>
+defineProps(['title'])
+</script>
+
+<template>
+  <h4>{{ title }}</h4>
+</template>
+```
 
 ---
