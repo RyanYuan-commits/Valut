@@ -61,4 +61,8 @@ import ButtonCounter from './ButtonCounter.vue'
 </template>
 ```
 
+## 4	传递 props
+
+
+
 ---
