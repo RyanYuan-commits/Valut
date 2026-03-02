@@ -78,6 +78,40 @@ console.log(props.title)
 </template>
 ```
 
-在父组件中k
+父组件可以将其当做 Attribute 使用:
+
+```vue
+<script setup>
+const posts = ref([
+  { id: 1, title: 'My journey with Vue' },
+  { id: 2, title: 'Blogging with Vue' },
+  { id: 3, title: 'Why Vue is so fun' }
+])
+</script>
+
+<template>
+  <BlogPost
+    v-for="post in posts"
+    :key="post.id"
+    :title="post.title"
+ />
+</template>
+```
+## 5	监听事件
+
+场景: 子组件和父组件交互
+
+```vue
+<template>
+  <div class="blog-post">
+    <h4>{{ title }}</h4>
+    <button @click="$emit('enlarge-text')">Enlarge text</button>
+  </div>
+</template>
+
+
+```
+
+
 
 ---
