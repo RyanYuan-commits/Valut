@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Output/Dubbo Remoting 层 Endpoint 接口.md",
+                "file": "MoC/Dubbo Remoting 层核心接口之间的关系.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo Remoting 层 Endpoint 接口"
+              "title": "Dubbo Remoting 层核心接口之间的关系"
+            }
+          },
+          {
+            "id": "ea160c90dfd9f44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Output/Dubbo Remoting 层 ChannelHandler 接口.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo Remoting 层 ChannelHandler 接口"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,9 +269,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c2e2ff0985c6d73",
+  "active": "ea160c90dfd9f44a",
   "lastOpenFiles": [
     "MoC/Dubbo Remoting 层核心接口之间的关系.md",
+    "Output/Dubbo Remoting 层 Channel 接口.md",
+    "Output/Dubbo Remoting 层 Endpoint 接口.md",
     "Output/Dubbo Remoting 层核心类与接口.md",
     "Projects/Dubbo 源码解读与实战.md",
     "🧠 知识工作台.md",
@@ -272,8 +298,6 @@
     "Input/Garbage-First Garbage Collector Tuning.md",
     "Output/G1 调优 - 避免频繁的 Full GC.md",
     "MoC/G1 性能调优.md",
-    "Output/记忆集与卡表.md",
-    "Output/Prompt 收集 - 概念三问.md",
     "Assets/g1 GC 内存布局.png",
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",

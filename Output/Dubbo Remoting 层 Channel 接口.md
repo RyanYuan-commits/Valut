@@ -8,7 +8,7 @@ banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 
 ---
 
-**当连接建立后**, 通信双方会持有对方的 Channel, Dubbo 的 Channel 与 Netty Channel 的概念基本一致, 其具备 KV 属性存储的能力, 同事, 其继承 Endpoint 接口, 具备获取关闭状态, 发送数据的能力,
+**当连接建立后**, 通信双方会持有对方的 Channel, Dubbo 的 Channel 与 Netty Channel 的概念基本一致, 其具备 KV 属性存储的能力, 同时, 其继承 Endpoint 接口, 具备获取关闭状态, 发送数据的能力,
 
 ```java
 // 
