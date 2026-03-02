@@ -69,12 +69,15 @@ props 是一种特别的 Attributes, 使用前需要现在组件中定义该 pro
 
 ```vue
 <script setup>
-defineProps(['title'])
+const props = defineProps(['title'])
+console.log(props.title)
 </script>
 
 <template>
   <h4>{{ title }}</h4>
 </template>
 ```
+
+在父组件中k
 
 ---
