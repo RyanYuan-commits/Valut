@@ -82,17 +82,57 @@
             }
           },
           {
-            "id": "acbde5babfedc58d",
+            "id": "61e451d689abecd6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Dubbo 源码解读与实战.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dubbo 源码解读与实战"
+            }
+          },
+          {
+            "id": "67d726753d2e92b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Output/Dubbo SPI 机制.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Dubbo SPI 机制"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -279,11 +319,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "acbde5babfedc58d",
+  "active": "67d726753d2e92b2",
   "lastOpenFiles": [
-    "Output/Vue 组件基础.md",
-    "Output/Dubbo Remoting 层核心类与接口.md",
     "Projects/Dubbo 源码解读与实战.md",
+    "Output/Dubbo Remoting 层核心类与接口.md",
+    "Output/Vue 组件基础.md",
+    "Output/Dubbo Exchange 层 Response 类字段解析.md",
+    "Output/Dubbo Exchange 层 Request 类字段解析.md",
+    "MoC/Dubbo Transport 层核心接口梳理.md",
     "🧠 知识工作台.md",
     "Projects/Vue 官方文档阅读.md",
     "Assets/Vue 组件.png",
@@ -306,8 +349,6 @@
     "Projects/Kafka 核心技术与实战.md",
     "Assets/Kafka 术语图例.png",
     "Output/理解消息引擎系统.md",
-    "Projects/未命名.md",
-    "Output/G1 内存分区初始化源码.md",
     "Assets/g1 GC 内存布局.png",
     "Assets/三色标记法流程图.png",
     "Assets/CMS GC 过程.png",
