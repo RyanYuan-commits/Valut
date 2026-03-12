@@ -3,7 +3,7 @@ views:
     name: 表格
     filters:
       and:
-        - file.path.startsWith("Output/")
+        - file.folder == "输出"
         - '!file.basename.endsWith("模板")'
     order:
       - file.name

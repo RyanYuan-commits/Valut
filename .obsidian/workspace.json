@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f218c70804f76b37",
+        "id": "f4f4858793f6fb6d",
         "type": "tabs",
         "children": [
           {
-            "id": "188190cdb2e85380",
+            "id": "4dda6613ecec75b7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "74f75e00ebb687ba",
+            "id": "e05bc87904afcd03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Vue 官方文档阅读.md",
-                "mode": "source",
+                "file": "项目/Dubbo 源码解读与实战.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -53,86 +53,12 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-file",
-              "title": "Vue 官方文档阅读"
-            }
-          },
-          {
-            "id": "a206e70211b06e29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Vue 组件基础.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vue 组件基础"
-            }
-          },
-          {
-            "id": "61e451d689abecd6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Dubbo 源码解读与实战.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Dubbo 源码解读与实战"
             }
-          },
-          {
-            "id": "67d726753d2e92b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Output/Dubbo SPI 机制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo SPI 机制"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,56 +70,6 @@
       {
         "id": "9978811013ac4f46",
         "type": "tabs",
-        "dimension": 59.01525658807211,
-        "children": [
-          {
-            "id": "8f07a943ed67100d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "1f174d608ccdf40d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "Initiating",
-                "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
-            }
-          },
-          {
-            "id": "30fabdeb22d629a4",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "1efbb85094cf2785",
-        "type": "tabs",
-        "dimension": 40.98474341192789,
         "children": [
           {
             "id": "891c1c11d158a153",
@@ -207,13 +83,54 @@
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
+          },
+          {
+            "id": "1f174d608ccdf40d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f55fc59da05be9e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "🧠 我的第二大脑 知识工作台 的大纲"
+            }
+          },
+          {
+            "id": "1db067490efb144b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -229,17 +146,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Output/G1 垃圾回收的基本单位 - Region.md",
+                "file": "🧠 我的第二大脑 知识工作台.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "G1 垃圾回收的基本单位 - Region 的反向链接列表"
+              "title": "🧠 我的第二大脑 知识工作台 的反向链接列表"
             }
           },
           {
@@ -248,11 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🧠 我的第二大脑 知识工作台.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "🧠 我的第二大脑 知识工作台 的出链列表"
             }
           },
           {
@@ -285,7 +203,7 @@
             }
           },
           {
-            "id": "afc2584abd684b49",
+            "id": "10f17b980a17eae8",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -299,13 +217,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:新建数据库": false,
-      "random-note:开始漫游笔记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -314,61 +231,57 @@
       "command-palette:打开命令面板": false,
       "header-enhancer:Header Enhancer": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "smart-random-note:Open Random Note from Search": false,
+      "random-note:开始漫游笔记": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67d726753d2e92b2",
+  "active": "e05bc87904afcd03",
   "lastOpenFiles": [
-    "Projects/Dubbo 源码解读与实战.md",
-    "Output/Dubbo Remoting 层核心类与接口.md",
-    "Output/Vue 组件基础.md",
-    "Output/Dubbo Exchange 层 Response 类字段解析.md",
-    "Output/Dubbo Exchange 层 Request 类字段解析.md",
-    "MoC/Dubbo Transport 层核心接口梳理.md",
     "🧠 知识工作台.md",
-    "Projects/Vue 官方文档阅读.md",
-    "Assets/Vue 组件.png",
-    "Output/Vue 侦听器.md",
-    "Output/Vue 模板引用.md",
-    "Output/Vue 表单输入双向绑定 (v-model).md",
-    "Output/Vue 表单输入绑定.md",
-    "MoC/Dubbo Remoting 层核心接口之间的关系.md",
-    "Output/Dubbo Remoting 层 ChannelHandler 接口.md",
-    "Output/Dubbo Remoting 层 Channel 接口.md",
-    "Output/Dubbo Remoting 层 Endpoint 接口.md",
-    "Output/Vue 的模板语法.md",
-    "Projects/Garbage First 深度学习.md",
-    "Output/静态类型语言与动态类型语言.md",
-    "Output/Git 约定式提交规范.md",
-    "Output/Spring 拓展点梳理.md",
-    "Output/Spring Bean 的生命周期.md",
-    "Excalidraw/Java time 包.md",
-    "Output/Kafka 术语梳理.md",
-    "Projects/Kafka 核心技术与实战.md",
-    "Assets/Kafka 术语图例.png",
-    "Output/理解消息引擎系统.md",
-    "Assets/g1 GC 内存布局.png",
-    "Assets/三色标记法流程图.png",
-    "Assets/CMS GC 过程.png",
-    "Assets/java time 包类转化关系.png",
-    "Assets/java time 包转化关系.png",
-    "Assets/Banner/Pasted image 20251122105012.png",
-    "Assets/Banner/pexels-parakit-keng-eos-2435181-4063092.jpg",
-    "Assets/undo record 的物理组织形式 - undo segment.png",
-    "未命名.canvas",
-    "View/正在进行.base",
-    "正在进行.canvas",
-    "View/Inbox.base",
-    "MoC",
-    "View/永久笔记目录.base",
-    "Output/LocalDate/Time",
-    "Output/LocalDate",
-    "Assets/fonts/纳米民文仿宋.ttf",
-    "Assets/fonts/月星楷-Regular.ttf",
-    "Daily Notes",
-    "Assets/fonts/ChuLianDeShi-2.ttf",
-    "Output/Java 对象初始化过程.canvas"
+    "Inbox.base",
+    "视图/内容地图.base",
+    "视图/永久笔记目录.base",
+    "视图/项目笔记 View.base",
+    "视图/输入.base",
+    "项目/Dubbo 源码解读与实战.md",
+    "🧠 我的第二大脑 知识工作台.md",
+    "视图/正在进行.base",
+    "模板/Daily Note 模板.md",
+    "项目/Vue 官方文档阅读.md",
+    "项目/MySql 技术内幕 InnoDB 存储引擎 阅读.md",
+    "项目/Kafka 核心技术与实战.md",
+    "项目/Garbage First 深度学习.md",
+    "输出/颜色模型 —— Hex, RGB 与 HSL.md",
+    "输出/静态类型语言与动态类型语言.md",
+    "输出/记忆集与卡表.md",
+    "输出/计算机内核的任务.md",
+    "输出/给 Neovim 安装插件.md",
+    "输出/结构类型与命名类型.md",
+    "输出/机器时间 vs 人类时间.md",
+    "输出/本地诊断工具 - jcmd.md",
+    "输出/数据库的隔离级别与并发控制.md",
+    "输出/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
+    "输出/打破 Java 的双亲委派机制.md",
+    "输出/快速记录.md",
+    "输出/常见的 Java 字节码指令.md",
+    "输出/对于 Java 常见的序列化算法的简单介绍.md",
+    "输出/在 Vue 中使用 ref 函数声明响应式状态.md",
+    "输出/命令范式 —— 命令式 vs 声明式.md",
+    "输出/关系数据库的 AD 保障 —— 预写式日志.md",
+    "输出/Java 对象初始化过程.canvas",
+    "内容地图",
+    "输入",
+    "Excalidraw",
+    "附件/类加载器加载对象图例.png",
+    "附件/拓展类加载器和应用程序类加载器的继承关系.png",
+    "附件/拓展类加载器加载的文件.png",
+    "附件/对象头中锁状态的存储.png",
+    "附件/双核 CPU 架构简图.png",
+    "附件/双亲委派机制示意图.png",
+    "附件/使用 undo log 查找可见版本.png",
+    "附件/三色标记法流程图.png",
+    "附件/undo record 的逻辑组织方式 - undo log.png",
+    "附件/undo record 的物理组织形式 - undo segment.png",
+    "附件/fonts/纳米民文仿宋.ttf"
   ]
 }

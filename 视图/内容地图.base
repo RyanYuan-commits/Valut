@@ -3,4 +3,4 @@ views:
     name: 表格
     filters:
       and:
-        - file.basename.startsWith("(MoC)")
+        - file.folder == "内容地图"

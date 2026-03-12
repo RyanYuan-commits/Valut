@@ -3,14 +3,14 @@ views:
     name: 表格
     filters:
       and:
-        - file.folder == "Projects"
+        - file.folder == "输入"
     order:
       - file.name
     sort:
       - property: file.name
-        direction: ASC
-      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
         direction: DESC
     limit: 10
     columnSize:
-      file.name: 473
+      file.name: 469
