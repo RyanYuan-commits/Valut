@@ -5,7 +5,7 @@
       "name": "新建文献笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/文献笔记模板.md",
+      "templatePath": "模板/文献笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Input"
+          "输入"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -35,16 +35,14 @@
       "name": "新建永久笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/永久笔记模板.md",
+      "templatePath": "模板/永久笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
         "enabled": true,
-        "folders": [
-          "Output"
-        ],
+        "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -65,7 +63,7 @@
       "name": "新建项目笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/项目笔记模板.md",
+      "templatePath": "模板/项目笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -73,7 +71,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Projects"
+          "项目"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -95,7 +93,7 @@
       "name": "新建文献笔记+插入当前笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/文献笔记模板.md",
+      "templatePath": "模板/文献笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -103,7 +101,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Input"
+          "输入"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -130,7 +128,7 @@
       "name": "新建永久笔记+插入当前笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/永久笔记模板.md",
+      "templatePath": "模板/永久笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -138,7 +136,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "Output"
+          "输出"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -165,22 +163,20 @@
       "name": "新建MoC笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/MoC 笔记模板.md",
+      "templatePath": "模板/MoC 笔记模板.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
         "enabled": true,
-        "folders": [
-          "MoC"
-        ],
+        "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
       "appendLink": false,
-      "openFile": true,
+      "openFile": false,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
@@ -189,46 +185,6 @@
       },
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
-    },
-    {
-      "id": "162aa37c-1c96-4903-b615-08ad0fabea1c",
-      "name": "新增专注记录",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "activeFileWritePosition": "cursor",
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "\n> [!note] 专注记录\n>\n> **时长**: 25 min, **主题**: 学习 & 个人成长\n> \n> ---\n> \n> 心得记录: "
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "newLineCapture": {
-        "enabled": false,
-        "direction": "below"
-      },
-      "prepend": true,
-      "task": false,
-      "openFile": false,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      }
     }
   ],
   "inputPrompt": "single-line",

@@ -132,7 +132,7 @@
   "showSelectImageIcon": true,
   "selectImageIconOpacity": 40,
   "selectImageIconFlag": "red",
-  "defaultSelectImagePath": "Assets/Banner",
+  "defaultSelectImagePath": "附件/Banner",
   "defaultSelectIconPath": "",
   "useShortPath": true,
   "bannerGap": 11,

@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "项目/Dubbo 源码解读与实战.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "Dubbo 源码解读与实战"
             }
+          },
+          {
+            "id": "5e6bb21665942fb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输入/开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -235,15 +260,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e05bc87904afcd03",
+  "active": "5e6bb21665942fb1",
   "lastOpenFiles": [
+    "项目/Dubbo 源码解读与实战.md",
+    "输入/开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力.md",
     "🧠 知识工作台.md",
     "Inbox.base",
     "视图/内容地图.base",
     "视图/永久笔记目录.base",
     "视图/项目笔记 View.base",
     "视图/输入.base",
-    "项目/Dubbo 源码解读与实战.md",
     "🧠 我的第二大脑 知识工作台.md",
     "视图/正在进行.base",
     "模板/Daily Note 模板.md",
