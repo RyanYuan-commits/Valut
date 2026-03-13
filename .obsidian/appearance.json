@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "编辑行高亮",
     "去除下划线",
-    "图片居中"
+    "图片居中",
+    "改变加粗字体的颜色为红色"
   ],
   "textFontFamily": "上图东观体,Aa诗月花茶行楷体,霞鹜文楷",
   "monospaceFontFamily": "Maple Mono NF CN",
