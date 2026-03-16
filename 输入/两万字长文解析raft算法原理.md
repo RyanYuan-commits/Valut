@@ -20,7 +20,7 @@ banner: 附件/Banner/Pasted image 20251122105012.png
 
 ---
 
-
+[[CAP 理论：经典分布式系统理论]]
 
 ---
 
