@@ -262,7 +262,9 @@
   },
   "active": "07d4641a08515d9a",
   "lastOpenFiles": [
+    "Assets/CAP 理论.png",
     "CAP 理论：经典分布式系统理论.md",
+    "Assets",
     "输入/两万字长文解析raft算法原理.md",
     "项目/Raft 算法.md",
     "输入/开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力.md",
@@ -293,7 +295,6 @@
     "输出/打破 Java 的双亲委派机制.md",
     "输出/快速记录.md",
     "输出/常见的 Java 字节码指令.md",
-    "输出/对于 Java 常见的序列化算法的简单介绍.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",
@@ -306,8 +307,6 @@
     "附件/双亲委派机制示意图.png",
     "附件/使用 undo log 查找可见版本.png",
     "附件/三色标记法流程图.png",
-    "附件/undo record 的逻辑组织方式 - undo log.png",
-    "附件/undo record 的物理组织形式 - undo segment.png",
-    "附件/fonts/纳米民文仿宋.ttf"
+    "附件/undo record 的逻辑组织方式 - undo log.png"
   ]
 }
