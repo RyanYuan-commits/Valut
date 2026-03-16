@@ -34,6 +34,54 @@
             }
           },
           {
+            "id": "942280f460e07209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/Raft 算法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Raft 算法"
+            }
+          },
+          {
+            "id": "c667e56009f85702",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输入/两万字长文解析raft算法原理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "两万字长文解析raft算法原理"
+            }
+          },
+          {
             "id": "e05bc87904afcd03",
             "type": "leaf",
             "state": {
@@ -260,11 +308,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e6bb21665942fb1",
+  "active": "c667e56009f85702",
   "lastOpenFiles": [
+    "项目/Raft 算法.md",
+    "输入/两万字长文解析raft算法原理.md",
+    "🧠 知识工作台.md",
     "项目/Dubbo 源码解读与实战.md",
     "输入/开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力.md",
-    "🧠 知识工作台.md",
     "Inbox.base",
     "视图/内容地图.base",
     "视图/永久笔记目录.base",
@@ -292,8 +342,6 @@
     "输出/常见的 Java 字节码指令.md",
     "输出/对于 Java 常见的序列化算法的简单介绍.md",
     "输出/在 Vue 中使用 ref 函数声明响应式状态.md",
-    "输出/命令范式 —— 命令式 vs 声明式.md",
-    "输出/关系数据库的 AD 保障 —— 预写式日志.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",
