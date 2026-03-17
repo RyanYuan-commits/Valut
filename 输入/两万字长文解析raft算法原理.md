@@ -136,3 +136,4 @@ Raft 算法中的角色转换：
 - 接收到新的 leader 节点发送同步请求时；
 - 收到了任期更大的 candidate 节点的拉票请求。
 
+**follower 转化为 candidate**：
