@@ -136,4 +136,7 @@ Raft 算法中的角色转换：
 - 接收到新的 leader 节点发送同步请求时；
 - 收到了任期更大的 candidate 节点的拉票请求。
 
-**follower 转化为 candidate**：
+**follower 转化为 candidate**：当 follower 在一定时间内没有没有接收到 master 的心跳，会认为 master 已经挂掉，以当前任期加一作为自己的任期，变为 candidate 参与竞选。
+
+**candidate 转化为 follower**：当收到多数派的反对票或者收到了任期更大的 leader 的请求，candidate 会在竞选期间转回 follower。
+
