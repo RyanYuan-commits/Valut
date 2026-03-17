@@ -238,8 +238,10 @@
   },
   "active": "c667e56009f85702",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
+    "输入/未命名.md",
     "输入/两万字长文解析raft算法原理.md",
+    "Assets/Pasted image 20260317110332.png",
+    "🧠 知识工作台.md",
     "CAP 理论：经典分布式系统理论.md",
     "Assets/CAP 理论.png",
     "Assets",
@@ -282,7 +284,6 @@
     "附件/双核 CPU 架构简图.png",
     "附件/双亲委派机制示意图.png",
     "附件/使用 undo log 查找可见版本.png",
-    "附件/三色标记法流程图.png",
-    "附件/undo record 的逻辑组织方式 - undo log.png"
+    "附件/三色标记法流程图.png"
   ]
 }
