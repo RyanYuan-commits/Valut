@@ -140,3 +140,9 @@ Raft 算法中的角色转换：
 
 **candidate 转化为 follower**：当收到多数派的反对票或者收到了任期更大的 leader 的请求，candidate 会在竞选期间转回 follower。
 
+**candidate 转化为 leader**：在 candidate 竞选时，若多数派投了赞成票，则 candidate 会晋升为 leader。
+
+**candidate 转化为 candidate**：candidate 的竞选有一个时间阈值，若在这个时间内多数派没有达成共识，则在当前任期的基础上加一，开始下一次竞选。
+
+---
+
