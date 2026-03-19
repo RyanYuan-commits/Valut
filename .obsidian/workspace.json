@@ -59,12 +59,12 @@
             }
           },
           {
-            "id": "a1dc190a86e46fb9",
+            "id": "7c5b9ea9d5a97b16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
+                "file": "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -79,7 +79,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Raft 算法用于更好的解决横向拓展带来的同步问题"
+              "title": "Raft 算法通过多数派原则来保障系统的一致性和可用性"
             }
           }
         ],
@@ -292,12 +292,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1dc190a86e46fb9",
+  "active": "7c5b9ea9d5a97b16",
   "lastOpenFiles": [
+    "项目/Raft 算法.md",
+    "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
     "输入/两万字长文解析raft算法原理.md",
     "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
     "CAP 理论：经典分布式系统理论.md",
-    "项目/Raft 算法.md",
     "🧠 知识工作台.md",
     "输入/未命名.md",
     "Assets/Pasted image 20260317110332.png",
@@ -328,7 +329,6 @@
     "输出/数据库的隔离级别与并发控制.md",
     "输出/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
     "输出/打破 Java 的双亲委派机制.md",
-    "输出/快速记录.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",
