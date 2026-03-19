@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输入/两万字长文解析raft算法原理.md",
+                "file": "CAP 理论：经典分布式系统理论.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "两万字长文解析raft算法原理"
+              "title": "CAP 理论：经典分布式系统理论"
             }
           }
         ],
@@ -238,8 +238,8 @@
   },
   "active": "c667e56009f85702",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
     "输入/两万字长文解析raft算法原理.md",
+    "🧠 知识工作台.md",
     "输入/未命名.md",
     "Assets/Pasted image 20260317110332.png",
     "CAP 理论：经典分布式系统理论.md",
