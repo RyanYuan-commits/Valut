@@ -6,7 +6,6 @@
       {
         "id": "f4f4858793f6fb6d",
         "type": "tabs",
-        "dimension": 48.696219035202084,
         "children": [
           {
             "id": "4dda6613ecec75b7",
@@ -35,12 +34,36 @@
             }
           },
           {
-            "id": "4b6562ea4a09d001",
+            "id": "8e5c7ff21b7c5f7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/Raft 算法.md",
+                "file": "项目/Raft 算法深度学习.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Raft 算法深度学习"
+            }
+          },
+          {
+            "id": "c395ce23fe714393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/Raft 算法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -57,64 +80,9 @@
               "icon": "lucide-file",
               "title": "Raft 算法"
             }
-          },
-          {
-            "id": "aef7dc7df5b24654",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/Raft 算法中的选举流程.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Raft 算法中的选举流程"
-            }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "75f2bfd6e494a703",
-        "type": "tabs",
-        "dimension": 51.303780964797916,
-        "children": [
-          {
-            "id": "6a307830652d4929",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输入/两万字长文解析raft算法原理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "两万字长文解析raft算法原理"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -292,21 +260,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aef7dc7df5b24654",
+  "active": "c395ce23fe714393",
   "lastOpenFiles": [
-    "输入/两万字长文解析raft算法原理.md",
-    "输出/Raft 算法中的选举流程.md",
-    "项目/Raft 算法.md",
-    "输出/Raft 算法中的读请求.md",
-    "输出/Raft 算法中的写请求.md",
-    "输出/Raft 算法中的角色转换.md",
+    "项目/Raft 算法深度学习.md",
+    "输出/Raft 算法.md",
     "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
+    "输出/Raft 算法中的写请求.md",
+    "输入/两万字长文解析raft算法原理.md",
     "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
-    "CAP 理论：经典分布式系统理论.md",
     "🧠 知识工作台.md",
-    "输入/未命名.md",
+    "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
-    "Assets/CAP 理论.png",
+    "模板/永久笔记模板.md",
+    "输出/CAP 理论：经典分布式系统理论.md",
+    "Raft 算法1.md",
+    "输出/Raft 算法中的选举流程.md",
+    "输出/Raft 算法中的读请求.md",
+    "输出/Raft 算法中的角色转换.md",
+    "输入/未命名.md",
     "Assets",
     "输入/开篇词 | 深入掌握 Dubbo 原理与实现，提升你的职场竞争力.md",
     "项目/Dubbo 源码解读与实战.md",
@@ -325,10 +296,6 @@
     "输出/颜色模型 —— Hex, RGB 与 HSL.md",
     "输出/静态类型语言与动态类型语言.md",
     "输出/记忆集与卡表.md",
-    "输出/计算机内核的任务.md",
-    "输出/给 Neovim 安装插件.md",
-    "输出/结构类型与命名类型.md",
-    "输出/机器时间 vs 人类时间.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",

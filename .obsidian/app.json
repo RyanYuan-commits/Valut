@@ -3,7 +3,7 @@
   "promptDelete": false,
   "vimMode": true,
   "spellcheck": false,
-  "attachmentFolderPath": "Assets",
+  "attachmentFolderPath": "附件",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
