@@ -24,9 +24,9 @@ leader 需要周期性的向 follower 节点发送心跳请求，证明自己还
 
 ## 2	竞选拉票流程
 
-当 follower 在一段时间内没有收到 leader 节点的同步请求后，会转变为 candidate 向其他 follower 节点广播拉票请求，以上位为 leader。
+当 follower 在一段时间内没有收到 leader 节点的同步请求后，会转变为 candidate 参与竞选；candidate 首先会在当前 term 的基础上加一，作为新的任期标识，然后将自己的一票投给自己，随后广播向其他 follower 节点争取选票。
 
-
+如果在拉票请求超时前得到了duo's
 
 
 
