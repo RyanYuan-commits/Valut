@@ -57,9 +57,33 @@
               "icon": "lucide-file",
               "title": "Raft 算法"
             }
+          },
+          {
+            "id": "aef7dc7df5b24654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/Raft 算法中的选举流程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Raft 算法中的选举流程"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "75f2bfd6e494a703",
@@ -268,11 +292,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b6562ea4a09d001",
+  "active": "aef7dc7df5b24654",
   "lastOpenFiles": [
-    "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
-    "输入/两万字长文解析raft算法原理.md",
     "项目/Raft 算法.md",
+    "输出/Raft 算法中的选举流程.md",
+    "输出/Raft 算法中的读请求.md",
+    "输入/两万字长文解析raft算法原理.md",
+    "输出/Raft 算法中的写请求.md",
+    "输出/Raft 算法中的角色转换.md",
+    "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
     "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
     "CAP 理论：经典分布式系统理论.md",
     "🧠 知识工作台.md",
@@ -301,10 +329,6 @@
     "输出/给 Neovim 安装插件.md",
     "输出/结构类型与命名类型.md",
     "输出/机器时间 vs 人类时间.md",
-    "输出/本地诊断工具 - jcmd.md",
-    "输出/数据库的隔离级别与并发控制.md",
-    "输出/描述依赖响应式状态的复杂逻辑 —— 计算属性.md",
-    "输出/打破 Java 的双亲委派机制.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",
