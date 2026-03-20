@@ -57,33 +57,9 @@
               "icon": "lucide-file",
               "title": "Raft 算法"
             }
-          },
-          {
-            "id": "7c5b9ea9d5a97b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Raft 算法通过多数派原则来保障系统的一致性和可用性"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "75f2bfd6e494a703",
@@ -292,11 +268,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c5b9ea9d5a97b16",
+  "active": "4b6562ea4a09d001",
   "lastOpenFiles": [
-    "项目/Raft 算法.md",
     "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
     "输入/两万字长文解析raft算法原理.md",
+    "项目/Raft 算法.md",
     "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
     "CAP 理论：经典分布式系统理论.md",
     "🧠 知识工作台.md",
