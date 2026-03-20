@@ -7,8 +7,6 @@ views:
     order:
       - file.name
     sort:
-      - property: file.name
-        direction: DESC
       - property: file.mtime
         direction: DESC
     limit: 10
