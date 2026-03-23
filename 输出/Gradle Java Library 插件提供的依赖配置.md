@@ -1,6 +1,6 @@
 ---
 type: permanent
-banner: Assets/Banner/pexels-ken-cheung-3355734-5574638.jpg
+banner: 附件/Banner/pexels-ken-cheung-3355734-5574638.jpg
 ---
 ---
 

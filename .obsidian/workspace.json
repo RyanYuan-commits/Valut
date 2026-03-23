@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
+                "file": "输出/Gradle Java Library 插件提供的依赖配置.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ZooKeeper - A Distributed Coordination Service for Distributed Applications"
+              "title": "Gradle Java Library 插件提供的依赖配置"
             }
           },
           {
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -262,8 +261,9 @@
   },
   "active": "df89c6a5729c632a",
   "lastOpenFiles": [
-    "输出/冷萃咖啡制作流程.md",
+    "输出/Gradle 中的依赖类型.md",
     "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
+    "输出/冷萃咖啡制作流程.md",
     "🧠 知识工作台.md",
     "项目/Raft 算法深度学习.md",
     "输出/Raft 算法.md",
@@ -296,7 +296,6 @@
     "项目/Kafka 核心技术与实战.md",
     "项目/Garbage First 深度学习.md",
     "输出/颜色模型 —— Hex, RGB 与 HSL.md",
-    "输出/静态类型语言与动态类型语言.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",

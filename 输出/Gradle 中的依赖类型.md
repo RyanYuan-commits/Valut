@@ -1,6 +1,6 @@
 ---
 type: permanent
-banner: Assets/Banner/pexels-photo-9160637.jpeg
+banner: 附件/Banner/pexels-photo-9160637.jpeg
 ---
 ---
 
