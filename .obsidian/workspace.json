@@ -34,30 +34,6 @@
             }
           },
           {
-            "id": "df89c6a5729c632a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/Gradle Java Library 插件提供的依赖配置.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Gradle Java Library 插件提供的依赖配置"
-            }
-          },
-          {
             "id": "d89a94a9327d7975",
             "type": "leaf",
             "state": {
@@ -81,8 +57,7 @@
               "title": "冷萃咖啡制作流程"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,11 +234,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df89c6a5729c632a",
+  "active": "4dda6613ecec75b7",
   "lastOpenFiles": [
+    "输出/冷萃咖啡制作流程.md",
+    "输出/Gradle Java Library 插件提供的依赖配置.md",
     "输出/Gradle 中的依赖类型.md",
     "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
-    "输出/冷萃咖啡制作流程.md",
     "🧠 知识工作台.md",
     "项目/Raft 算法深度学习.md",
     "输出/Raft 算法.md",
@@ -295,7 +271,6 @@
     "项目/MySql 技术内幕 InnoDB 存储引擎 阅读.md",
     "项目/Kafka 核心技术与实战.md",
     "项目/Garbage First 深度学习.md",
-    "输出/颜色模型 —— Hex, RGB 与 HSL.md",
     "输出/Java 对象初始化过程.canvas",
     "内容地图",
     "输入",
