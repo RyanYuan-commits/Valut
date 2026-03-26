@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "d89a94a9327d7975",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧠 知识工作台.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "🧠 知识工作台"
-            }
-          },
-          {
-            "id": "542470f0340d7e4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ZooKeeper - A Distributed Coordination Service for Distributed Applications"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,13 +211,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d89a94a9327d7975",
+  "active": "4dda6613ecec75b7",
   "lastOpenFiles": [
     "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
+    "🧠 知识工作台.md",
     "输入/Garbage-First Garbage Collector Tuning.md",
     "输入/谷歌提示词工程白皮书-阅读笔记.md",
     "输出/冷萃咖啡制作流程.md",
-    "🧠 知识工作台.md",
     "输出/Gradle Java Library 插件提供的依赖配置.md",
     "输出/Gradle 中的依赖类型.md",
     "项目/Raft 算法深度学习.md",
