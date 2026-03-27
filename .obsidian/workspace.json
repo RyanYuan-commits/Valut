@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "77b3905f685f6ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/Dubbo 源码解读与实战.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo 源码解读与实战"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +236,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dda6613ecec75b7",
+  "active": "77b3905f685f6ce1",
   "lastOpenFiles": [
-    "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
     "🧠 知识工作台.md",
+    "输入/ZooKeeper - A Distributed Coordination Service for Distributed Applications.md",
     "输入/Garbage-First Garbage Collector Tuning.md",
     "输入/谷歌提示词工程白皮书-阅读笔记.md",
     "输出/冷萃咖啡制作流程.md",
