@@ -6,7 +6,8 @@
     "编辑行高亮",
     "去除下划线",
     "改变加粗字体的颜色为红色",
-    "点阵背景"
+    "点阵背景",
+    "高亮样式优化"
   ],
   "textFontFamily": "霞鹜文楷",
   "monospaceFontFamily": "Maple Mono NF CN",
