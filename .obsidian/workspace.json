@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "fe1252e0a192a028",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/单一职责原则：一个类应当只有一个引起它变化的原因.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "单一职责原则：一个类应当只有一个引起它变化的原因"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,14 +236,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dda6613ecec75b7",
+  "active": "fe1252e0a192a028",
   "lastOpenFiles": [
+    "🧠 知识工作台.md",
+    "输出/单一职责原则：一个类应当只有一个引起它变化的原因.md",
     "📚 TODO 列表.md",
     "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
     "输入/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/公共变量操作复核心智模型.md",
     "输出/方法级代码复核心智模型.md",
-    "🧠 知识工作台.md",
     "输入/评估技术优化的统一思路 by Gemini.md",
     "输出/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/Dubbo Remoting 层核心类与接口.md",
@@ -240,7 +266,6 @@
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "模板/永久笔记模板.md",
-    "输出/CAP 理论：经典分布式系统理论.md",
     "Assets",
     "Inbox.base",
     "视图/内容地图.base",
