@@ -106,7 +106,7 @@
             }
           },
           {
-            "id": "48aed898fa4c7198",
+            "id": "5fa3c5a1738382c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -307,13 +307,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48aed898fa4c7198",
+  "active": "244c5d415bce47a7",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
-    "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
-    "📚 TODO 列表.md",
     "输出/方法级代码复核心智模型.md",
     "输入/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
+    "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
+    "🧠 知识工作台.md",
+    "📚 TODO 列表.md",
     "输入/评估技术优化的统一思路 by Gemini.md",
     "输出/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/Dubbo Remoting 层核心类与接口.md",
