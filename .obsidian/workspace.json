@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "662e7ae5a14fa86f",
+            "id": "9d287b1089255a08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/方法级代码复核心智模型.md",
+                "file": "输出/公共变量操作复核心智模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "方法级代码复核心智模型"
+              "title": "公共变量操作复核心智模型"
             }
           },
           {
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5024719238281
+    "width": 274.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -307,11 +308,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "662e7ae5a14fa86f",
+  "active": "9d287b1089255a08",
   "lastOpenFiles": [
+    "输出/方法级代码复核心智模型.md",
+    "输出/公共变量操作复核心智模型.md",
     "🧠 知识工作台.md",
     "输入/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
-    "输出/方法级代码复核心智模型.md",
     "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
     "📚 TODO 列表.md",
     "输入/评估技术优化的统一思路 by Gemini.md",
@@ -336,7 +338,6 @@
     "Assets/Pasted image 20260317110332.png",
     "模板/永久笔记模板.md",
     "输出/CAP 理论：经典分布式系统理论.md",
-    "Raft 算法1.md",
     "Assets",
     "Inbox.base",
     "视图/内容地图.base",
