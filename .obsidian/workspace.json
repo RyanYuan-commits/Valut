@@ -80,9 +80,32 @@
               "icon": "lucide-file",
               "title": "把自己当公司管：越努力越迷茫？减少内耗，找准方向"
             }
+          },
+          {
+            "id": "2e414f35bef12bfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📚 TODO 列表.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "📚 TODO 列表"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5024719238281,
-    "collapsed": true
+    "width": 274.5024719238281
   },
   "right": {
     "id": "a06f2d95bf0776cc",
@@ -260,12 +282,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "244c5d415bce47a7",
+  "active": "4dda6613ecec75b7",
   "lastOpenFiles": [
-    "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
     "输入/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
-    "输入/评估技术优化的统一思路 by Gemini.md",
+    "📚 TODO 列表.md",
     "🧠 知识工作台.md",
+    "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
+    "输入/评估技术优化的统一思路 by Gemini.md",
     "输出/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/Dubbo Remoting 层核心类与接口.md",
     "项目/Dubbo 源码解读与实战.md",
@@ -289,7 +312,6 @@
     "输出/CAP 理论：经典分布式系统理论.md",
     "Raft 算法1.md",
     "输出/Raft 算法中的选举流程.md",
-    "输出/Raft 算法中的读请求.md",
     "Assets",
     "Inbox.base",
     "视图/内容地图.base",
