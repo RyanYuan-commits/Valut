@@ -82,12 +82,12 @@
             }
           },
           {
-            "id": "a1c1722c825c8ff0",
+            "id": "958fa9369c7a7039",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/建造者模式.md",
+                "file": "输出/单例模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,31 +102,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "建造者模式"
-            }
-          },
-          {
-            "id": "5b423ed449926ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/工厂方法模式.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "工厂方法模式"
+              "title": "单例模式"
             }
           }
         ],
@@ -308,12 +284,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1c1722c825c8ff0",
+  "active": "958fa9369c7a7039",
   "lastOpenFiles": [
+    "输出/工厂方法模式：为未来拓展留出接口.md",
+    "输出/单例模式.md",
     "项目/重学设计模式.md",
-    "输出/建造者模式.md",
-    "输出/工厂方法模式.md",
     "输入/ZooKeeper 与 Curator，求你别用 ZkClient 了.md",
+    "输出/建造者模式：解决构造函数爆炸.md",
     "🧠 知识工作台.md",
     "输出/类加载器选择原则.md",
     "输出/面向对象设计模式的七大基本原则.md",
@@ -335,7 +312,6 @@
     "输出/冷萃咖啡制作流程.md",
     "输出/Gradle Java Library 插件提供的依赖配置.md",
     "输出/Gradle 中的依赖类型.md",
-    "项目/Raft 算法深度学习.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
