@@ -56,9 +56,57 @@
               "icon": "lucide-file",
               "title": "ZooKeeper 与 Curator，求你别用 ZkClient 了"
             }
+          },
+          {
+            "id": "e4e9c311dddf6548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/重学设计模式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "重学设计模式"
+            }
+          },
+          {
+            "id": "5b423ed449926ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/工厂方法模式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "工厂方法模式"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -236,10 +284,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "849958fdafee5cff",
+  "active": "5b423ed449926ad2",
   "lastOpenFiles": [
-    "🧠 知识工作台.md",
+    "项目/重学设计模式.md",
+    "输出/工厂方法模式.md",
     "输入/ZooKeeper 与 Curator，求你别用 ZkClient 了.md",
+    "🧠 知识工作台.md",
+    "输出/类加载器选择原则.md",
     "输出/面向对象设计模式的七大基本原则.md",
     "📚 TODO 列表.md",
     "输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md",
@@ -261,9 +312,6 @@
     "输出/Gradle 中的依赖类型.md",
     "项目/Raft 算法深度学习.md",
     "输出/Raft 算法.md",
-    "输出/Raft 算法通过多数派原则来保障系统的一致性和可用性.md",
-    "输出/Raft 算法中的写请求.md",
-    "输出/Raft 算法用于更好的解决横向拓展带来的同步问题.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
