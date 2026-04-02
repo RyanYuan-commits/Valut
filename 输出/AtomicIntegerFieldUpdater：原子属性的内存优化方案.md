@@ -24,3 +24,6 @@ public class MyService {
 }
 ```
 
+一般将 updater 定义为 `private static final` 对象，避免 updater 在外部定义，因为权限不足而导致异常；
+
+定义的字段类型使用 `volatile` 修饰，确保可见性，且需要为 `int`，不能被 `final` 修饰。
