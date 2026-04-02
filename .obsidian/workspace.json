@@ -32,57 +32,8 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
-          },
-          {
-            "id": "3ddce1511754e473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/五种主要的 IO 模型.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "五种主要的 IO 模型"
-            }
-          },
-          {
-            "id": "5205ecb3307cca7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/从底层看 IO 运转机制.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "从底层看 IO 运转机制"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,9 +211,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5205ecb3307cca7c",
+  "active": "4dda6613ecec75b7",
   "lastOpenFiles": [
     "输出/五种主要的 IO 模型.md",
+    "附件/NIO.png",
     "输出/从底层看 IO 运转机制.md",
     "附件/BIO.png",
     "🧠 知识工作台.md",
@@ -288,7 +240,6 @@
     "项目/Dubbo 源码解读与实战.md",
     "输出/Dubbo SPI 机制.md",
     "输入/两万字长文解析raft算法原理.md",
-    "输出/在 Java 中判断一个类是否是基本数据类型.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
@@ -307,7 +258,6 @@
     "附件/拓展类加载器加载的文件.png",
     "附件/对象头中锁状态的存储.png",
     "附件/双核 CPU 架构简图.png",
-    "附件/双亲委派机制示意图.png",
-    "附件/使用 undo log 查找可见版本.png"
+    "附件/双亲委派机制示意图.png"
   ]
 }
