@@ -56,57 +56,9 @@
               "icon": "lucide-file",
               "title": "ZooKeeper 与 Curator，求你别用 ZkClient 了"
             }
-          },
-          {
-            "id": "e4e9c311dddf6548",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/重学设计模式.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "重学设计模式"
-            }
-          },
-          {
-            "id": "958fa9369c7a7039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/单例模式.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "单例模式"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,11 +236,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "958fa9369c7a7039",
+  "active": "849958fdafee5cff",
   "lastOpenFiles": [
-    "输出/工厂方法模式：为未来拓展留出接口.md",
-    "输出/单例模式.md",
     "项目/重学设计模式.md",
+    "输出/单例模式：公共配置类或共享资源管理.md",
+    "输出/工厂方法模式：为未来拓展留出接口.md",
     "输入/ZooKeeper 与 Curator，求你别用 ZkClient 了.md",
     "输出/建造者模式：解决构造函数爆炸.md",
     "🧠 知识工作台.md",
