@@ -58,30 +58,6 @@
             }
           },
           {
-            "id": "43e998b190184e80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/代理模式：将原对象隔离.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "代理模式：将原对象隔离"
-            }
-          },
-          {
             "id": "376d50b71fa49bde",
             "type": "leaf",
             "state": {
@@ -294,10 +270,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43e998b190184e80",
+  "active": "376d50b71fa49bde",
   "lastOpenFiles": [
-    "项目/重学设计模式.md",
     "输出/代理模式：将原对象隔离.md",
+    "项目/重学设计模式.md",
     "输出/AtomicIntegerFieldUpdater：原子属性的内存优化方案.md",
     "输入/Java BIO.md",
     "输出/装饰器模式：动态的给对象加戏.md",
