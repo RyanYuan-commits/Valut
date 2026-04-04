@@ -80,9 +80,57 @@
               "icon": "lucide-file",
               "title": "重学设计模式"
             }
+          },
+          {
+            "id": "376d50b71fa49bde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输入/Java BIO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java BIO"
+            }
+          },
+          {
+            "id": "dd478fa17c257e2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/IO 中同步与异步、阻塞与非阻塞的本质区别.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "IO 中同步与异步、阻塞与非阻塞的本质区别"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -260,8 +308,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a8c4a1662992467",
+  "active": "dd478fa17c257e2e",
   "lastOpenFiles": [
+    "输出/IO 中同步与异步、阻塞与非阻塞的本质区别.md",
+    "输入/Java BIO.md",
+    "项目/重学设计模式.md",
     "🧠 知识工作台.md",
     "输出/AtomicIntegerFieldUpdater：原子属性的内存优化方案.md",
     "输出/Java Unsafe 类使用场景解析.md",
@@ -275,7 +326,6 @@
     "模板/项目笔记模板.md",
     "模板/Daily Note 模板.md",
     "模板/永久笔记模板.md",
-    "项目/重学设计模式.md",
     "输出/单例模式：公共配置类或共享资源管理.md",
     "输出/工厂方法模式：为未来拓展留出接口.md",
     "输出/建造者模式：解决构造函数爆炸.md",
@@ -289,7 +339,6 @@
     "输入/评估技术优化的统一思路 by Gemini.md",
     "输出/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/Dubbo Remoting 层核心类与接口.md",
-    "项目/Dubbo 源码解读与实战.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
