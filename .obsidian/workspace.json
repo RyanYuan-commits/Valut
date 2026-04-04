@@ -85,14 +85,28 @@
             "id": "2119b4fcc8e207ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "输出/在 Java 中定位文件位置.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "在 Java 中定位文件位置"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,12 +284,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "376d50b71fa49bde",
+  "active": "2119b4fcc8e207ef",
   "lastOpenFiles": [
+    "输出/在 Java 中定位文件位置.md",
+    "输入/Java BIO.md",
     "输出/代理模式：将原对象隔离.md",
     "项目/重学设计模式.md",
     "输出/AtomicIntegerFieldUpdater：原子属性的内存优化方案.md",
-    "输入/Java BIO.md",
     "输出/装饰器模式：动态的给对象加戏.md",
     "输出/IO 中同步与异步、阻塞与非阻塞的本质区别.md",
     "🧠 知识工作台.md",
@@ -300,7 +315,6 @@
     "输入/高性能核心组件之4：时间轮的底层原理、源码分析（史上最全）.md",
     "输出/公共变量操作复核心智模型.md",
     "输出/方法级代码复核心智模型.md",
-    "输入/评估技术优化的统一思路 by Gemini.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
