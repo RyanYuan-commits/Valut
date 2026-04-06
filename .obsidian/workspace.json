@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/Buffer 接口：Java NIO 中的缓冲区.md",
+                "file": "输出/Buffer 类：Java NIO 中的缓冲区.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Buffer 接口：Java NIO 中的缓冲区"
+              "title": "Buffer 类：Java NIO 中的缓冲区"
             }
           }
         ],
@@ -239,7 +239,7 @@
   "active": "fc03ed8b705c61e6",
   "lastOpenFiles": [
     "附件/channel 的读写都需要经过 buffer.png",
-    "输出/Buffer 接口：Java NIO 中的缓冲区.md",
+    "输出/Buffer 类：Java NIO 中的缓冲区.md",
     "🧠 知识工作台.md",
     "输出/java nio 中的零拷贝实现.md",
     "输出/零拷贝技术：将磁盘中的数据发送到网络场景下的 IO 优化.md",
