@@ -54,4 +54,80 @@ public Buffer flip() {
 
 通过 `flip()` 方法，可以让缓冲区在读取和写入模式之间转换；
 
-当从写模式转到读模式时，可读的最大值为当前写入的位置（`limit = po），
+- 当从写模式转到读模式时，可读的最大位置为当前写入的位置（`limit = position`），`position = 0` 表示从头开始读，最后重置 `mark` 的值；
+- 当从读模式转到写模式时，可写的最大位置为最后被读到的位置，`position = 0` 表示从头开始写。
+
+### 3.4	从缓冲区中读取数据
+
+```java
+IntBuffer intBuffer = IntBuffer.allocate(20);  
+  
+for (int i = 0; i < 5; i++) {  
+    intBuffer.put(i);  
+}  
+  
+intBuffer.flip();  
+intBuffer.get();  
+  
+printCoreFields(intBuffer)
+
+/*
+ capacity = 20
+ position = 1
+ limit = 5
+ mark = -1
+*/
+```
+
+读取操作会改变可读位置（position）的值，当 position 和 limit 相等时，表示所有数据读取完成，此时再调用 `get` 方法，会抛出 `BufferUnderflowException`；
+
+此时如果想要对缓冲区写入，必须通过 Buffer 提供的一些方法切换到写模式；
+
+缓冲区中的数据可以重复读，调用 `rewind()` 方法，或 `mark()` + `reset()` 方法组合实现。
+
+### 3.5	重复读缓冲区
+
+```java
+// java.nio.Buffer#rewind
+public Buffer rewind() {  
+    position = 0;  
+    mark = -1;  
+    return this;  
+}
+```
+
+调用 `rewind()` 方法将 position 重置，从头开始读取数据。
+
+```java
+// java.nio.Buffer#mark
+public Buffer mark() {  
+    mark = position;  
+    return this;  
+}
+
+// java.nio.Buffer#reset
+public Buffer reset() {  
+    int m = mark;  
+    if (m < 0)  
+        throw new InvalidMarkException();  
+    position = m;  
+    return this;  
+}
+```
+
+`mark()` 方法用于将当前 position 的值保存到 mark 中，`reset()` 方法将保存的值还原到 position。
+
+### 3.6	清空缓冲区
+
+```java
+// java.nio.Buffer#clear
+public Buffer clear() {  
+    position = 0;  
+    limit = capacity;  
+    mark = -1;  
+    return this;  
+}
+```
+
+将所有属性重置会最初状态，但是并没有清空数据，只是移动了指针。
+
