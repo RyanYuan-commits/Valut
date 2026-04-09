@@ -238,8 +238,9 @@
   },
   "active": "bfb320332c2a7472",
   "lastOpenFiles": [
-    "附件/ByteBuf 的核心字段.png",
+    "输出/java BlockingQueue 阻塞队列的常见实现.md",
     "输出/ByteBuf：Netty 缓冲区.md",
+    "附件/ByteBuf 的核心字段.png",
     "🧠 知识工作台.md",
     "输出/Buffer 类：Java NIO 中的缓冲区.md",
     "附件/channel 的读写都需要经过 buffer.png",
