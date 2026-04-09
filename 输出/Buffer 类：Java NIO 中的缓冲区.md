@@ -12,5 +12,11 @@ nio 提供 buffer 组件以实现**非阻塞读写**，channel 读写的数据�
 
 ## 2	核心属性
 
-每个 buffer 都会对应一块内存，buffer 的缓冲功能通过操控这块内存来实现，在 `ByteBuffer` 中，这块内存被定义为 `final byte[] hb`，在 `Buffer` 类中，提供了 `capacity`、`position`、`limit` 和 `mark` 几个属性来描述这块内存的使用状态。
+每个 buffer 都会对应一块内存，buffer 的缓冲功能通过操控这块内存来实现，在 `ByteBuffer` 中，这块内存被定义为 `final byte[] hb`，`Buffer` 类提供了 `capacity`、`position`、`limit` 和 `mark` 几个属性来描述这块内存的使用状态。
+
+- ==容量（capacity）==：`capacity` 表示内部容量的大小，写入的数据量超过 `capacity`，代表缓冲区已满，无法继续写入；`Buffer` 类实例在初始化时候，会按照 `capacity` 分配内部数据的内存，所以 `capacity` 在设置后，就**无法被修改**。
+- 
+
+
+
 
