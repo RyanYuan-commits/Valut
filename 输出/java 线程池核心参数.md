@@ -8,5 +8,5 @@ banner: 附件/Banner/pexels-clive-kim-2523249-4220967.jpg
 - `timeUnit`：`keepAliveTime` 的时间单位；
 - `workQueue`：[[java BlockingQueue 阻塞队列的常见实现|任务队列]]，用于存放等待执行的任务的队列；
 - `threadFactory`：创建新线程的线程工厂，通常用于额外定义线程的名称、优先级等；
-- `handler`：拒绝策略，若在线程池已满时仍然添加新任务，应当有什么逻辑处理；
+- `handler`：[[java 线程池的拒绝策略|拒绝策略]]，若在线程池已满时仍然添加新任务，应当有什么逻辑处理；
 - `allowCoreThreadTimeOut`：是否允许 `keepAliveTime` 作用于核心线程。
