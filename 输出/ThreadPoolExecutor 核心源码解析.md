@@ -107,7 +107,8 @@ final void runWorker(Worker w) {
 	// 标识任务完成过程中是否出现异常
 	boolean completedAbruptly = true; 
 	try {
-		while (task != null || (task = getTask()) != null) {
+		// 不断调用 getTask() 方法获取任务
+ 		while (task != null || (task = getTask()) != null) {
 			w.lock();
 			if ((runStateAtLeast(ctl.get(), STOP) ||
 				 (Thread.interrupted() &&
