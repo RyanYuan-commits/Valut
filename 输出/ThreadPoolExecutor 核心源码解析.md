@@ -82,13 +82,13 @@ private final class Worker extends AbstractQueuedSynchronizer implements Runnabl
 
 ![[ThreadPoolExecutor 的生命周期.png]]
 
-running 到 shutdown：通过 `shutdown()` 方法触发，线程池停止接受新任务，但已提交的任务会执行完成；
+`running` 到 `shutdown`：通过 `shutdown()` 方法触发，线程池停止接受新任务，但已提交的任务会执行完成；
 
-shutdown 到 stop：通过 `shutdownNow()` 方法触发，线程池尝试停止所有正在执行的任务，并清空任务队列中所有待执行的任务；
+`shutdown` 到 `stop`：通过 `shutdownNow()` 方法触发，线程池尝试停止所有正在执行的任务，并清空任务队列中所有待执行的任务；
 
-shutdown 到 tidying：自然流转，阻塞队列为空，且线程池中工作线程数量为 0，进入 tidying 状态；
+`shutdown` 到 `tidying`：自然流转，阻塞队列为空，且线程池中工作线程数量为 0，进入 `tidying` 状态；
 
-tidying 到 terminated：
+`tidying` 到 `terminated`：自然流转，当资源被清理完成，执行 `terminated()` 方法，进入 `terminated` 状态。
 
 ---
 
@@ -113,6 +113,9 @@ final void runWorker(Worker w) {
 				 (Thread.interrupted() &&
 				  runStateAtLeast(ctl.get(), STOP))) &&
 				!wt.isInterrupted())
+				// 如果线程池正在停止，确保当前线程被中断；
+				// 如果线程池没有停止，确保当前线程没有被中断；
+				// 为了处理第二种情况中清除中断状态时可能发生的 shutdownNow 竞态条件，需要进行二次检查。
 				wt.interrupt();
 			try {
 				beforeExecute(wt, task);
@@ -140,3 +143,4 @@ final void runWorker(Worker w) {
 	}
 }
 ```
+
