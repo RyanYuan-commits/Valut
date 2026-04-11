@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/ThreadPoolExecutor 源码解析：任务提交方法.md",
+                "file": "输出/ThreadPoolExecutor 核心源码解析.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -80,7 +80,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ThreadPoolExecutor 源码解析：任务提交方法"
+              "title": "ThreadPoolExecutor 核心源码解析"
             }
           }
         ],
@@ -264,8 +264,9 @@
   },
   "active": "2cfc3ec7000463ef",
   "lastOpenFiles": [
+    "附件/ThreadPoolExecutor 的生命周期.png",
+    "输出/ThreadPoolExecutor 核心源码解析.md",
     "输出/ByteBuf：Netty 缓冲区.md",
-    "输出/ThreadPoolExecutor 源码解析：任务提交方法.md",
     "输出/java 任务执行器工厂：Executors.md",
     "输出/java 线程池核心参数.md",
     "输出/java 线程池的拒绝策略.md",
@@ -294,7 +295,6 @@
     "模板/文献笔记模板.md",
     "模板/项目笔记模板.md",
     "模板/Daily Note 模板.md",
-    "模板/永久笔记模板.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
@@ -309,7 +309,6 @@
     "输入",
     "Excalidraw",
     "附件/类加载器加载对象图例.png",
-    "附件/拓展类加载器和应用程序类加载器的继承关系.png",
-    "附件/拓展类加载器加载的文件.png"
+    "附件/拓展类加载器和应用程序类加载器的继承关系.png"
   ]
 }
