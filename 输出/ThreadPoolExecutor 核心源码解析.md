@@ -145,3 +145,18 @@ final void runWorker(Worker w) {
 }
 ```
 
+`Worker` 在运行过程中会不断调用 `getTask()` 方法，从任务队列中获取可执行任务，然后调用 `run()` 方法执行。
+
+---
+
+==补充知识：`runWorker()` 方法对于线程池状态的响应==
+
+```java
+if ((runStateAtLeast(ctl.get(), STOP) ||
+	 (Thread.interrupted() &&
+	  runStateAtLeast(ctl.get(), STOP))) &&
+	!wt.isInterrupted())
+	wt.interrupt();
+```
+
+
