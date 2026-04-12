@@ -114,9 +114,6 @@ final void runWorker(Worker w) {
 				 (Thread.interrupted() &&
 				  runStateAtLeast(ctl.get(), STOP))) &&
 				!wt.isInterrupted())
-				// 如果线程池正在停止，确保当前线程被中断；
-				// 如果线程池没有停止，确保当前线程没有被中断；
-				// 为了处理第二种情况中清除中断状态时可能发生的 shutdownNow 竞态条件，需要进行二次检查。
 				wt.interrupt();
 			try {
 				beforeExecute(wt, task);
@@ -159,4 +156,15 @@ if ((runStateAtLeast(ctl.get(), STOP) ||
 	wt.interrupt();
 ```
 
+`if` 块中的代码会在线程池处于关闭中状态，且线程没有中断标记时执行，为当前线程打上中断标志；
+
+而如果线程池没有处于关闭中状态，`Thread.interrupted()` 会被调用以清除中断标志，为了防止在调用 `Thread.interrupted()` 方法的同时，线程池变为关闭中状态，需要在清除后再次检查线程池状态。
+
+---
+
+==补充知识：线程池对于任务执行过程中异常的处理==
+
+`processWorkerExit()` 方法对于正常结束循环的线程和抛出异常结束循环的线程，处理方式是不同的，`runWorker()` 方法通过 `completedAbruptly` 标记来向该方法透传线程结束循环的状态；
+
+`completedAbruptly` 的初始值为 `true` 表示抛出异常退出，当线程正常结束循环退出时，会执行 `completedAbruptly = false` 语句
 
