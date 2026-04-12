@@ -300,4 +300,3 @@ private void dispatchUncaughtException(Throwable e) {
 在创建线程后，通过 `setUncaughtExceptionHandler()` 方法来为线程指定一个自定义的异常处理器，处理方法会被 jvm 调用。
 
 ---
-
