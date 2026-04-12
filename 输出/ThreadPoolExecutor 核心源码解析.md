@@ -146,7 +146,7 @@ final void runWorker(Worker w) {
 
 ---
 
-==补充知识：`runWorker()` 方法对于线程池状态的响应==
+==`runWorker()` 方法对于线程池状态的响应==
 
 ```java
 if ((runStateAtLeast(ctl.get(), STOP) ||
@@ -162,9 +162,75 @@ if ((runStateAtLeast(ctl.get(), STOP) ||
 
 ---
 
-==补充知识：线程池对于任务执行过程中异常的处理==
+==线程池对于任务执行过程中异常的处理==
 
 `processWorkerExit()` 方法对于正常结束循环的线程和抛出异常结束循环的线程，处理方式是不同的，`runWorker()` 方法通过 `completedAbruptly` 标记来向该方法透传线程结束循环的状态；
 
-`completedAbruptly` 的初始值为 `true` 表示抛出异常退出，当线程正常结束循环退出时，会执行 `completedAbruptly = false` 语句
+`completedAbruptly` 的初始值为 `true` 表示抛出异常退出，当线程正常结束循环退出时，会执行 `completedAbruptly = false` 语句，而如果在执行过程中出现异常，`Worker` 会使用 `thrown` 成员变量记录异常，然后抛出到最外层 `try-finally` 快，直接执行 `processWorkerExit()` 方法执行。
 
+---
+
+## 3	Worker 从阻塞队列中获取任务
+
+```java
+private Runnable getTask() {  
+    boolean timedOut = false;
+  
+    for (;;) {  
+        int c = ctl.get();  
+        int rs = runStateOf(c);  
+
+        if (rs >= SHUTDOWN && (rs >= STOP || workQueue.isEmpty())) {  
+            decrementWorkerCount();  
+            return null;  
+        }  
+  
+        int wc = workerCountOf(c);  
+  
+        boolean timed = allowCoreThreadTimeOut || wc > corePoolSize;  
+  
+        if ((wc > maximumPoolSize || (timed && timedOut))  
+            && (wc > 1 || workQueue.isEmpty())) {  
+            if (compareAndDecrementWorkerCount(c))  
+                return null;  
+            continue;  
+        }  
+  
+        try {  
+            Runnable r = timed ?  
+                workQueue.poll(keepAliveTime, TimeUnit.NANOSECONDS) :  
+                workQueue.take();  
+            if (r != null)  
+                return r;  
+            timedOut = true;  
+        } catch (InterruptedException retry) {  
+            timedOut = false;  
+        }  
+    }  
+}
+```
+
+`getTask()` 方法用于从阻塞队列获取可执行任务；同时，`getTask()` 方法返回 `null` 是工作线程**正常结束**的唯一途径，所以该方法对于工作线程的状态控制也及其重要。
+
+---
+
+==非核心线程在指定时间时间空闲后会被销毁==
+
+在创建线程池时，我们需要指定 `keepAliveTime` 来控制**非核心**线程在持续空闲多久后可以被销毁，如果发现当前线程数大于核心线程数（或者核心线程也允许在指定时间空闲后被销毁），`timed` 标志会被设置为 `true`，此时从阻塞队列中拉取任务时，会带上 `keepAliveTime` 作为超时时间，如果在超时时间内没有获取到任务，会在下一个循环中尝试销毁该线程（方法返回 `null`）。
+
+```java
+// 在下个循环中尝试销毁线程
+boolean timed = allowCoreThreadTimeOut || wc > corePoolSize; // 再次判断 
+
+if ((wc > maximumPoolSize || (timed && timedOut))  
+	&& (wc > 1 || workQueue.isEmpty())) {  
+	if (compareAndDecrementWorkerCount(c))  
+		// 尝试销毁
+		return null;  
+	continue;  
+}
+```
+
+---
+
+==`getTask()` 方法对于线程池关闭标志的响应==
