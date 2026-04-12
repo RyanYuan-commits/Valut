@@ -174,7 +174,7 @@ if ((runStateAtLeast(ctl.get(), STOP) ||
 
 ```java
 private Runnable getTask() {  
-    boolean timedOut = false;
+    boolean timedOut = false; // 上一次 poll() 是否超时
   
     for (;;) {  
         int c = ctl.get();  
@@ -233,4 +233,71 @@ if ((wc > maximumPoolSize || (timed && timedOut))
 
 ---
 
-==`getTask()` 方法对于线程池关闭标志的响应==
+==`getTask()` 方法对于线程池关闭的响应==
+
+```java
+if (rs >= SHUTDOWN && (rs >= STOP || workQueue.isEmpty())) {  
+	decrementWorkerCount();  
+	return null;  
+}
+```
+
+当线程池状态为 shutdown 时，直接返回 `null`，无需再处理剩余任务；而在线程池状态为 stop 时，需要确保任务队列为空。
+
+---
+
+## 4	处理线程退出
+
+```java
+// java.util.concurrent.ThreadPoolExecutor#processWorkerExit
+private void processWorkerExit(Worker w, boolean completedAbruptly) {  
+    if (completedAbruptly) // 如果是异常退出，线程数量还未减一
+        decrementWorkerCount();  
+  
+    final ReentrantLock mainLock = this.mainLock;  
+    mainLock.lock();  
+    try {  
+	    // 统计完成的任务数量
+        completedTaskCount += w.completedTasks;  
+        workers.remove(w);  
+    } finally {  
+        mainLock.unlock();  
+    }  
+  
+    tryTerminate();  
+  
+    int c = ctl.get();  
+    if (runStateLessThan(c, STOP)) {  
+        if (!completedAbruptly) {
+            int min = allowCoreThreadTimeOut ? 0 : corePoolSize;  
+            if (min == 0 && !workQueue.isEmpty())
+                min = 1;
+            if (workerCountOf(c) >= min)
+                return;
+        }  
+        addWorker(null, false);  
+    }  
+}
+```
+
+若线程正常结束循环，`completedAbruptly == false`，统计其完成的任务数量，将 `worker` 从集合中移除，方法正常返回，线程退出；
+
+若线程抛出异常，`completedAbruptly == true`，则会在处理完成后，创建一个新的线程。
+
+---
+
+==补充知识：Thread 的异常处理器机制==
+
+对于抛出异常而结束循环的线程，线程池没有复用它，而是创建一个新的线程来取代，是为了适配线程的异常处理器功能；
+
+```java
+// java.lang.Thread#dispatchUncaughtException
+private void dispatchUncaughtException(Throwable e) {
+	getUncaughtExceptionHandler().uncaughtException(this, e);
+}
+```
+
+在创建线程后，通过 `setUncaughtExceptionHandler()` 方法来为线程指定一个自定义的异常处理器，处理方法会被 jvm 调用。
+
+---
+
