@@ -58,9 +58,33 @@
               "icon": "lucide-file",
               "title": "ByteBuf：Netty 缓冲区"
             }
+          },
+          {
+            "id": "2424dd5d84f8cf34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/Netty 核心原理：Reactor 模式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Netty 核心原理：Reactor 模式"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,11 +262,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfb320332c2a7472",
+  "active": "2424dd5d84f8cf34",
   "lastOpenFiles": [
+    "输出/ByteBuf：Netty 缓冲区.md",
+    "输出/Netty 核心原理：Reactor 模式.md",
     "输出/ThreadPoolExecutor 核心源码解析.md",
     "🧠 知识工作台.md",
-    "输出/ByteBuf：Netty 缓冲区.md",
     "输出/java 线程状态解析.md",
     "附件/ThreadPoolExecutor 的生命周期.png",
     "输出/java 任务执行器工厂：Executors.md",
@@ -271,7 +296,6 @@
     "输入/ZooKeeper 与 Curator，求你别用 ZkClient 了.md",
     "模板/文献笔记模板.md",
     "模板/项目笔记模板.md",
-    "模板/Daily Note 模板.md",
     "附件/CAP 理论.png",
     "Assets/Pasted image 20260317110332.png",
     "Assets",
