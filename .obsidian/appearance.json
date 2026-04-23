@@ -5,11 +5,9 @@
   "enabledCssSnippets": [
     "编辑行高亮",
     "去除下划线",
-    "改变加粗字体的颜色为红色",
-    "点阵背景",
-    "高亮样式优化"
+    "点阵背景"
   ],
-  "textFontFamily": "霞鹜文楷",
+  "textFontFamily": "FZPingXianYaSongS-R-GB",
   "monospaceFontFamily": "Maple Mono NF CN",
   "interfaceFontFamily": "霞鹜文楷",
   "theme": "moonstone",
