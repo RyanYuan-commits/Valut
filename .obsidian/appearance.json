@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "编辑行高亮",
     "去除下划线",
-    "点阵背景"
+    "点阵背景",
+    "改变加粗字体的颜色为红色"
   ],
   "textFontFamily": "FZPingXianYaSongS-R-GB",
   "monospaceFontFamily": "Maple Mono NF CN",
