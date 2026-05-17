@@ -6,13 +6,11 @@ banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 ---
 ## 1	线程模型概述
 
-在基于 Reactor 模式实现的网络通信应用中，负责连接、事件监听和处理的 I/O 线程是非常珍贵的资源：它们直接负责连接建立和数据读写，如果 I/O 线程资源耗尽，会导致整个系统陷入瘫痪；因此，在 IO 线程上不应该处理耗时过久的任务。
+在基于 Reactor 模式实现的网络通信应用中，负责连接、事件监听和处理的 I/O 线程是非常珍贵的资源：它们直接负责连接建立和数据读写，如果 I/O 线程资源耗尽，会导致整个系统陷入瘫痪；因此，在 IO 线程上不应该处理耗时过久的任务[^1]。
 
-Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑，通过 `Dispatcher` 来处理从 IO 线程到业务线程的派发，整体的线程模型大致为：
+Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑，通过 Dispatcher 来处理从 IO 线程到业务线程的派发，整体的线程模型大致为：
 
 ![[Dubbo 线程模型.png|700]]
-
-`Diaptcher.dispatch()` 方法返回一个 `ChannelHandler` 实例，这个 `ChannelHandler` 最终会作为 Dubbo 请求处理流中的一个节点，完成线程池切换工作。
 
 ## 2	Dispatcher 接口与分发逻辑
 
@@ -331,3 +329,5 @@ protected ExecutorService getCallbackExecutor(URL url, Invocation inv) {
 ```
 
 业务线程调用 DubboInvoker.doInvoker 后, 会调用 ThreadlessExecutor#waitAndDrain 方法, 超时等待结果返回, 当结果返回后, 如果等待未超时, 则将后续步骤交给业务线程处理.
+
+[^1]: 12321
