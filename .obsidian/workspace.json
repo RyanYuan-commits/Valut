@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "文件描述符：Linux 管理和操作文件的唯一凭证"
             }
+          },
+          {
+            "id": "cb20c1aedeeaf080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/Dubbo 源码解读与实战.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo 源码解读与实战"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,12 +256,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "header-enhancer:Header Enhancer": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
       "random-note:开始漫游笔记": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53becf0b05a03568",
+  "active": "cb20c1aedeeaf080",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
     "输出/文件描述符：Linux 管理和操作文件的唯一凭证.md",
