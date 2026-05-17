@@ -4,68 +4,19 @@ type: permanent
 draw: "[[Draw Place of Dubbo 线程模型]]"
 banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 ---
-# 🌐 关键词
-
-Dubbo, 多线程
-
----
-
-# 🔖 详细解释
-
 ## 1	线程模型概述
 
-Dubbo 使用 Netty 作为默认的网络通信框架, Provider 方使用两级线程池, boss 线程池负责处理连接建立事件, worker 线程池负责处理其他事件, 这两级线程池中的线程一般被称为 IO 线程. IO 线程是非常珍贵的资源, 这种珍贵体现在其重要性和数量上:
+在基于 Reactor 模式实现的网络通信应用中，负责连接、事件监听和处理的 I/O 线程是非常珍贵的资源：它们直接负责连接建立和数据读写，如果 I/O 线程资源耗尽，会导致整个系统陷入瘫痪；因此，在 IO 线程上不应该处理耗时过久的任务。
 
-- 从重要性角度来说, IO 线程直接负责**连接建立, 数据读写**; 一但 IO 线程耗尽, Netty 的**事件循环**就被卡住了, 具体体现为导致新连接无法建立, 已有连接无法读取或写出等状况;
-	
-- 从数量角度来说, IO 线程的数量是有限的, Dubbo 默认的 boss 线程数为 1, worker 线程数最大为 32.
-
-所以, 在 IO 线程上**不应该处理耗时过久的任务**, 基于这个原则, Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑, 通过 Dispatcher 来处理从 IO 线程到业务线程的派发, 整体的线程模型大致为:
+Dubbo 设计了业务线程池来隔离业务逻辑和 IO 处理逻辑，通过 `Dispatcher` 来处理从 IO 线程到业务线程的派发，整体的线程模型大致为：
 
 ![[Dubbo 线程模型.png|700]]
 
-Diaptcher.dispatch 方法返回一个 ChannelHandler 实例, 这个 ChannelHandler 最终会作为 Dubbo 请求处理流中的一个节点, 完成线程池切换工作.
+`Diaptcher.dispatch()` 方法返回一个 `ChannelHandler` 实例，这个 `ChannelHandler` 最终会作为 Dubbo 请求处理流中的一个节点，完成线程池切换工作。
 
-## 2	ChannelHandler 与 Message
+## 2	Dispatcher 接口与分发逻辑
 
-Dubbo 设计了 ChannelHandler 接口来处理通信过程中发生的各种事件, 当事件发生后, Dubbo 会调用 ChannelHandler 对应方法来处理, 具体有:
-
-```java
-// org.apache.dubbo.remoting.ChannelHandler
-@SPI(scope = ExtensionScope.FRAMEWORK)
-public interface ChannelHandler {
-
-	// 连接建立
-    void connected(Channel channel) throws RemotingException;
-
-	// 连接断开
-    void disconnected(Channel channel) throws RemotingException;
-
-	// 消息发送
-    void sent(Channel channel, Object message) throws RemotingException;
-
-	// 消息接收
-    void received(Channel channel, Object message) throws RemotingException;
-
-	// 异常补货
-    void caught(Channel channel, Throwable exception) throws RemotingException;
-	
-}
-```
-
-其中 received 事件根据消息的类型不同又分为:
-
-- message instance of Request: 接收到请求消息
-	
-- message instance of Response: 接收到响应消息
-	
-- message instance of Event: 接收到 Event 消息
-
-事件会在 Dubbo 的各个 ChannelHandler 中传递, 当抵达 Dispatcher ChannelHandler 后, 会执行线程切换, 上面提到, Dubbo 中的线程派发作用于请求处理流程, 所以 sent 事件没有相应的处理逻辑.
-
-## 3	Dispatcher 接口与分发逻辑
-
-### 3.1	接口定义
+### 2.1	接口定义
 
 Dispatcher 是 Dubbo Remoting 层的重要接口, 负责消息处理的线程分发逻辑, 是一个 SPI 拓展点:
 
@@ -78,7 +29,7 @@ public interface Dispatcher {
 }
 ```
 
-### 3.2	拓展与继承关系
+### 2.2	拓展与继承关系
 
 ```java
 Dispatcher (com.alibaba.dubbo.remoting)
@@ -98,7 +49,7 @@ Dubbo 提供了四种派发策略, 分别对应 Dispatcher 接口的一个实现
 	
 - Execution: 只有请求消息派发到线程池, 不含响应消息, 其他消息在线程池上直接执行;
 
-### 3.3	源码案例分析
+### 2.3	源码案例分析
 
 以 Dubbo 默认的派发策略实现类 AllDispatcher 为例, 理解派发策略是如何实现的:
 
@@ -226,11 +177,11 @@ public class MessageOnlyChannelHandler extends WrappedChannelHandler {
 }
 ```
 
-## 4	从 ChannelHandler 的角度看线程模型
+## 3	从 ChannelHandler 的角度看线程模型
 
 上面的内容分析了当请求到达 Dispatcher 接口时执行的分发逻辑, 但是在这之前还有一系列操作; 本部分从 ChannelHandler 出发, 理清每个 ChannelHandler 是在哪个线程执行的.
 
-### 4.1	Netty 初始化流程
+### 3.1	Netty 初始化流程
 
  ```java
  // org.apache.dubbo.remoting.transport.netty4.NettyServer#initServerBootstrap
@@ -265,7 +216,7 @@ protected void initServerBootstrap(NettyServerHandler nettyServerHandler) {
 
 可以得知 internalEncoder, internalDecoder 以及 IdleStateHandler 一定是在 IO 线程中执行的, 还需要分析一下 NettyServerHandler 的执行.
 
-### 4.2	NettyServerHandler
+### 3.2	NettyServerHandler
 
 NettyServerHandler 一般由 createNettyServerHandler 方法创建, 入参是 url 和 NettyServer 自身;
 
@@ -310,7 +261,7 @@ wrapInternal 方法的入参就是上面在 Dispatcher 部分提到的 DecodeHan
 
 由于 Dubbo 的派发逻辑是在 Dispatcher 提供的 ChannelHandler 执行的, 可以得知 NettyServerHandler, MultiMessageHandler, HeartbeatHandler 的逻辑均是在 IO 线程中执行的.
 
-### 4.3	总结
+### 3.3	总结
 
 通过上面的分析可以得出以下结论:
 
@@ -318,7 +269,7 @@ wrapInternal 方法的入参就是上面在 Dispatcher 部分提到的 DecodeHan
 	
 - 剩余需要执行的 Handler 有: DecodeHandler, HeaderExchangeHandler, DubboProtocol$requestHandler; 执行这个链路的线程会根据派发策略的不同而变化, 比如在 All 派发策略下, 上面的链路是由业务线程执行的.
 
-## 5	Dubbo 线程池模型
+## 4	Dubbo 线程池模型
 
 上面的内容分析了 Dubbo 在何时将消息派发给任务线程池, Dubbo 根据不同的需求场景设计了不同的线程池, 具体来说是定义了 ThreadPool 接口, 来提供获取线程池的方法:
 
@@ -380,9 +331,3 @@ protected ExecutorService getCallbackExecutor(URL url, Invocation inv) {
 ```
 
 业务线程调用 DubboInvoker.doInvoker 后, 会调用 ThreadlessExecutor#waitAndDrain 方法, 超时等待结果返回, 当结果返回后, 如果等待未超时, 则将后续步骤交给业务线程处理.
-
----
-
-# 📚 参考内容
-
-- 消费端线程模型, 提供端线程模型 - 官方文档: https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/tasks/framework/threading-model/
