@@ -56,9 +56,33 @@
               "icon": "lucide-file",
               "title": "Dubbo 线程模型"
             }
+          },
+          {
+            "id": "7c1ef40521c29293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/Dubbo 线程模型.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo 线程模型"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,12 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 我的第二大脑 知识工作台.md",
+                "file": "输出/Dubbo 线程模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "🧠 我的第二大脑 知识工作台 的出链列表"
+              "title": "Dubbo 线程模型 的出链列表"
             }
           },
           {
@@ -211,9 +235,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "2eb1f1d02e41c44c",
+            "type": "leaf",
+            "state": {
+              "type": "better-footnote-view",
+              "state": {},
+              "icon": "list-ordered",
+              "title": "Better Footnote"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -230,10 +264,11 @@
       "command-palette:打开命令面板": false,
       "header-enhancer:Header Enhancer": false,
       "random-note:开始漫游笔记": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "e283511350376b02",
+  "active": "2eb1f1d02e41c44c",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
     "输出/未命名.base",
