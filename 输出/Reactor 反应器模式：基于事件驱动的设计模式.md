@@ -2,7 +2,11 @@
 type: permanent
 banner: 附件/Banner/pexels-erike-fusiki-58866350-8150291.jpg
 ---
-在 Reactor 模式出现之前，传统的服务器架构面临一个致命瓶颈：**资源诅咒**。当客户端连接数成千上万时，系统会因为维护过多的空闲线程而消耗大量内存，且 CPU 大部分时间都在进行低效的“线程上下文切换”，而不是处理真正的业务逻辑。Reactor 模式的诞生，就是为了解决“如何用最少的线程，最高效地管理海量的并发连接”这一问题。它将 “**连接接入**” 与 “**业务处理**” 解耦，让服务器从繁琐的等待中解放出来。
+---
+
+在 Reactor 模式出现之前，传统的服务器架构面临一个致命瓶颈：**资源诅咒**。当客户端连接数成千上万时，系统会因为维护过多的空闲线程而消耗大量内存，且 CPU 大部分时间都在进行低效的“线程上下文切换”，而不是处理真正的业务逻辑。Reactor 模式的诞生，就是为了解决“如何用最少的线程，最高效地管理海量的并发连接”这一问题。它将“**连接接入**”与“**业务处理**”解耦，让服务器从繁琐的等待中解放出来。
+
+---
 
 ## 1	核心构成
 
@@ -32,9 +36,9 @@ Reactor 模式**不适用于**计算密集型应用，由于 IO 线程是有限�
 
 ## 4	Netty 的 Reactor 模型
 
-netty 对经典的 reactor 模式进行了细微的调整：
+Netty 对经典的 Reactor 模式进行了细微的调整：
 
-netty 对 nio 的 selector 组件和线程实例进行了封装，设计了自己的 reactor 角色，称为 event loop；同时，其拓展了 nio 的 channel，设计了 netty channel；通道注册指的是将 netty channel 注册到 event loop 上，对应到底层就是 nio channel 注册到 nio selector 上；
+Netty 对 Nio 的 Selector 组件和线程实例进行了封装，设计了自己的 Reactor 角色，称为 EventLoop；同时，其拓展了 Nio 的 Channel，设计了 Netty Channel；通道注册指的是将 Netty Channel 注册到 Event Loop 上，对应到底层就是 Nio Channel 注册到 Nio Selector 上；
 
 
 

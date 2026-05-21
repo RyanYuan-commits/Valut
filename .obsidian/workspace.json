@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "cabc95ab07a6666a",
+            "id": "1e92d7dcb34f5e75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/B3 传播格式.md",
+                "file": "输出/Reactor 反应器模式：基于事件驱动的设计模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "B3 传播格式"
+              "title": "Reactor 反应器模式：基于事件驱动的设计模式"
             }
           }
         ],
@@ -165,12 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "输出/B3 传播格式.md",
+                "file": "输出/Reactor 反应器模式：基于事件驱动的设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "B3 传播格式 的出链列表"
+              "title": "Reactor 反应器模式：基于事件驱动的设计模式 的出链列表"
             }
           },
           {
@@ -244,7 +244,7 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "cabc95ab07a6666a",
+  "active": "1e92d7dcb34f5e75",
   "lastOpenFiles": [
     "🧠 知识工作台.md",
     "输出/B3 传播格式.md",
