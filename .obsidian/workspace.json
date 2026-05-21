@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "e283511350376b02",
+            "id": "cabc95ab07a6666a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "输出/Dubbo 线程模型.md",
+                "file": "输出/B3 传播格式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dubbo 线程模型"
-            }
-          },
-          {
-            "id": "7c1ef40521c29293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "输出/Dubbo 线程模型.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dubbo 线程模型"
+              "title": "B3 传播格式"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,12 +165,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "输出/Dubbo 线程模型.md",
+                "file": "输出/B3 传播格式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Dubbo 线程模型 的出链列表"
+              "title": "B3 传播格式 的出链列表"
             }
           },
           {
@@ -268,11 +244,12 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "7c1ef40521c29293",
+  "active": "cabc95ab07a6666a",
   "lastOpenFiles": [
-    "附件/Dubbo 线程模型.png",
-    "输出/Dubbo 线程模型.md",
     "🧠 知识工作台.md",
+    "输出/B3 传播格式.md",
+    "输出/Dubbo 线程模型.md",
+    "附件/Dubbo 线程模型.png",
     "输出/未命名.base",
     "输出/文件描述符：Linux 管理和操作文件的唯一凭证.md",
     "项目/Dubbo 源码解读与实战.md",
@@ -306,7 +283,6 @@
     "附件/NIO.png",
     "附件/BIO.png",
     "附件/CAP 理论.png",
-    "Assets/Pasted image 20260317110332.png",
     "Assets",
     "Inbox.base",
     "视图/内容地图.base",
