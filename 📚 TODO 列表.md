@@ -1,3 +1,0 @@
-- [ ] 复习设计模式
-- [ ] 补齐 Java I/O 知识缺口
-- [ ] 整理 AtomicIntegerFieldUpdater
