@@ -11,9 +11,9 @@ banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 ---
 # 概述与背景
 
-## 1	什么是Dubbo线程模型
+## 1	什么是 Dubbo 线程模型
 
-
+Dubbo 线程模型是指框架内部处理网络 I/O 通信与具体业务逻辑执行的调度机制。
 
 
 
