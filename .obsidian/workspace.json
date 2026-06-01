@@ -32,8 +32,57 @@
               "icon": "lucide-file",
               "title": "🧠 知识工作台"
             }
+          },
+          {
+            "id": "c5753053ad51dc8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "输出/Dubbo 线程模型.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dubbo 线程模型"
+            }
+          },
+          {
+            "id": "e6482f971eec348d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "建立笔记大纲的通用思路.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "建立笔记大纲的通用思路"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,8 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,17 +268,18 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "4dda6613ecec75b7",
+  "active": "e6482f971eec348d",
   "lastOpenFiles": [
-    "📚 TODO 列表.md",
+    "建立笔记大纲的通用思路.md",
     "🧠 知识工作台.md",
+    "输出/Dubbo 线程模型.md",
+    "项目/Dubbo 源码解读与实战.md",
+    "📚 TODO 列表.md",
     "输出/Reactor 反应器模式：基于事件驱动的设计模式.md",
     "输出/B3 传播格式.md",
-    "输出/Dubbo 线程模型.md",
     "附件/Dubbo 线程模型.png",
     "输出/未命名.base",
     "输出/文件描述符：Linux 管理和操作文件的唯一凭证.md",
-    "项目/Dubbo 源码解读与实战.md",
     "输出/Prompt 收集 - 思想精炼师.md",
     "输出/Prompt 收集 - 结构建构.md",
     "输出/Prompt 收集 - 概念三问.md",
@@ -254,7 +303,6 @@
     "附件/channel 的读写都需要经过 buffer.png",
     "输出/java nio 中的零拷贝实现.md",
     "输出/零拷贝技术：将磁盘中的数据发送到网络场景下的 IO 优化.md",
-    "项目/重学设计模式.md",
     "附件/Unsafe 功能介绍.png",
     "附件/NIO.png",
     "附件/BIO.png",
