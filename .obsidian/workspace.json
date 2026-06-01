@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -269,10 +269,10 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "c5753053ad51dc8b",
+  "active": "e6482f971eec348d",
   "lastOpenFiles": [
-    "输出/建立笔记大纲的通用思路.md",
     "输出/Dubbo 线程模型.md",
+    "输出/建立笔记大纲的通用思路.md",
     "🧠 知识工作台.md",
     "项目/Dubbo 源码解读与实战.md",
     "📚 TODO 列表.md",
