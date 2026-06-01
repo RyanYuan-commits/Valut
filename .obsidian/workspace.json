@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "建立笔记大纲的通用思路.md",
+                "file": "输出/建立笔记大纲的通用思路.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,11 +269,11 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "e6482f971eec348d",
+  "active": "c5753053ad51dc8b",
   "lastOpenFiles": [
-    "建立笔记大纲的通用思路.md",
-    "🧠 知识工作台.md",
+    "输出/建立笔记大纲的通用思路.md",
     "输出/Dubbo 线程模型.md",
+    "🧠 知识工作台.md",
     "项目/Dubbo 源码解读与实战.md",
     "📚 TODO 列表.md",
     "输出/Reactor 反应器模式：基于事件驱动的设计模式.md",

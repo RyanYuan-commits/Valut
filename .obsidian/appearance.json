@@ -1,16 +1,15 @@
 {
-  "cssTheme": "Baseline",
+  "cssTheme": "Border",
   "accentColor": "",
   "baseFontSize": 20,
   "enabledCssSnippets": [
-    "编辑行高亮",
     "去除下划线",
     "点阵背景",
-    "改变加粗字体的颜色为红色"
+    "编辑行高亮"
   ],
-  "textFontFamily": "FZPingXianYaSongS-R-GB",
+  "textFontFamily": "LXGW WenKai,FZPingXianYaSongS-R-GB",
   "monospaceFontFamily": "Maple Mono NF CN",
   "interfaceFontFamily": "霞鹜文楷",
   "theme": "moonstone",
-  "translucency": false
+  "translucency": true
 }

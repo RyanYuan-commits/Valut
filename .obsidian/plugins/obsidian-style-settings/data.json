@@ -10,5 +10,18 @@
   "minimal-style@@h4-size": "1.0em",
   "minimal-style@@h1-size": "1.2em",
   "phycat-colors@@light-color-scheme": "theme-light-sky",
-  "phycat-layout@@layout-style": "layout-cards"
+  "phycat-layout@@layout-style": "layout-cards",
+  "shimmering-focus@@normal-tab-bar": false,
+  "shimmering-focus@@normal-header-bar": false,
+  "shimmering-focus@@show-sidebar-header-buttons": false,
+  "shimmering-focus@@no-alternating-header-colors": false,
+  "shimmering-focus@@no-heading-background": true,
+  "shimmering-focus@@bases-hide-column-header-icons": false,
+  "Appearance-light@@card-layout-open-light": true,
+  "Editor@@h1-size": "1.25em",
+  "Editor@@h2-size": "1.15em",
+  "Editor@@h3-size": "1.1em",
+  "Editor@@h2-divider-on": false,
+  "Editor@@text-align-justify": true,
+  "Editor@@h1-divider-on": true
 }

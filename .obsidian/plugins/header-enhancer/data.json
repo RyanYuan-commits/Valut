@@ -16,7 +16,7 @@
   "yamlDefaultStartNumber": "1",
   "yamlDefaultSeparator": ".",
   "globalAutoNumberingEnabled": true,
-  "perDocumentStates": "{\"Projects/Dubbo 源码解读与实战.md\":false,\"Input/exchange 层剖析, 彻底搞懂 request response 模型.md\":true,\"Input/Dubbo Exchange 层.md\":true,\"Templates/Daily Note 模板.md\":false,\"🧠 我的第二大脑 知识工作台.md\":false,\"🧠 知识工作台.md\":false,\"Output/记忆集与卡表.md\":true,\"输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md\":false}",
+  "perDocumentStates": "{\"Projects/Dubbo 源码解读与实战.md\":false,\"Input/exchange 层剖析, 彻底搞懂 request response 模型.md\":true,\"Input/Dubbo Exchange 层.md\":true,\"Templates/Daily Note 模板.md\":false,\"🧠 我的第二大脑 知识工作台.md\":false,\"🧠 知识工作台.md\":false,\"Output/记忆集与卡表.md\":true,\"输入/把自己当公司管：越努力越迷茫？减少内耗，找准方向.md\":false,\"输出/建立笔记大纲的通用思路.md\":false}",
   "isSeparateHeaderFont": false,
   "headerFontFamily": "inherit",
   "headerFontSize": "inherit",
