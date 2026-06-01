@@ -3,7 +3,7 @@
   "showOnStatusBar": true,
   "showOnSidebar": true,
   "isAutoDetectHeaderLevel": false,
-  "startHeaderLevel": 2,
+  "startHeaderLevel": 1,
   "endHeaderLevel": 3,
   "autoNumberingMode": "on",
   "autoNumberingStartNumber": "1",

@@ -4,25 +4,39 @@ type: permanent
 draw: "[[Draw Place of Dubbo 线程模型]]"
 banner: Assets/Banner/pexels-faikackmerd-1025469.jpg
 ---
----
+# 1	概述与背景
 
-在基于 Reactor 模式实现的网络通信应用中，负责连接、事件监听和处理的 I/O 线程是非常珍贵的资源：它们直接负责连接建立和数据读写，如果 I/O 线程资源耗尽，会导致整个系统陷入瘫痪；因此，在 I/O 线程上不应该处理耗时过久的任务；为此，Dubbo 设计了业务线程池，用来处理耗时任务，并提供了分发器来处理任务从 I/O 线程到业务线程的分发。
-
----
-# 概述与背景
-
-## 1	什么是 Dubbo 线程模型
+## 1.1	什么是 Dubbo 线程模型
 
 Dubbo 线程模型是指框架内部处理网络 I/O 通信与具体业务逻辑执行的调度机制。核心目的是尽早释放网络线程，将耗时的业务逻辑派发到独立的业务线程池中执行，从而最大化的提升系统的并发处理能力和吞吐量。
 
-Dubbo 线程模型需要由消息派发策略（Dispatcher）和线程池策略（ThreadLocal）两部分组成。
+Dubbo 线程模型需要由消息派发策略（Dispatcher）和线程池策略（ThreadPool）两部分组成。
 
+## 1.2	为什么要关注线程模型
 
+在基于 Reactor 模式实现的网络通信应用中，负责连接、事件监听和处理的 I/O 线程是非常珍贵的资源：它们直接负责连接建立和数据读写，如果 I/O 线程资源耗尽，会导致整个系统陷入瘫痪，所以在 I/O 线程上不应该处理耗时过久的任务，通过合理的设计线程模型，将耗时的任务分派到业务线程池中处理，能够解决这个问题。
 
+---
 
-## 2	Dispatcher 接口与分发逻辑
+# 2	核心概念设计
 
-### 2.1	接口定义
+## 2.1	关键角色与线程划分
+
+IO 线程位于 `NettyClient` 或 `NettyServer` 中，负责 Socket 的读写、编解码、发送请求和响应；
+
+业务线程池属于 Dubbo 内部的 `Executor`，在 Provider 端负责执行真正的服务实现方法，在 Consumer 端负责处理结果回调；
+
+客户端等待线程属于框架调用方，是发起 RPC 调用的原始线程，在同步调用模式下可以作为
+
+| 线程类型               | 所属组件                      | 职责                                     |
+| ------------------ | ------------------------- | -------------------------------------- |
+| IO 线程 (EventLoop)  | NettyClient / NettyServer | 读写 Socket，解码，发送响应                      |
+| 业务线程池 (ThreadPool) | Dubbo 内部 Executor         | 执行真正的服务实现方法（Provider）或处理结果回调（Consumer） |
+| 客户端等待线程            | 业务调用线程                    | 发起 RPC 的原始线程（同步调用时被阻塞）                 |
+
+## 2.2	Dispatcher 接口与分发逻辑
+
+### 2.1.1	接口定义
 
 Dispatcher 是 Dubbo Remoting 层的重要接口, 负责消息处理的线程分发逻辑, 是一个 SPI 拓展点:
 
@@ -35,7 +49,7 @@ public interface Dispatcher {
 }
 ```
 
-### 2.2	拓展与继承关系
+### 2.1.2	拓展与继承关系
 
 ```java
 Dispatcher (com.alibaba.dubbo.remoting)
@@ -55,7 +69,7 @@ Dubbo 提供了四种派发策略, 分别对应 Dispatcher 接口的一个实现
 	
 - Execution: 只有请求消息派发到线程池, 不含响应消息, 其他消息在线程池上直接执行;
 
-### 2.3	源码案例分析
+### 2.1.3	源码案例分析
 
 以 Dubbo 默认的派发策略实现类 AllDispatcher 为例, 理解派发策略是如何实现的:
 
@@ -183,11 +197,11 @@ public class MessageOnlyChannelHandler extends WrappedChannelHandler {
 }
 ```
 
-## 3	从 ChannelHandler 的角度看线程模型
+## 2.2	从 ChannelHandler 的角度看线程模型
 
 上面的内容分析了当请求到达 Dispatcher 接口时执行的分发逻辑, 但是在这之前还有一系列操作; 本部分从 ChannelHandler 出发, 理清每个 ChannelHandler 是在哪个线程执行的.
 
-### 3.1	Netty 初始化流程
+### 2.2.1	Netty 初始化流程
 
  ```java
  // org.apache.dubbo.remoting.transport.netty4.NettyServer#initServerBootstrap
@@ -222,7 +236,7 @@ protected void initServerBootstrap(NettyServerHandler nettyServerHandler) {
 
 可以得知 internalEncoder, internalDecoder 以及 IdleStateHandler 一定是在 IO 线程中执行的, 还需要分析一下 NettyServerHandler 的执行.
 
-### 3.2	NettyServerHandler
+### 2.2.2	NettyServerHandler
 
 NettyServerHandler 一般由 createNettyServerHandler 方法创建, 入参是 url 和 NettyServer 自身;
 
@@ -267,7 +281,7 @@ wrapInternal 方法的入参就是上面在 Dispatcher 部分提到的 DecodeHan
 
 由于 Dubbo 的派发逻辑是在 Dispatcher 提供的 ChannelHandler 执行的, 可以得知 NettyServerHandler, MultiMessageHandler, HeartbeatHandler 的逻辑均是在 IO 线程中执行的.
 
-### 3.3	总结
+### 2.2.3	总结
 
 通过上面的分析可以得出以下结论:
 
@@ -275,7 +289,7 @@ wrapInternal 方法的入参就是上面在 Dispatcher 部分提到的 DecodeHan
 	
 - 剩余需要执行的 Handler 有: DecodeHandler, HeaderExchangeHandler, DubboProtocol$requestHandler; 执行这个链路的线程会根据派发策略的不同而变化, 比如在 All 派发策略下, 上面的链路是由业务线程执行的.
 
-## 4	Dubbo 线程池模型
+## 2.3	Dubbo 线程池模型
 
 上面的内容分析了 Dubbo 在何时将消息派发给任务线程池, Dubbo 根据不同的需求场景设计了不同的线程池, 具体来说是定义了 ThreadPool 接口, 来提供获取线程池的方法:
 
