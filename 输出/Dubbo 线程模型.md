@@ -24,13 +24,14 @@ Dubbo 线程模型需要由消息派发策略（Dispatcher）和线程池策略�
 
 **IO 线程**位于 `NettyClient` 或 `NettyServer` 中，负责 Socket 的读写、编解码、发送请求和响应；
 
-**业务线程**池属于 Dubbo 内部的 `Executor`，在 Provider 端负责执行真正的服务实现方法，在 Consumer 端负责处理结果回调；
+**业务线程池**属于 Dubbo 内部的 `Executor`，在 Provider 端负责执行真正的服务实现方法，在 Consumer 端负责处理结果回调；
 
 **客户端**等待线程属于框架调用方，是发起 RPC 调用的原始线程，在 Dubbo 2.7.5 之后的版本，同步调用时，客户端等待线程可以被复用，用于处理结果回调。
 
 ## 2.2	派发策略（Dispatcher）
 
-Dubbo 
+`Dispatcher` 负责完成从 I/O 线程到业务线程的转接。`Dispatcher` 本身并不是最终执行者，它提供了一个 `dispatch()` 方法，用于创建 Dubbo Handler，在 `NettyServer` 或 `NettyClient` 初始化时，会调用 `Dispatcher.dispatch()` 方法创建 Handler，并将其放在消息处理的链路中。
+
 
 
 
@@ -353,3 +354,4 @@ protected ExecutorService getCallbackExecutor(URL url, Invocation inv) {
 业务线程调用 DubboInvoker.doInvoker 后, 会调用 ThreadlessExecutor#waitAndDrain 方法, 超时等待结果返回, 当结果返回后, 如果等待未超时, 则将后续步骤交给业务线程处理.
 
 [^1]: Github issue-Consumer 侧应该限制线程数: https://github.com/apache/dubbo/issues/2013
+
