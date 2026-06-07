@@ -32,23 +32,19 @@ Dubbo 线程模型需要由消息派发策略（Dispatcher）和线程池策略�
 
 `Dispatcher` 负责完成从 I/O 线程到业务线程的转接。`Dispatcher` 本身并不是最终执行者，它提供了一个 `dispatch()` 方法，用于创建 Dubbo Handler，在 `NettyServer` 或 `NettyClient` 初始化时，会调用 `Dispatcher.dispatch()` 方法创建 Handler，并将其放在消息处理的链路中。
 
-
-
-
-## 2.3	Dispatcher 接口与分发逻辑
-
-### 2.3.1	接口定义
-
-Dispatcher 是 Dubbo Remoting 层的重要接口, 负责消息处理的线程分发逻辑, 是一个 SPI 拓展点:
-
 ```java
 // org.apache.dubbo.remoting.Dispatcher
 @SPI(value = AllDispatcher.NAME, scope = ExtensionScope.FRAMEWORK)
 public interface Dispatcher {
+
     @Adaptive({Constants.DISPATCHER_KEY, "dispather", "channel.handler"})
     ChannelHandler dispatch(ChannelHandler handler, URL url);
+    
 }
 ```
+—— `Dispatcher` 接口定义
+
+
 
 ### 2.3.2	拓展与继承关系
 
