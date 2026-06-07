@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,11 +294,12 @@
       "better-footnote:打开 Better Footnote": false
     }
   },
-  "active": "c5753053ad51dc8b",
+  "active": "553834583163474d",
   "lastOpenFiles": [
+    "输出/Dubbo 线程模型.md",
     "输出/Dubbo 派发机制原理解析.md",
     "输出/建立笔记大纲的通用思路.md",
-    "输出/Dubbo 线程模型.md",
+    "附件/Dubbo Dispatcher 整体架构.png",
     "🧠 知识工作台.md",
     "项目/Dubbo 源码解读与实战.md",
     "📚 TODO 列表.md",
@@ -328,11 +329,9 @@
     "附件/ByteBuf 的核心字段.png",
     "输出/Buffer 类：Java NIO 中的缓冲区.md",
     "附件/channel 的读写都需要经过 buffer.png",
-    "输出/java nio 中的零拷贝实现.md",
     "附件/Unsafe 功能介绍.png",
     "附件/NIO.png",
     "附件/BIO.png",
-    "附件/CAP 理论.png",
     "Assets",
     "Inbox.base",
     "视图/内容地图.base",
