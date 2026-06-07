@@ -42,11 +42,7 @@ public interface Dispatcher {
     
 }
 ```
-—— `Dispatcher` 接口定义
-
-
-
-### 2.3.2	拓展与继承关系
+—— Dispatcher 接口定义
 
 ```java
 Dispatcher (com.alibaba.dubbo.remoting)
@@ -55,144 +51,18 @@ Dispatcher (com.alibaba.dubbo.remoting)
 	MessageOnlyDispatcher (org.apache.dubbo.remoting.transport.dispatcher.message)
 	AllDispatcher (org.apache.dubbo.remoting.transport.dispatcher.all)
 ```
+—— Dispatcher 接口继承关系
 
-Dubbo 提供了四种派发策略, 分别对应 Dispatcher 接口的一个实现类:
+Dubbo 提供了四种派发策略，每种对应 `Dispatcher` 接口的一个实现类:
 
-- All: 所有的消息都会被派发到线程池, 包括请求, 响应, 连接事件, 断开事件, 心跳等;
-	
-- Direct: 所有的消息在 IO 线程池上直接执行;
-	
-- Message: 只有请求和响应消息派发到线程池, 其他连接断开事件, 心跳等消息, 直接在 IO 线程上执行;
-	
-- Execution: 只有请求消息派发到线程池, 不含响应消息, 其他消息在线程池上直接执行;
+| 策略名称      | 对应实现类                 | 行为描述                                         |
+| :-------- | :-------------------- | :------------------------------------------- |
+| all       | AllDispatcher         | 所有消息（请求、响应、连接事件、断开事件、心跳等）都派发到线程池执行。          |
+| direct    | DirectDispatcher      | 所有消息直接在 IO 线程上执行，不派发到线程池。                    |
+| message   | MessageOnlyDispatcher | 仅请求和响应消息派发到线程池；其他消息（连接、断开、心跳等）直接在 IO 线程执行。   |
+| execution | ExecutionDispatcher   | 仅请求消息派发到线程池；其他消息（包括响应、连接、断开、心跳等）直接在 IO 线程执行。 |
 
-### 2.3.3	源码案例分析
 
-以 Dubbo 默认的派发策略实现类 AllDispatcher 为例, 理解派发策略是如何实现的:
-
-```java
-// org.apache.dubbo.remoting.transport.dispatcher.all.AllDispatcher
-public class AllDispatcher implements Dispatcher {  
-
-    public static final String NAME = "all";  
-  
-    @Override  
-    public ChannelHandler dispatch(ChannelHandler handler, URL url) {  
-        return new AllChannelHandler(handler, url);  
-    }  
-	
-}
-```
-
-dispatch 方法返回一个 AllChannelHandler 实例, 先关注一下其继承关系和构造方法:
-
-```java
-AllChannelHandler(org.apache.dubbo.remoting.transport.dispatcher.all)
-	WrappedChannelHandler (org.apache.dubbo.remoting.transport.dispatcher)
-	    ChannelHandlerDelegate (org.apache.dubbo.remoting.transport)
-	        ChannelHandler (org.apache.dubbo.remoting)
-
-public class AllChannelHandler extends WrappedChannelHandler {
-	public AllChannelHandler(ChannelHandler handler, URL url) {  
-	    super(handler, url);  
-	}
-}
-
-public interface ChannelHandlerDelegate extends ChannelHandler {  
-    ChannelHandler getHandler();  
-}
-```
-
-- ChannelHandlerDelegate 可以理解为一个标记接口, 标记其对于 ChannelHandler 的实现是委托给 getHandler 方法返回的 ChannelHandler 执行的;
-	
-- WrappedChannelHandler: 实现了 ChannelHandlerDelegate 的委托逻辑, 并且提供了事件派发和线程模型管理的能力, 在 WrappedChannelHandler 的实现中, 所有的方法都是在 **当前线程** 执行的.
-
----
-
-AllChannelHandler 的入参是 handler 和 url, handler 提供给 WrappedChannelHandler 作为被委托对象, url 提供给 WrappedChannelHandler 用于确定线程池策略等.
-
-```java
-// org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler#connected
-@Override
-public void connected(Channel channel) throws RemotingException {
-	ExecutorService executor = getSharedExecutorService();
-	try {
-		executor.execute(new ChannelEventRunnable(channel, handler, ChannelState.CONNECTED));
-	} catch (Throwable t) {
-		throw new ExecutionException(
-				"connect event", channel, getClass() + " error when process connected event .", t);
-	}
-}
-
-// org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler#disconnected
-@Override
-public void disconnected(Channel channel) throws RemotingException {
-	ExecutorService executor = getSharedExecutorService();
-	try {
-		executor.execute(new ChannelEventRunnable(channel, handler, ChannelState.DISCONNECTED));
-	} catch (Throwable t) {
-		throw new ExecutionException(
-				"disconnect event", channel, getClass() + " error when process disconnected event .", t);
-	}
-}
-
-// org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler#received
-@Override
-public void received(Channel channel, Object message) throws RemotingException {
-	ExecutorService executor = getPreferredExecutorService(message);
-	try {
-		executor.execute(new ChannelEventRunnable(channel, handler, ChannelState.RECEIVED, message));
-	} catch (Throwable t) {
-		if (message instanceof Request && t instanceof RejectedExecutionException) {
-			sendFeedback(channel, (Request) message, t);
-			return;
-		}
-		throw new ExecutionException(message, channel, getClass() + " error when process received event .", t);
-	}
-}
-
-// org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler#caught
-@Override
-public void caught(Channel channel, Throwable exception) throws RemotingException {
-	ExecutorService executor = getSharedExecutorService();
-	try {
-		executor.execute(new ChannelEventRunnable(channel, handler, ChannelState.CAUGHT, exception));
-	} catch (Throwable t) {
-		throw new ExecutionException("caught event", channel, getClass() + " error when process caught event .", t);
-	}
-}
-```
-
-AllDispatcher 实现的 connected, disconnected, received, caught 方法的逻辑均为通过 getSharedExecutorService 方法获取业务线程池, 然后将收到的消息封转成 ChannelEventRunnable 后, 派发给业务线程池执行;  
-
-ChannelEventRunnable 会根据入参中的 ChannelState 来调用 handler 入参的对应方法, 一般情况下, 入参中的 handler 为 DecodeHandler 实例, 这也是一个 ChannelHandlerDelegate, 内部真正负责处理事件的是 HeaderExchangeHandler. 
-
----
-
-根据 AllDispatcher, 猜测 MessageOnlyDispatcher 提供的 ChannelHandler 应该只重写覆盖了 received 方法, 其他处理逻辑交给父类执行, 也就是在当前线程 (IO 线程) 执行.
-
-```java
-// org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyChannelHandler
-public class MessageOnlyChannelHandler extends WrappedChannelHandler {
-    public MessageOnlyChannelHandler(ChannelHandler handler, URL url) {
-        super(handler, url);
-    }
-
-    @Override
-    public void received(Channel channel, Object message) throws RemotingException {
-        ExecutorService executor = getPreferredExecutorService(message);
-        try {
-            executor.execute(new ChannelEventRunnable(channel, handler, ChannelState.RECEIVED, message));
-        } catch (Throwable t) {
-            if (message instanceof Request && t instanceof RejectedExecutionException) {
-                sendFeedback(channel, (Request) message, t);
-                return;
-            }
-            throw new ExecutionException(message, channel, getClass() + " error when process received event .", t);
-        }
-    }
-}
-```
 
 ## 2.4	从 ChannelHandler 的角度看线程模型
 
