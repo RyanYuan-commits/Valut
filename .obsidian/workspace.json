@@ -296,9 +296,9 @@
   },
   "active": "553834583163474d",
   "lastOpenFiles": [
-    "输出/Dubbo 线程模型.md",
-    "输出/Dubbo 派发机制原理解析.md",
     "输出/建立笔记大纲的通用思路.md",
+    "输出/Dubbo 派发机制原理解析.md",
+    "输出/Dubbo 线程模型.md",
     "附件/Dubbo Dispatcher 整体架构.png",
     "🧠 知识工作台.md",
     "项目/Dubbo 源码解读与实战.md",

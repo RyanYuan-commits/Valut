@@ -60,7 +60,7 @@ style Execution_Pool fill:#f6ffed,stroke:#b7eb8f
 
 `Dispatcher` 负责完成从 I/O 线程到业务线程的转接。`Dispatcher` 本身并不是最终执行者，它提供了一个 `dispatch()` 方法，用于创建 Dubbo Handler，在 `NettyServer` 或 `NettyClient` 初始化时，会调用 `Dispatcher.dispatch()` 方法创建 Handler，并将其放在消息处理的链路中。
 
-## 2.2	接口定义与继承关系
+## 2.2	接口定义
 
 `Dispatcher` 接口定义如下，是一个 SPI 拓展点。
 
@@ -75,15 +75,6 @@ public interface Dispatcher {
 }
 ```
 
-```java
-Dispatcher (com.alibaba.dubbo.remoting)
-	ExecutionDispatcher (org.apache.dubbo.remoting.transport.dispatcher.execution)
-	DirectDispatcher (org.apache.dubbo.remoting.transport.dispatcher.direct)
-	MessageOnlyDispatcher (org.apache.dubbo.remoting.transport.dispatcher.message)
-	AllDispatcher (org.apache.dubbo.remoting.transport.dispatcher.all)
-```
-—— Dispatcher 接口继承关系
-
 ## 2.3	四种派发策略
 
 Dubbo 提供了四种派发策略，每种派发策略对应 `Dispatcher` 接口的一个实现类：
@@ -94,6 +85,8 @@ Dubbo 提供了四种派发策略，每种派发策略对应 `Dispatcher` 接口
 | direct    | DirectDispatcher      | 所有消息直接在 IO 线程上执行，不派发到线程池。                    |
 | message   | MessageOnlyDispatcher | 仅请求和响应消息派发到线程池；其他消息（连接、断开、心跳等）直接在 IO 线程执行。   |
 | execution | ExecutionDispatcher   | 仅请求消息派发到线程池；其他消息（包括响应、连接、断开、心跳等）直接在 IO 线程执行。 |
+
+# 3	源码关键实现
 
 下面以 `AllDispatcher` 为例讲解 Dubbo 派发机制的原理。
 
